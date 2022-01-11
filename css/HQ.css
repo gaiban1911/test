@@ -149,6 +149,9 @@ span:nth-child(2) .gate:focus, span:nth-child(2) .gate:active {
   border: solid 3px #a81422 !important;
 }
 
+
+
+
  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 .Login h1 {
   font-weight: bold;
