@@ -85,17 +85,23 @@
   font-size: 16px;
   font-weight: 400 !important;
 }
+.name {
+  top: 139px !important;
+}
 .name1 {
-  top: 199px !important;
+  top: 186px !important;
 }
 .name2 {
-  top: 244px !important;
+  top: 232px !important;
 }
 .name3 {
   top: 152px !important;
 }
 .name4 {
   top: 198px !important;
+}
+.name5 {
+  top: 278px !important;
 }
 .gate + label:before, .gate + label:after {
   content: "";
@@ -149,6 +155,7 @@ span:nth-child(2) .gate:focus, span:nth-child(2) .gate:active {
   margin: 0;
   margin-top: -22%;
   color: #060606;
+  font-family: emoji;
 }
 .Login h2 {
   text-align: center;
@@ -2418,14 +2425,15 @@ padding-left: 10px;
       top: 202px !important;
       left: 0pc !important;
   }
+  .name3 {
+    top: 156px !important;
+    left: 0pc !important;
+}
   .videonb iframe {
     height: 200px;
 }
   
-    .name3 {
-      top: 156px !important;
-      left: 0pc !important;
-  }
+
     .Login button.ghost {
       background-color: transparent;
       border-color: #fff;
