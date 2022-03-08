@@ -8,64 +8,1624 @@
     <meta content="" name="description" />
     <meta content="" name="author" />
     <meta name="MobileOptimized" content="320">
-    <title>Page Title</title>
+    <title>HOANGQUANLAND</title>
     <link href="./css/adminlte.min.css" rel="stylesheet" />
     <link href="./css/animation.css" rel="stylesheet" />
     <link href="./css/HQ.css" rel="stylesheet" />
     <link rel="stylesheet" href="./Plugins/fontawesome-free/css/all.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script language="JavaScript" type="text/javascript" src="./JS/HQ.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <!-- Custom Google fonts -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bxslider/jquery.bxslider.css">
 </head>
 
 <body>
-    <div class="Login container" id="container">
-        <div class="form-container sign-up-container">
-            <img src="https://hoangquanland.com/assets/logo_3-7f18405153f1933f61f3597dcee5eca80909cc0ea4fe5931dbde833ff5cf327f.jpg"
-                alt="" />
-            <form action="#">
-                <h1>ĐĂNG KÝ TÀI KHOẢN</h1>
-                <span>or use your email for registration</span>
-                <input class="gate" type="text" placeholder="Nhập họ và tên" /><label for="element" class='name'> <i
-                        class="far fa-user"></i></label>
-                <input class="gate" type="text" placeholder="Nhập Số điện thoại" /><label for="element" class='name1'>
-                    <i class="fas fa-phone-square-alt"></i> </label>
-                <input class="gate" type="text" placeholder="Nhập Email" /><label for="element" class='name2'>
-                    <i class="fas fa-envelope-square"></i></label>
-                <input class="gate" type="text" placeholder="Nhập SMS OPT" /><label for="element" class='name5'>
-                    <i class="fas fa-sms"></i> </label>
-                <button class='margin-top-20'>Đăng ký</button>
-            </form>
-        </div>
-        <div class="form-container sign-in-container">
-            <img src="https://hoangquanland.com/assets/logo_3-7f18405153f1933f61f3597dcee5eca80909cc0ea4fe5931dbde833ff5cf327f.jpg"
-                alt="" />
-            <form action="#">
+    <!-- HEADER-->
 
-                <h1>ĐĂNG NHẬP</h1>
-                <span>or use your account</span>
-                <input class="gate" type="text" placeholder="Nhập số điện thoại" /><label for="element" class='name3'>
-                    <i class="fas fa-phone-square-alt"></i> </label>
-                <input class="gate margin-top-20" type="text" placeholder="Nhập mã đăng nhập" /><label for="element"
-                    class='name4'><i class="fas fa-key"></i> </label>
-                <button class='margin-top-20'>Đăng nhập</button>
-            </form>
-        </div>
-        <div class="overlay-container">
-            <div class="overlay">
-                <div class="overlay-panel overlay-left">
-                    <h1>Chào mừng trở lại!</h1>
-                    <p>Để giữ kết nối với chúng tôi, vui lòng đăng nhập bằng thông tin cá nhân của bạn</p>
-                    <button class="ghost margin-top-20" id="signIn">Đăng nhập</button>
-                </div>
-                <div class="overlay-panel overlay-right">
-                    <h1>Xin chào, Quý khách đã đăng ký tài khoản ?</h1>
-                    <p>Nhập thông tin cá nhân của bạn đăng ký tài khoản để nhận thông tin và bắt đầu hành trình với
-                        chúng tôi!</p>
-                    <button class="ghost margin-top-20" id="signUp">Đăng Ký</button>
+    <div class='Header header'>
+        <div class="hero-anime">
+            <div class="navigation-wrap bg-light  start-style">
+                <div class="">
+                    <div class="row">
+                        <div class="col-12">
+                            <nav class="navbar navbar-expand-md">
+                                <a class="navbar-brand" href="https://front.codes/" target="_blank">
+                                    <img loading="lazy" src="./Images/logo.png" alt="" class="logotop" /></a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+
+
+                                    <span class="navbar-toggler-icon width100"><i class="far fa-newspaper"></i>
+                                        <sup>2</sup></span>
+                                    <span class="navbar-toggler-icon"><i class="fas fa-align-right"></i></span>
+                                </button>
+                                <div class="collapse navbar-collapse bor-top-xs" id="navbarSupportedContent">
+                                    <ul class="navbar-nav ml-auto py-md-0">
+
+                                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 margin-top-15s-xs">
+                                            <a class="nav-link" href="#">Giới thiệu</a>
+                                        </li>
+                                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                            <a class="nav-link dropdown-toggle" href="#features-section">Pháp lý</a>
+                                        </li>
+                                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                                                role="button" aria-haspopup="true" aria-expanded="false">Dự Án
+                                                 <i class="fas fa-angle-down"></i></a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Dịch Vụ Kim Chung</a>
+                                                <a class="dropdown-item" href="#">Đấu Giá Lai Xá</a>
+                                                <a class="dropdown-item" href="#">Khu đô thị Tân Tây Đô</a>
+                                                <a class="dropdown-item" href="#">Dịch Vụ Trạm Trôi</a>
+                                                <a class="dropdown-item" href="#">Dịch Vụ Tây Tựu</a>
+                                                <a class="dropdown-item" href="#">Đấu Giá Sơn Đồng</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                                                role="button" aria-haspopup="true" aria-expanded="false">Đất nền
+                                                 <i class="fas fa-angle-down"></i></a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Dịch Vụ Kim Chung</a>
+                                                <a class="dropdown-item" href="#">Đấu Giá Lai Xá</a>
+                                                <a class="dropdown-item" href="#">Khu đô thị Tân Tây Đô</a>
+                                                <a class="dropdown-item" href="#">Dịch Vụ Trạm Trôi</a>
+                                                <a class="dropdown-item" href="#">Dịch Vụ Tây Tựu</a>
+                                                <a class="dropdown-item" href="#">Đấu Giá Sơn Đồng</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 customer">
+                                            <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#"
+                                                role="button" aria-haspopup="true" aria-expanded="false">
+                                                <img loading="lazy"
+                                                    src="https://www.hoangquanland.com/packs/media/images/default-7fad56cc0166a9d2acdaec66a5a6a346.jpg"
+                                                    class='avartar' alt="" />
+                                                <span class='CustomerName'> Xin chào! ABC <i
+                                                        class="fas fa-caret-down"></i></span>
+                                            </a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#"> <i class="fas fa-sign-out-alt"></i>
+                                                    Đăng xuất</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- END HEADER-->
+    <!-- BANNER -->
+   <!--  <div class="bannert">
+        <div id="fondo">
+            <h1>Hey!</h1>
+          </div>
+          <div id="encima"></div>
+    </div>
+   -->
+    <div class="BannerTop skw-pages infor" >
+        <div class="skw-page skw-page-1 active">
+            <div class="skw-page__half skw-page__half--left">
+                <div class="skw-page__skewed">
+                    <div class="skw-page__content"></div>
+                </div>
+            </div>
+            <div class="skw-page__half skw-page__half--right">
+                <div class="skw-page__skewed">
+                    <div class="skw-page__content">
+                        <h2 class="skw-page__heading">Chuyên biệt thự, liền kề</h2>
+                        <p class="skw-page__description">Biệt thự liền kề là một trong những loại hình biệt thự đang
+                            được nhắc đến rất nhiều ở thời điểm hiện tại và xuất hiện rất nhiều tại các khu đô thị mới.
+                            Vậy biệt thự liền kề là gì? Ưu nhược điểm ra sao? Có nên mua biệt thự liền kề hay không?
+                            Hãy cùng chúng tôi tìm hiểu dưới đây nhé!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skw-page skw-page-2">
+            <div class="skw-page__half skw-page__half--left">
+                <div class="skw-page__skewed">
+                    <div class="skw-page__content">
+                        <h2 class="skw-page__heading">Đất nền phân lô</h2>
+                        <p class="skw-page__description">Với mong muốn sở hữu một ngôi nhà gắn liền với mặt đất để có
+                            được không gian cá nhân và thoải mái, nhiều khách hàng đã lựa chọn nhận đất phân lô để xây
+                            dựng tổ ấm riêng cho mình và cả gia đình. Thấu hiểu mong muốn này của quý khách hàng, hãy
+                            cùng chúng tôi tham khảo dưới đây nhé!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skw-page__half skw-page__half--right">
+                <div class="skw-page__skewed">
+                    <div class="skw-page__content"></div>
+                </div>
+            </div>
+        </div>
+
+    </div> 
+    <!--END BANNER -->
+
+    <!--VIDEO NOIBAT -->
+    <div class="VIDEONOIBAT video_area" >
+        <div class="">
+            <div class="row">
+
+                <div class="col-md-8 wow fadeInLeftBig animated padding-left-40 padding-bottom-15">
+
+                    <div class="video">
+                        <div class="location_mapvideo">
+                        </div>
+
+                        <div class='newtag2  blind'>MỚI
+                        </div>
+                        <div class="fluid-width-video-wrapper height350">
+                            <iframe allowfullscreen="true"
+                                src="https://www.youtube.com/embed/5e0LxrLSzok?mute=1&amp;controls=1&amp;autoplay=1"
+                                width="100%"></iframe>
+                        </div>
+                        <div class='col-md-12 margin-top-15'>
+                            <div class='row'>
+                                <div class='col-3'>
+                                    <div class='borvideo'>
+                                        <div class="location_map">
+                                        </div>
+                                        <div class='tagnew blind'>MỚI
+                                        </div>
+                                        <img loading="lazy" src="./Images/Play.png" width="45px" height="45px"
+                                            class='Play' loading="lazy" />
+                                        <img loading="lazy" width="100%" class='imgvideo' src="./Images/hinh.png"
+                                            loading="lazy" />
+
+                                    </div>
+                                </div>
+                                <div class='col-3'>
+                                    <div class='borvideo'>
+                                        <div class="location_map">
+                                        </div>
+                                        <div class='tagnew blind'>MỚI
+                                        </div>
+                                        <img loading="lazy" src="./Images/Play.png" width="45px" height="45px"
+                                            class='Play' loading="lazy" />
+                                        <img loading="lazy" width="100%" class='imgvideo' src="./Images/hinh.png" />
+                                    </div>
+                                </div>
+                                <div class='col-3'>
+                                    <div class='borvideo'>
+                                        <div class="location_map">
+                                        </div>
+                                        <div class='tagnew  blind'>MỚI
+                                        </div>
+                                        <img loading="lazy" src="./Images/Play.png" width="45px" height="45px"
+                                            class='Play' />
+                                        <img loading="lazy" width="100%" class='imgvideo' src="./Images/hinh.png" />
+                                    </div>
+                                </div>
+                                <div class='col-3'>
+                                    <div class='borvideo'>
+                                        <div class="location_map">
+                                        </div>
+                                        <div class='tagnew blind'>MỚI
+                                        </div>
+                                        <img loading="lazy" src="./Images/Play.png" width="45px" height="45px"
+                                            class='Play' />
+                                        <img loading="lazy" width="100%" class='imgvideo' src="./Images/hinh.png" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow  fadeInRightBig animated colorxs">
+                    <div class="video_title">
+                        <h2><span class="colora81422">Dự án</span> <span class='ttvideo'>nổi bật qua video</span></h2>
+                        <p class=''> <sup>"</sup> Video sẽ hỗ trợ cho quý khách có cách nhìn tổng thể và trực quan nhất
+                            về những dự án đang được quan tâm nhiều nhất tại <span
+                                class="textHQ">HOANGQUANLAND.</span><sup>"</sup></p>
+                    </div>
+                    <div class="video-button">
+                        <div class="wow bounceInLeft animated">
+                            <div class="social_icons">
+                                <ul>
+                                    <li><a href=""><i class="fas fa-phone-alt"></i></a>
+                                    </li>
+                                    <li><a href=""><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li><a href=""><i class="fab fa-tiktok"></i></a>
+                                    </li>
+                                    <li><a href=""><i class="fab fa-youtube"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END VIDEO NOIBAT -->
+
+
+    <!-- SẢN PHẨM NOIBAT -->
+    <div class="SANPHAMNOIBAT dichvu top3xs">
+        <div class="loading">
+            <span> SẢN PHẨM NỔI BẬT</span>
+        </div>
+        <div class='col-md-12 margin-top-20 text-center'>
+            <i class="fas fa-arrow-left next"></i>
+            <i class="fas fa-arrow-right next"></i>
+        </div>
+
+        <div class='OverViewBlock ' class='padding20'>
+
+
+            <div class='row'>
+                <div class='col-md-3 col-sm-6 col-6 margin-top30-xs'>
+                    <div class='contentbody'>
+                        <div>
+                            <img loading="lazy" src="./Images/Play.png" width="45px" height="45px" class='play'
+                                data-toggle="modal" data-target="#myModal" />
+                            <img loading="lazy" src="./Images/tagnew.png" class='playNB' />
+                            <img loading="lazy" width="100%" src="./Images/hinh.png" class='fiximgsv' />
+                        </div>
+                        <div class="button-container-1">
+                            <span class="mas"> <i class="far fa-paper-plane"></i> DỊCH VỤ LAI XÁ THỬA 174 </span>
+                            <button id='work' type="button" name="Hover"> <i class="far fa-paper-plane"></i> HƯỚNG ĐÔNG
+                                NAM</button>
+                        </div>
+                        <div class='row Orther2'>
+                            <span class='col-2  text-center iconprice'><i class="fab fa-accusoft"></i></span>
+                            <span class='col-10 padding-5-xs pricePD'> 55.0tr ~ 65.0tr</span>
+                            <span class='col-2  text-center padding-5-xs iconArea'><i class="far fa-compass"></i></span>
+                            <span class='col-10 padding-5-xs  inforPD'> 65.0 ~ 120.0m</span>
+                            <span class='col-2  text-center padding-5-xs iconArea'><i
+                                    class="fas fa-building text-info"></i></span>
+                            <span class='col-10 padding-5-xs  inforPD'> Liền kề</span>
+                            <span class='col-2  text-center padding-5-xs iconArea'><i
+                                    class="fas fa-map-marker-alt text-info"></i></span>
+                            <span class='col-10 padding-5-xs  inforPD'> Trạm Trôi - Hoài Đức - Hà Nội</span>
+                        </div>
+                        <div class='row ftbn2 '>
+                            <div class='col-6 Viewpd' class='PD'>
+                                <i class="far fa-eye"></i> 28
+                            </div>
+                            <div class='col-6 Viewpd' class='PD'>
+                                <i class="fas fa-store-alt"></i> Đã bán 0
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class='col-md-3 col-sm-6 col-6 margin-top30-xs'>
+                    <div class='contentbody'>
+                        <div>
+
+                            <img loading="lazy" src="./Images/Play.png" width="45px" height="45px" class='play' />
+                            <img loading="lazy" src="./Images/tagnew.png" class='playNB' />
+                            <img loading="lazy" width="100%" src="./Images/hinh.png" class='fiximgsv' />
+                        </div>
+                        <div class="button-container-1">
+                            <span class="mas"> <i class="far fa-paper-plane"></i> DỊCH VỤ LAI XÁ THỬA 174 </span>
+                            <button id='work' type="button" name="Hover"> <i class="far fa-paper-plane"></i> HƯỚNG ĐÔNG
+                                NAM</button>
+                        </div>
+                        <div class='row Orther2'>
+                            <span class='col-2  text-center iconprice'><i class="fab fa-accusoft"></i></span>
+                            <span class='col-10 padding-5-xs pricePD'> 55.0tr ~ 65.0tr</span>
+                            <span class='col-2  text-center padding-5-xs iconArea'><i class="far fa-compass"></i></span>
+                            <span class='col-10 padding-5-xs  inforPD'> 65.0 ~ 120.0m</span>
+                            <span class='col-2  text-center padding-5-xs iconArea'><i
+                                    class="fas fa-building text-info"></i></span>
+                            <span class='col-10 padding-5-xs  inforPD'> Liền kề</span>
+                            <span class='col-2  text-center padding-5-xs iconArea'><i
+                                    class="fas fa-map-marker-alt text-info"></i></span>
+                            <span class='col-10 padding-5-xs  inforPD'> Trạm Trôi - Hoài Đức - Hà Nội</span>
+                        </div>
+                        <div class='row ftbn2 '>
+                            <div class='col-6 Viewpd' class='PD'>
+                                <i class="far fa-eye"></i> 28
+                            </div>
+                            <div class='col-6 Viewpd' class='PD'>
+                                <i class="fas fa-store-alt"></i> Đã bán 0
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-3 col-sm-6 col-6 margin-top30-xs'>
+                    <div class='contentbody'>
+                        <div>
+
+                            <img loading="lazy" src="./Images/Play.png" width="45px" height="45px" class='play' />
+                            <img loading="lazy" src="./Images/tagnew.png" class='playNB' />
+                            <img loading="lazy" width="100%" src="./Images/hinh.png" class='fiximgsv' />
+                        </div>
+                        <div class="button-container-1">
+                            <span class="mas"> <i class="far fa-paper-plane"></i> DỊCH VỤ LAI XÁ THỬA 174 </span>
+                            <button id='work' type="button" name="Hover"> <i class="far fa-paper-plane"></i> HƯỚNG ĐÔNG
+                                NAM</button>
+                        </div>
+                        <div class='row Orther2'>
+                            <span class='col-2  text-center iconprice'><i class="fab fa-accusoft"></i></span>
+                            <span class='col-10 padding-5-xs pricePD'> 55.0tr ~ 65.0tr</span>
+                            <span class='col-2  text-center padding-5-xs iconArea'><i class="far fa-compass"></i></span>
+                            <span class='col-10 padding-5-xs  inforPD'> 65.0 ~ 120.0m</span>
+                            <span class='col-2  text-center padding-5-xs iconArea'><i
+                                    class="fas fa-building text-info"></i></span>
+                            <span class='col-10 padding-5-xs  inforPD'> Liền kề</span>
+                            <span class='col-2  text-center padding-5-xs iconArea'><i
+                                    class="fas fa-map-marker-alt text-info"></i></span>
+                            <span class='col-10 padding-5-xs  inforPD'> Trạm Trôi - Hoài Đức - Hà Nội</span>
+                        </div>
+                        <div class='row ftbn2 '>
+                            <div class='col-6 Viewpd' class='PD'>
+                                <i class="far fa-eye"></i> 28
+                            </div>
+                            <div class='col-6 Viewpd' class='PD'>
+                                <i class="fas fa-store-alt"></i> Đã bán 0
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-3 col-sm-6 col-6 margin-top30-xs'>
+                    <div class='contentbody'>
+                        <div>
+                            <img loading="lazy" src="./Images/Play.png" width="45px" height="45px" class='play' />
+                            <img loading="lazy" src="./Images/tagnew.png" class='playNB' />
+                            <img loading="lazy" width="100%" src="./Images/hinh.png" class='fiximgsv' />
+                        </div>
+                        <div class="button-container-1">
+                            <span class="mas"> <i class="far fa-paper-plane"></i> DỊCH VỤ LAI XÁ THỬA 174 </span>
+                            <button id='work' type="button" name="Hover"> <i class="far fa-paper-plane"></i> HƯỚNG ĐÔNG
+                                NAM</button>
+                        </div>
+                        <div class='row Orther2'>
+                            <span class='col-2  text-center iconprice'><i class="fab fa-accusoft"></i></span>
+                            <span class='col-10 padding-5-xs pricePD'> 55.0tr ~ 65.0tr</span>
+                            <span class='col-2  text-center padding-5-xs iconArea'><i class="far fa-compass"></i></span>
+                            <span class='col-10 padding-5-xs  inforPD'> 65.0 ~ 120.0m</span>
+                            <span class='col-2  text-center padding-5-xs iconArea'><i
+                                    class="fas fa-building text-info"></i></span>
+                            <span class='col-10 padding-5-xs  inforPD'> Liền kề</span>
+                            <span class='col-2  text-center padding-5-xs iconArea'><i
+                                    class="fas fa-map-marker-alt text-info"></i></span>
+                            <span class='col-10 padding-5-xs  inforPD'> Trạm Trôi - Hoài Đức - Hà Nội</span>
+                        </div>
+                        <div class='row ftbn2 '>
+                            <div class='col-6 Viewpd' class='PD'>
+                                <i class="far fa-eye"></i> 28
+                            </div>
+                            <div class='col-6 Viewpd' class='PD'>
+                                <i class="fas fa-store-alt"></i> Đã bán 0
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+    <!--END SẢN PHẨM NOIBAT -->
+
+    <!--Tổng quan dự án -->
+    <div class="TONGQUANDUAN overview backgroundwhite">
+
+        <div class='col-md-12 text-center padtop3-xs'>
+            <div class="">
+                <span>
+                    <h1 class="our_text">TỔNG QUAN <span class='colora81422'>DỰ ÁN</span></h1>
+                </span>
+                <span class='tileabout'><span class='colora81422'>HOÀNG QUÂN LAND</span> luôn vững vàng với mục tiêu
+                    mang lại cho khách hàng những sản phẩm bất động sản tốt nhất bằng dịch vụ chuyên nghiệp nhất.</span>
+            </div>
+
+        </div>
+
+
+        <div class='OverViewBlock row NB'>
+            <div class='col-md-6 col-sm-6 col-xs-12 margin-top30 BlockLeft'>
+                <div class='contentbodyblue row backgroundNB'>
+                    <div class='col-md-6 col-sm-6 col-6 IMghover'>
+                        <img loading="lazy" src="./Images/Play.png" width="45px" height="45px" data-toggle="modal"
+                            data-target="#exampleModal2" class='play2' />
+                        <img loading="lazy" src="./Images/tag.png" class='play5' />
+                        <img loading="lazy" width="100%" src="./Images/hinh.png" class='fiximgsvLeft image' />
+                        <div class="middle">
+                            <div class="text"> <img loading="lazy" src="./Images/Play.png" width="45px" height="45px"
+                                    data-toggle="modal" data-target="#exampleModal2" class='play2' /></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-6 nameNB">
+                        <div class=' button-container-1'>
+                            <span class="mas"> <i class="fab fa-accusoft"></i> DỊCH VỤ KIM CHUNG </span>
+                            <button id='work' type="button" name="Hover"> <i class="fab fa-accusoft"></i> DỊCH VỤ KIM
+                                CHUNG</button>
+                        </div>
+                        <div class='row Orther'>
+                            <span class='col-2  text-center padding-5-xs iconNB'><i class="fab fa-accusoft"></i></span>
+                            <span class='col-10 padding-5-xs padding-5-xs AreaDT colortextNB'> 55.0tr ~ 65.0tr</span>
+                            <span class='col-2  text-center padding-5-xs iconNBnew'><i
+                                    class="far fa-compass"></i></span>
+                            <span class='col-10 padding-5-xs padding-5-xs AreaNB colortextNB'> 65.0 ~ 120.0m</span>
+                            <span class='col-2  text-center padding-5-xs iconNBnew'><i
+                                    class="fas fa-building text-info"></i></span>
+                            <span class='col-10 padding-5-xs padding-5-xs AreaNB colortextNB'> Liền kề</span>
+                            <span class='col-2  text-center padding-5-xs iconNBnew'><i
+                                    class="fas fa-map-marker-alt text-info"></i></span>
+                            <span class='col-10 padding-5-xs font14-xs padding-5-xs AreaNB colortextNB'> Trạm Trôi -
+                                Hoài
+                                Đức - Hà Nội</span>
+                        </div>
+                        <div class='row ftbn'>
+                            <div class='col-6 Viewpd'>
+                                <i class="far fa-eye"></i> 24
+                            </div>
+                            <div class='col-6  saleNB'>
+                                <i class="fas fa-store-alt"></i> Đã bán 0
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='col-md-6 col-sm-6 col-xs-12 margin-top30 padding-left-40-xs BlockRight '>
+                <div class='contentbodyblue row bgNB'>
+                    <div class='col-md-6 col-sm-6 col-6 IMghover'>
+                        <img loading="lazy" src="./Images/Play.png" width="45px" height="45px" class='play2' />
+                        <img loading="lazy" src="./Images/tag.png" class='play5' />
+                        <img loading="lazy" width="100%" src="./Images/hinh.png" class='fiximgsvLeft' />
+                        <div class="middle">
+                            <div class="text"> <img loading="lazy" src="./Images/Play.png" width="45px" height="45px"
+                                    data-toggle="modal" data-target="#exampleModal2" class='play2' /></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-6 nameNB">
+                        <div class=' button-container-1'>
+                            <span class="mas"> <i class="fab fa-accusoft"></i> ĐÔ THỊ TÂN TÂY ĐÔ </span>
+                            <button id='work' type="button" name="Hover"> <i class="fab fa-accusoft"></i> ĐÔ THỊ TÂN TÂY
+                                ĐÔ</button>
+                        </div>
+                        <div class='row Orther'>
+                            <span class='col-2  text-center padding-5-xs iconNB'><i class="fab fa-accusoft"></i></span>
+                            <span class='col-10 padding-5-xs padding-5-xs AreaDT colortextNB'> 55.0tr ~ 65.0tr</span>
+                            <span class='col-2  text-center padding-5-xs iconNBnew'><i
+                                    class="far fa-compass"></i></span>
+                            <span class='col-10 padding-5-xs padding-5-xs colortextNB AreaNB' class='DT'> 65.0 ~
+                                120.0m</span>
+                            <span class='col-2  text-center padding-5-xs iconNBnew'><i
+                                    class="fas fa-building text-info"></i></span>
+                            <span class='col-10 padding-5-xs padding-5-xs colortextNB AreaNB' class='DT'> Liền kề</span>
+                            <span class='col-2  text-center padding-5-xs iconNBnew'><i
+                                    class="fas fa-map-marker-alt text-info"></i></span>
+                            <span class='col-10 padding-5-xs font14-xs padding-5-xs colortextNB AreaNB' class='DT'> Trạm
+                                Trôi - Hoài
+                                Đức - Hà Nội</span>
+                        </div>
+                        <div class='row ftbn'>
+                            <div class='col-6 Viewpd'>
+                                <i class="far fa-eye"></i> 18
+                            </div>
+                            <div class='col-6  saleNB'>
+                                <i class="fas fa-store-alt"></i> Đã bán 0
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='col-md-6 col-sm-6 col-xs-12 margin-top30 BlockLeft'>
+                <div class='contentbodyblue row bgNB'>
+                    <div class="col-md-6 col-sm-6 col-6">
+                        <div class=' button-container-1'>
+                            <span class="mas"> <i class="fab fa-accusoft"></i>DỊCH VỤ TÂY TỰU</span>
+                            <button id='work' type="button" name="Hover"> <i class="fab fa-accusoft"></i> DỊCH VỤ TÂY
+                                TỰU</button>
+                        </div>
+
+                        <div class='row Orther'>
+
+                            <span class='col-2  text-center padding-5-xs iconNB'><i class="fab fa-accusoft"></i></span>
+                            <span class='col-10  padding-5-xs colortextNB AreaDT'> 55.0tr ~ 65.0tr</span>
+                            <span class='col-2  text-center padding-5-xs iconNBnew'><i
+                                    class="far fa-compass"></i></span>
+                            <span class='col-10 padding-5-xs AreaNB colortextNB'> 65.0 ~ 120.0m</span>
+                            <span class='col-2  text-center padding-5-xs iconNBnew'><i
+                                    class="fas fa-building text-info"></i></span>
+                            <span class='col-10 padding-5-xs padding-5-xs colortextNB AreaNB' class='DT'> Liền kề</span>
+                            <span class='col-2  text-center padding-5-xs iconNBnew'><i
+                                    class="fas fa-map-marker-alt text-info"></i></span>
+                            <span class='col-10 padding-5-xs font14-xs colortextNB AreaNB' class='DT'> Trạm Trôi - Hoài
+                                Đức - Hà
+                                Nội</span>
+                        </div>
+                        <div class='row ftbn'>
+                            <div class='col-6 Viewpd'>
+                                <i class="far fa-eye"></i> 28
+                            </div>
+                            <div class='col-6  saleNB'>
+                                <i class="fas fa-store-alt"></i> Đã bán 0
+                            </div>
+                        </div>
+                    </div>
+                    <div class='col-md-6 col-sm-6 col-6 leftNB'>
+
+                        <img loading="lazy" src="./Images/Play.png" width="45px" height="45px" class='play2' />
+                        <img loading="lazy" src="./Images/tag.png" class='playright' />
+                        <img loading="lazy" width="100%" src="./Images/hinh.png" class='fiximgsvRight' />
+                    </div>
+
+
+                </div>
+            </div>
+            <div class='col-md-6 col-sm-6 col-xs-12 margin-top30 padding-left-40-xs BlockRight'>
+                <div class='contentbodyblue row bgNB'>
+                    <div class="col-md-6 col-sm-6 col-6">
+                        <div class=' button-container-1'>
+                            <span class="mas"> <i class="fab fa-accusoft"></i> ĐẤU GIÁ SƠN ĐỒNG </span>
+                            <button id='work' type="button" name="Hover"> <i class="fab fa-accusoft"></i> ĐẤU GIÁ SƠN
+                                ĐỒNG</button>
+                        </div>
+
+                        <div class='row Orther'>
+                            <span class='col-2  text-center padding-5-xs iconNB'><i class="fab fa-accusoft"></i></span>
+                            <span class='col-10 padding-5-xs colortextNB AreaDT'> 55.0tr ~ 65.0tr</span>
+                            <span class='col-2  text-center padding-5-xs iconNBnew'><i
+                                    class="far fa-compass"></i></span>
+                            <span class='col-10 padding-5-xs AreaNB colortextNB'> 65.0 ~ 120.0m</span>
+                            <span class='col-2  padding-5-xs text-center iconNBnew'><i
+                                    class="fas fa-building text-info"></i></span>
+                            <span class='col-10 padding-5-xs col-10 padding-5-xs colortextNB AreaNB'> Liền kề</span>
+                            <span class='col-2   padding-5-xs text-center iconNBnew'><i
+                                    class="fas fa-map-marker-alt text-info"></i></span>
+                            <span class='col-10 padding-5-xs font14-xs colortextNB AreaNB'> Trạm Trôi - Hoài Đức - Hà
+                                Nội</span>
+                        </div>
+                        <div class='row ftbn'>
+                            <div class='col-6 Viewpd'>
+                                <i class="far fa-eye"></i> 21
+                            </div>
+                            <div class='col-6  saleNB'>
+
+                                <i class="fas fa-store-alt"></i> Đã bán 0
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class='col-md-6 col-sm-6 col-6 leftNB'>
+
+                        <img loading="lazy" src="./Images/Play.png" width="45px" height="45px" class='play2' />
+                        <img loading="lazy" src="./Images/tag.png" class='playright' />
+                        <img loading="lazy" width="100%" src="./Images/hinh.png" class='fiximgsvRight' />
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class='OverViewBlock row NB'>
+            <div class='col-md-6 col-sm-6 col-xs-12 margin-top30 BlockLeft'>
+                <div class='contentbodyblue row backgroundNB'>
+                    <div class='col-md-6 col-sm-6 col-6'>
+                        <img loading="lazy" src="./Images/Play.png" width="45px" height="45px" data-toggle="modal"
+                            data-target="#exampleModal" class='play2' />
+                        <img loading="lazy" src="./Images/tag.png" class='play5' />
+                        <img loading="lazy" width="100%" src="./Images/hinh.png" class='fiximgsvLeft' />
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-6 nameNB">
+                        <div class=' button-container-1'>
+                            <span class="mas"> <i class="fab fa-accusoft"></i> DỊCH VỤ KIM CHUNG </span>
+                            <button id='work' type="button" name="Hover"> <i class="fab fa-accusoft"></i> DỊCH VỤ KIM
+                                CHUNG</button>
+                        </div>
+                        <div class='row Orther'>
+                            <span class='col-2  text-center padding-5-xs iconNB'><i class="fab fa-accusoft"></i></span>
+                            <span class='col-10 padding-5-xs padding-5-xs AreaDT colortextNB'> 55.0tr ~ 65.0tr</span>
+                            <span class='col-2  text-center padding-5-xs iconNBnew'><i
+                                    class="far fa-compass"></i></span>
+                            <span class='col-10 padding-5-xs padding-5-xs AreaNB colortextNB'> 65.0 ~ 120.0m</span>
+                            <span class='col-2  text-center padding-5-xs iconNBnew'><i
+                                    class="fas fa-building text-info"></i></span>
+                            <span class='col-10 padding-5-xs padding-5-xs AreaNB colortextNB'> Liền kề</span>
+                            <span class='col-2  text-center padding-5-xs iconNBnew'><i
+                                    class="fas fa-map-marker-alt text-info"></i></span>
+                            <span class='col-10 padding-5-xs font14-xs padding-5-xs AreaNB colortextNB'> Trạm Trôi -
+                                Hoài
+                                Đức - Hà Nội</span>
+                        </div>
+                        <div class='row ftbn'>
+                            <div class='col-6 Viewpd'>
+                                <i class="far fa-eye"></i> 24
+                            </div>
+                            <div class='col-6  saleNB'>
+                                <i class="fas fa-store-alt"></i> Đã bán 0
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='col-md-6 col-sm-6 col-xs-12 margin-top30 padding-left-40-xs BlockRight '>
+                <div class='contentbodyblue row bgNB'>
+                    <div class='col-md-6 col-sm-6 col-6'>
+                        <img loading="lazy" src="./Images/Play.png" width="45px" height="45px" class='play2' />
+                        <img loading="lazy" src="./Images/tag.png" class='play5' />
+                        <img loading="lazy" width="100%" src="./Images/hinh.png" class='fiximgsvLeft' />
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-6 nameNB">
+                        <div class=' button-container-1'>
+                            <span class="mas"> <i class="fab fa-accusoft"></i> ĐÔ THỊ TÂN TÂY ĐÔ </span>
+                            <button id='work' type="button" name="Hover"> <i class="fab fa-accusoft"></i> ĐÔ THỊ TÂN TÂY
+                                ĐÔ</button>
+                        </div>
+                        <div class='row Orther'>
+                            <span class='col-2  text-center padding-5-xs iconNB'><i class="fab fa-accusoft"></i></span>
+                            <span class='col-10 padding-5-xs padding-5-xs AreaDT colortextNB'> 55.0tr ~ 65.0tr</span>
+                            <span class='col-2  text-center padding-5-xs iconNBnew'><i
+                                    class="far fa-compass"></i></span>
+                            <span class='col-10 padding-5-xs padding-5-xs colortextNB AreaNB' class='DT'> 65.0 ~
+                                120.0m</span>
+                            <span class='col-2  text-center padding-5-xs iconNBnew'><i
+                                    class="fas fa-building text-info"></i></span>
+                            <span class='col-10 padding-5-xs padding-5-xs colortextNB AreaNB' class='DT'> Liền kề</span>
+                            <span class='col-2  text-center padding-5-xs iconNBnew'><i
+                                    class="fas fa-map-marker-alt text-info"></i></span>
+                            <span class='col-10 padding-5-xs font14-xs padding-5-xs colortextNB AreaNB' class='DT'> Trạm
+                                Trôi - Hoài
+                                Đức - Hà Nội</span>
+                        </div>
+                        <div class='row ftbn'>
+                            <div class='col-6 Viewpd'>
+                                <i class="far fa-eye"></i> 18
+                            </div>
+                            <div class='col-6  saleNB'>
+                                <i class="fas fa-store-alt"></i> Đã bán 0
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='col-md-6 col-sm-6 col-xs-12 margin-top30 BlockLeft'>
+                <div class='contentbodyblue row bgNB'>
+                    <div class="col-md-6 col-sm-6 col-6">
+                        <div class=' button-container-1'>
+                            <span class="mas"> <i class="fab fa-accusoft"></i>DỊCH VỤ TÂY TỰU</span>
+                            <button id='work' type="button" name="Hover"> <i class="fab fa-accusoft"></i> DỊCH VỤ TÂY
+                                TỰU</button>
+                        </div>
+
+                        <div class='row Orther'>
+
+                            <span class='col-2  text-center padding-5-xs iconNB'><i class="fab fa-accusoft"></i></span>
+                            <span class='col-10  padding-5-xs colortextNB AreaDT'> 55.0tr ~ 65.0tr</span>
+                            <span class='col-2  text-center padding-5-xs iconNBnew'><i
+                                    class="far fa-compass"></i></span>
+                            <span class='col-10 padding-5-xs AreaNB colortextNB'> 65.0 ~ 120.0m</span>
+                            <span class='col-2  text-center padding-5-xs iconNBnew'><i
+                                    class="fas fa-building text-info"></i></span>
+                            <span class='col-10 padding-5-xs padding-5-xs colortextNB AreaNB' class='DT'> Liền kề</span>
+                            <span class='col-2  text-center padding-5-xs iconNBnew'><i
+                                    class="fas fa-map-marker-alt text-info"></i></span>
+                            <span class='col-10 padding-5-xs font14-xs colortextNB AreaNB' class='DT'> Trạm Trôi - Hoài
+                                Đức - Hà
+                                Nội</span>
+                        </div>
+                        <div class='row ftbn'>
+                            <div class='col-6 Viewpd'>
+                                <i class="far fa-eye"></i> 28
+                            </div>
+                            <div class='col-6  saleNB'>
+                                <i class="fas fa-store-alt"></i> Đã bán 0
+                            </div>
+                        </div>
+                    </div>
+                    <div class='col-md-6 col-sm-6 col-6 leftNB'>
+
+                        <img loading="lazy" src="./Images/Play.png" width="45px" height="45px" class='play2' />
+                        <img loading="lazy" src="./Images/tag.png" class='playright' />
+                        <img loading="lazy" width="100%" src="./Images/hinh.png" class='fiximgsvRight' />
+                    </div>
+
+
+                </div>
+            </div>
+            <div class='col-md-6 col-sm-6 col-xs-12 margin-top30 padding-left-40-xs BlockRight'>
+                <div class='contentbodyblue row bgNB'>
+                    <div class="col-md-6 col-sm-6 col-6">
+                        <div class=' button-container-1'>
+                            <span class="mas"> <i class="fab fa-accusoft"></i> ĐẤU GIÁ SƠN ĐỒNG </span>
+                            <button id='work' type="button" name="Hover"> <i class="fab fa-accusoft"></i> ĐẤU GIÁ SƠN
+                                ĐỒNG</button>
+                        </div>
+
+                        <div class='row Orther'>
+                            <span class='col-2  text-center padding-5-xs iconNB'><i class="fab fa-accusoft"></i></span>
+                            <span class='col-10 padding-5-xs colortextNB AreaDT'> 55.0tr ~ 65.0tr</span>
+                            <span class='col-2  text-center padding-5-xs iconNBnew'><i
+                                    class="far fa-compass"></i></span>
+                            <span class='col-10 padding-5-xs AreaNB colortextNB'> 65.0 ~ 120.0m</span>
+                            <span class='col-2  padding-5-xs text-center iconNBnew'><i
+                                    class="fas fa-building text-info"></i></span>
+                            <span class='col-10 padding-5-xs col-10 padding-5-xs colortextNB AreaNB'> Liền kề</span>
+                            <span class='col-2   padding-5-xs text-center iconNBnew'><i
+                                    class="fas fa-map-marker-alt text-info"></i></span>
+                            <span class='col-10 padding-5-xs font14-xs colortextNB AreaNB'> Trạm Trôi - Hoài Đức - Hà
+                                Nội</span>
+                        </div>
+                        <div class='row ftbn'>
+                            <div class='col-6 Viewpd'>
+                                <i class="far fa-eye"></i> 21
+                            </div>
+                            <div class='col-6  saleNB'>
+
+                                <i class="fas fa-store-alt"></i> Đã bán 0
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class='col-md-6 col-sm-6 col-6 leftNB'>
+
+                        <img loading="lazy" src="./Images/Play.png" width="45px" height="45px" class='play2' />
+                        <img loading="lazy" src="./Images/tag.png" class='playright' />
+                        <img loading="lazy" width="100%" src="./Images/hinh.png" class='fiximgsvRight' />
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+    </div>
+    <!--End Tổng quan dự án -->
+
+    <!-- về công ty-->
+    <div class="VECONGTY overview backgroundwhite">
+        <div class='col-md-12 text-center padtop3-xs'>
+            <div class="">
+                <span>
+                    <h1 class="our_text"> <span class="colora81422 fonttt">VỀ HOANGQUANLAND</span></h1>
+                </span>
+
+            </div>
+        </div>
+        <div class='OverViewBlock row videonb AB'>
+            <div class='col-md-7 col-xs-12 margin-top30 BlockLeft'>
+                <div class='contentbody row abText'>
+                    <iframe allowfullscreen="true"
+                        src="https://www.youtube.com/embed/2F4IFFRqTJ8?mute=1&amp;controls=1&amp;autoplay=0"
+                        width="100%"></iframe>
+                </div>
+            </div>
+            <div class='col-md-5 col-xs-12 margin-top30 padding-left-40-xs BlockRight '>
+                <div class='row'>
+                    <div class='col-md-6 col-xs-6'>
+                        <div class="flip borshadow">
+                            <div class="front">
+                                <div class="text-shadow font-15 text-center">LỊCH SỬ HÌNH THÀNH</div>
+                                <div class='text-center margin-top-20'><i class="far fa-building"></i></div>
+                                <div>
+                                    <p class='Aboutcompanytitle margin-top-20'>Công ty đã có hơn 5 năm kinh
+                                        nghiệm trong ngành tư vấn, mua, bán bất động sản. Và đội ngũ nhân viên tư vấn nhiệt tình, dày dặn kinh nghiệm!</p>
+                                </div>
+
+                            </div>
+                            <div class="back">
+                                <div class="text-shadow font-15 text-center"> LỊCH SỬ HÌNH THÀNH</div>
+                                <div class='text-center margin-top-20'><i class="far fa-building"></i></div>
+                                <p class="margin-top-20">Công ty đã có hơn 5 năm kinh
+                                    nghiệm trong ngành tư vấn, mua, bán bất động sản. Và đội ngũ nhân viên tư vấn nhiệt tình, dày dặn kinh nghiệm!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='col-md-6 col-xs-6'>
+                        <div class="flip borshadow">
+                            <div class="front">
+                                <div class="text-shadow font-15 text-center">MỤC TIÊU HƯỚNG TỚI</div>
+                                <div class='text-center margin-top-20'><i class="fas fa-users"></i></div>
+                                <div>
+                                    <p class='Aboutcompanytitle margin-top-20'><sup>"</sup> Luôn vững vàng với mục tiêu
+                                        mang lại cho khách hàng những sản phẩm bất động sản tốt nhất bằng dịch vụ chuyên nghiệp nhất."</p>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="text-shadow font-15 text-center">MỤC TIÊU HƯỚNG TỚI</div>
+                                <div class='text-center margin-top-20'><i class="far fa-building"></i></div>
+                                <p class="margin-top-20">" Luôn vững vàng với mục tiêu
+                                    mang lại cho khách hàng những sản phẩm bất động sản tốt nhất bằng dịch vụ chuyên nghiệp nhất. "</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End về công ty-->
+    <!--Pháp lý -->
+    <div class="PHAPLY video_area padding-bottom50" id="features-section">
+        <div class="">
+            <div class="row">
+                <div class="video_title2 margin-top-20" style="height: 50px;">
+                    <div class="loading">
+                        <span> TƯ VẤN PHÁP LÝ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 text-center">
+                <div>
+                    <span className='tvtt'>Với mong muốn hỗ trợ khách hàng hiểu rõ hơn những vấn đề pháp lý liên
+                        quan tới những dự án bên HOANGQUANLAND.</span>
+                </div>
+            </div>
+            <div class="row margin-top-20">
+                <div class="col-md-6 col-xs-12 wow fadeInLeftBig animated">
+                    <div className='row'>
+                        <div>
+
+                            <div class="page margin-top-20">
+                                <div class="lines" data-toggle="modal" data-target="#exampleModalpl">
+                                    <div class="video-button row">
+                                        <div className='col-3 padding-top-15xs'>
+                                            <span>1</span>
+                                            <img loading="lazy" src="./Images/tvpl.png" />
+                                        </div>
+                                        <div className='col-9 padding-top30' style="padding-top: 30px;">
+                                            <a class="" role="button">
+                                                Top 5 điều nên tránh khi đầu tư BDS Hoà Lạc
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="page margin-top-20">
+                                <div class="lines" data-toggle="modal" data-target="#exampleModalpl">
+                                    <div class="video-button row">
+                                        <div className='col-3 padding-top-15xs'>
+                                            <span>2</span>
+                                            <img loading="lazy" src="./Images/tvpl.png" />
+                                        </div>
+                                        <div className='col-9 padding-top30' style="padding-top: 30px;">
+                                            <a class="">
+                                                Top 5 điều nên tránh khi đầu tư BDS Hoà Lạc
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="page margin-top-20">
+                                <div class="lines" data-toggle="modal" data-target="#exampleModalpl">
+                                    <div class="video-button row">
+                                        <div className='col-3 padding-top-15xs'>
+                                            <span>3</span>
+                                            <img loading="lazy" src="./Images/tvpl.png" />
+                                        </div>
+                                        <div className='col-9 padding-top30' style="padding-top: 30px;">
+                                            <a class="" role="button">
+                                                Top 5 điều nên tránh khi đầu tư BDS Hoà Lạc
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xs-12 wow fadeInRightBig animated">
+                    <div className='row'>
+                        <div>
+                            <div class="page margin-top-20">
+                                <div class="lines" data-toggle="modal" data-target="#exampleModalpl">
+                                    <div class="video-button row">
+                                        <div className='col-3 padding-top-15xs'>
+                                            <span>4</span>
+                                            <img loading="lazy" src="./Images/tvpl.png" />
+                                        </div>
+                                        <div className='col-9 padding-top30' style="padding-top: 30px;">
+                                            <a class="" role="button">
+                                                Top 5 điều nên tránh khi đầu tư BDS Hoà Lạc
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div>
+
+
+                                <div class="page margin-top-20">
+                                    <div class="lines" data-toggle="modal" data-target="#exampleModalpl">
+                                        <div class="video-button row">
+                                            <div className='col-3 padding-top-15xs'>
+                                                <span>5</span>
+                                                <img loading="lazy" src="./Images/tvpl.png" />
+                                            </div>
+                                            <div className='col-9 padding-top30' style="padding-top: 30px;">
+                                                <a class="">
+                                                    Top 5 điều nên tránh khi đầu tư BDS Hoà Lạc
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-body">
+                                                    <button type="button" class="close"
+                                                        data-dismiss="modal">&times;</button>
+                                                    <div class="row">
+                                                        <div class="col-md-8 col-xs-12">
+                                                            <div class="fluid-width-video-wrapper VideoNB">
+                                                                <iframe allowfullscreen="true" class="ifNB"
+                                                                    src="https://www.youtube.com/embed/5e0LxrLSzok?mute=1&amp;controls=1&amp;autoplay=1"
+                                                                    width="100%"></iframe>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 col-xs-12 VideoNB">
+                                                            <div class='' style="width: 100%;">
+                                                                <div>
+                                                                    <img src='././Images/bg.png'>
+                                                                </div>
+                                                                <div class="button-container-1 margin-top-20">
+                                                                    <span class="mas"> <i
+                                                                            class="far fa-paper-plane"></i>
+                                                                        DỊCH VỤ LAI
+                                                                        XÁ
+                                                                        THỬA 174 </span>
+                                                                    <button id='work' type="button" name="Hover"> <i
+                                                                            class="far fa-paper-plane"></i>
+                                                                        DỊCH VỤ LAI XÁ THỬA
+                                                                        174</button>
+                                                                </div>
+                                                                <div class='row Orther2'>
+                                                                    <span class='col-2  text-center iconprice'><i
+                                                                            class="fab fa-accusoft"></i></span>
+                                                                    <span class='col-10 padding-5-xs pricePD'> 55.0tr ~
+                                                                        65.0tr</span>
+                                                                    <span
+                                                                        class='col-2  text-center padding-5-xs iconArea'><i
+                                                                            class="far fa-compass"></i></span>
+                                                                    <span class='col-10 padding-5-xs  inforPD'> 65.0 ~
+                                                                        120.0m</span>
+                                                                    <span
+                                                                        class='col-2  text-center padding-5-xs iconArea'><i
+                                                                            class="fas fa-building text-info"></i></span>
+                                                                    <span class='col-10 padding-5-xs  inforPD'> Liền
+                                                                        kề</span>
+                                                                    <span
+                                                                        class='col-2  text-center padding-5-xs iconArea'><i
+                                                                            class="fas fa-map-marker-alt text-info"></i></span>
+                                                                    <span class='col-10 padding-5-xs  inforPD'> Trạm
+                                                                        Trôi - Hoài Đức -
+                                                                        Hà Nội</span>
+                                                                </div>
+                                                                <div class="description margin-top-20">
+                                                                    <p>
+                                                                        Yếu tố đầu tư :
+                                                                    </p>
+                                                                    <p>
+                                                                        ⁃ Gồm 4 toà nhà ở xã hội với cư dân 5 nghìn
+                                                                        người
+                                                                    </p>
+                                                                    <p>
+                                                                        ⁃ Giáp đường 3.5
+
+                                                                    </p>
+                                                                    <p>
+                                                                        ⁃ Cách trung tâm 6,5 km
+                                                                    </p>
+                                                                    <p>
+                                                                        ⁃ Mặt sau trường Đại học Thành Đô
+                                                                    </p>
+                                                                    <p>
+                                                                        ⁃ Cách Đại học công nghiệp 1500m
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="page margin-top-20">
+                                    <div class="lines" data-toggle="modal" data-target="#exampleModalpl">
+                                        <div class="video-button row">
+                                            <div className='col-3 padding-top-15xs'>
+                                                <span>6</span>
+                                                <img loading="lazy" src="./Images/tvpl.png" />
+                                            </div>
+                                            <div className='col-9 padding-top30' style="padding-top: 30px;">
+                                                <a class="" role="button">
+                                                    Top 5 điều nên tránh khi đầu tư BDS Hoà Lạc
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--eND Pháp lý -->
+    <div class="KHACHANGNOIGIVECHUNGTOI clients " id="clients">
+        <div class="">
+            <div class="row text-center">
+                <div class="col-md-12 text-center">
+                    <div class="titlepage text-center">
+                        <h2>KHÁCH HÀNG NÓI GÌ VỀ CHÚNG TÔI</h2>
+                        <p> Nhận xét và đóng góp ý kiến của quý khách hàng là động lực để chúng tôi xây dựng và phát
+                            triển công ty theo chiều hướng tốt hơn!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-col-md-1 col-md-10 offset-col-md-1">
+                    <div id="myCarousel" class="carousel slide clients_slider" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="">
+                                    <div class="carousel-caption">
+                                        <div class="row d_flex">
+                                            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 pa_rile">
+                                                <div class="img_box">
+                                                    <i><img src="images/icon_1.png" alt="#"  /></i>
+                                                    <figure><img src="images/tag.png" alt="#" class="careponsive"/></figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 pa_rile">
+                                                <div class="joe">
+                                                    <h3>NGỌC TRANG</h3>
+                                                    <p>Nhân viên tư vấn rất hiểu ý khách hàng và nhanh ý. Là một khách
+                                                        hàng đã sử dụng dịch vụ tư vấn bất động sản bên HOANGQUANLAND.
+                                                        Chúc công ty thành công hơn nữa, với nhiều những dự án lớn hơn
+                                                        nữa...</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="">
+                                    <div class="carousel-caption">
+                                        <div class="row d_flex">
+                                            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 pa_rile">
+                                                <div class="img_box">
+                                                    <i><img src="images/icon_1.png" alt="#" /></i>
+                                                    <figure><img src="images/tag.png" alt="#" class="careponsive"/></figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 pa_rile">
+                                                <div class="joe">
+                                                    <h3>HOÀNG QUÂN</h3>
+                                                    <p>Thái độ nhiệt tình và chuyên nghiệp là những gì mà chúng tôi đã
+                                                        cảm nhận được từ đội ngũ nhân viên tư vấn của HOANGQUANLAND.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="">
+                                    <div class="carousel-caption">
+                                        <div class="row d_flex">
+                                            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 pa_rile">
+                                                <div class="img_box">
+                                                    <i><img src="images/icon_1.png" alt="#" /></i>
+                                                    <figure><img src="images/tag.png" alt="#" class="careponsive"/></figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 pa_rile">
+                                                <div class="joe">
+                                                    <h3>HOÀNG VÂN</h3>
+                                                    <p>Chúng tôi khá hài lòng với dịch vụ tư vấn bất động sản của công
+                                                        ty HOANGQUANLAND. Đội ngũ tư vấn cũng như đội ngũ chăm sóc khách
+                                                        hàng đã làm việc rất chuyên nghiệp và nhiệt tình ...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only"><i class="fa-angle-left"></i></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FOOTER -->
+    <div class="Footerbottom">
+
+        <footer>
+
+            <div class="footer-bottom">
+                <div class="">
+                    <div class="row">
+                        <div class="col-md-4 col-xs-12 ftpj">
+                            <h5 class="footer-title">Các dự án</h5>
+                            <div class='col-md-12 videoAB'>
+                                <div class='row margin-botom-10'>
+                                    <div class='col-4'>
+                                        <div class='borvideo'>
+                                            <div class="location_mapvideo">
+                                            </div>
+
+                                            <div class='newtag2  blind'>MỚI
+                                            </div>
+                                            <img loading="lazy"
+                                                src="https://www.hoangquanland.com/assets/default-633bde6dfa9a896b9b05b667516bdc405ce06c69d9c0add45f68cf0cdf5d12a0.jpg" />
+                                            <div class='titleftproj'>Dịch Vụ Lai Xá</div>
+                                        </div>
+                                    </div>
+                                    <div class='col-4'>
+                                        <div class='borvideo'>
+                                            <img loading="lazy"
+                                                src="https://www.hoangquanland.com/assets/default-633bde6dfa9a896b9b05b667516bdc405ce06c69d9c0add45f68cf0cdf5d12a0.jpg" />
+                                            <div class='titleftproj'>Dịch Vụ Kim Chung</div>
+                                        </div>
+                                    </div>
+                                    <div class='col-4'>
+                                        <div class='borvideo'>
+
+                                            <img loading="lazy"
+                                                src="https://www.hoangquanland.com/assets/default-633bde6dfa9a896b9b05b667516bdc405ce06c69d9c0add45f68cf0cdf5d12a0.jpg" />
+                                            <div class='titleftproj'>Đấu Giá Lai Xá</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class='row margin-botom-10'>
+                                    <div class='col-4'>
+                                        <div class='borvideo'>
+                                            <img loading="lazy"
+                                                src="https://www.hoangquanland.com/assets/default-633bde6dfa9a896b9b05b667516bdc405ce06c69d9c0add45f68cf0cdf5d12a0.jpg" />
+                                            <div class='titleftproj'>Dịch Vụ Lai Xá</div>
+                                        </div>
+                                    </div>
+                                    <div class='col-4'>
+                                        <div class='borvideo'>
+                                            <img loading="lazy"
+                                                src="https://www.hoangquanland.com/assets/default-633bde6dfa9a896b9b05b667516bdc405ce06c69d9c0add45f68cf0cdf5d12a0.jpg" />
+                                            <div class='titleftproj'>Dịch Vụ Kim Chung</div>
+                                        </div>
+                                    </div>
+                                    <div class='col-4'>
+                                        <div class='borvideo'>
+                                            <div class="location_mapvideo">
+                                            </div>
+
+                                            <div class='newtag2  blind'>MỚI
+                                            </div>
+                                            <img loading="lazy"
+                                                src="https://www.hoangquanland.com/assets/default-633bde6dfa9a896b9b05b667516bdc405ce06c69d9c0add45f68cf0cdf5d12a0.jpg" />
+                                            <div class='titleftproj'>Đấu Giá Lai Xá</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class='row margin-botom-10'>
+                                    <div class='col-4'>
+                                        <div class='borvideo'>
+                                            <img loading="lazy"
+                                                src="https://www.hoangquanland.com/assets/default-633bde6dfa9a896b9b05b667516bdc405ce06c69d9c0add45f68cf0cdf5d12a0.jpg" />
+                                            <div class='titleftproj'>Dịch Vụ Lai Xá</div>
+                                        </div>
+                                    </div>
+                                    <div class='col-4'>
+                                        <div class='borvideo'>
+                                            <img loading="lazy"
+                                                src="https://www.hoangquanland.com/assets/default-633bde6dfa9a896b9b05b667516bdc405ce06c69d9c0add45f68cf0cdf5d12a0.jpg" />
+                                            <div class='titleftproj'>Dịch Vụ Kim Chung</div>
+                                        </div>
+                                    </div>
+                                    <div class='col-4'>
+                                        <div class='borvideo'>
+
+                                            <img loading="lazy"
+                                                src="https://www.hoangquanland.com/assets/default-633bde6dfa9a896b9b05b667516bdc405ce06c69d9c0add45f68cf0cdf5d12a0.jpg" />
+                                            <div class='titleftproj'>Đấu Giá Lai Xá</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class='row margin-botom-10'>
+                                    <div class='col-4'>
+                                        <div class='borvideo'>
+                                            <img loading="lazy"
+                                                src="https://www.hoangquanland.com/assets/default-633bde6dfa9a896b9b05b667516bdc405ce06c69d9c0add45f68cf0cdf5d12a0.jpg" />
+                                            <div class='titleftproj'>Dịch Vụ Lai Xá</div>
+                                        </div>
+                                    </div>
+                                    <div class='col-4'>
+                                        <div class='borvideo'>
+                                            <img loading="lazy"
+                                                src="https://www.hoangquanland.com/assets/default-633bde6dfa9a896b9b05b667516bdc405ce06c69d9c0add45f68cf0cdf5d12a0.jpg" />
+                                            <div class='titleftproj'>Dịch Vụ Kim Chung</div>
+                                        </div>
+                                    </div>
+                                    <div class='col-4'>
+                                        <div class='borvideo'>
+                                            <div class="location_mapvideo">
+                                            </div>
+
+                                            <div class='newtag2  blind'>MỚI
+                                            </div>
+                                            <img loading="lazy"
+                                                src="https://www.hoangquanland.com/assets/default-633bde6dfa9a896b9b05b667516bdc405ce06c69d9c0add45f68cf0cdf5d12a0.jpg" />
+                                            <div class='titleftproj'>Đấu Giá Lai Xá</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 padding-left-10 bortopftxs">
+                            <h5 class="footer-title">CHI NHÁNH</h5>
+                            <main>
+                                <ol class="gradient-list">
+                                    <li>Hà nội</li>
+                                    <li>Bắc Giang</li>
+                                    <li>Bắc Ninh</li>
+                                    <li>Hải Phòng</li>
+
+                                </ol>
+                            </main>
+
+                        </div>
+                        <div class="col-md-4 col-xs-12 padding-left-10 ctact bortopftxs">
+                            <h5 class="footer-title">Liên Hệ</h5>
+
+                            <ul class="magnific-image row">
+                                <li class='col-md-12 col-xs-12'>
+
+                                    <div class='col-md-12 margin-top-12'> <i class="fas fa-phone-square-alt"></i>
+                                        0865659995</div>
+                                </li>
+                                <li class='col-md-12 col-xs-12'>
+                                    <div class='col-md-12 margin-top-12'> <i class="far fa-envelope"></i>
+                                        hoangquanland95@gmail.com</div>
+                                </li>
+                                <li class='col-md-12 col-xs-12'>
+                                    <div class='col-md-12 margin-top-12'> <i class="fas fa-map-marked-alt"></i> Số
+                                        32 - Yên Bệ - Kim Chung - Hoài Đức - Hà Nội</div>
+                                </li>
+                            </ul>
+
+
+                            <div class="widget widget_gallery gallery-grid-4 margin-top-50 bortopftxs">
+                                <h5 class="footer-title">FANPAGE CỦA HOANGQUANLAND</h5>
+
+                                <div class="fb-page mt-3 fb_iframe_widget margin-top-20 fanpage" data-hide-cover="false"
+                                    data-href="https://www.facebook.com/hoangquanbatdongsan" data-show-facepile="false"
+                                    data-turbolinks-permanent="" data-turoblinks-nocache="" data-width="200"
+                                    fb-xfbml-state="rendered"
+                                    fb-iframe-plugin-query="app_id=889583184482960&amp;container_width=285&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fhoangquanbatdongsan&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=false&amp;width=200">
+                                    <span>
+                                        <iframe name="f2aabe3118095d8" data-testid="fb:page Facebook Social Plugin"
+                                            title="fb:page Facebook Social Plugin" frameborder="0"
+                                            allowtransparency="true" allowfullscreen="true" scrolling="no"
+                                            allow="encrypted-media"
+                                            src="https://www.facebook.com/v9.0/plugins/page.php?app_id=889583184482960&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df2f6328e54e4624%26domain%3Dwww.hoangquanland.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.hoangquanland.com%252Ffd08902651274c%26relation%3Dparent.parent&amp;container_width=285&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fhoangquanbatdongsan&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=false&amp;width=200"
+                                            class=""></iframe></span>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="row bortopft">
+
+                        <div class="col-md-6 col-xs-12 padding-top-30 text-centerxs">
+                            <nav id="footer-navigation" class="site-navigation footer-navigation centered-box"
+                                role="navigation">
+                                <ul id="footer-menu" class="nav-menu styled clearfix inline-inside">
+                                    <li id="menu-item-26"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26">
+                                        <a href="#">Hỗ trợ</a>
+                                    </li>
+                                    <li id="menu-item-27"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27">
+                                        <a href="#">Báo Giá</a>
+                                    </li>
+                                    <li id="menu-item-28"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28">
+                                        <a href="#">Liên hệ</a>
+                                    </li>
+
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div class="col-md-6 col-xs-12">
+                            <div class="social-links">
+                                <a class="social-btn" title="0865659995">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </a>
+                                <a class="social-btn" title="HOANGQUANLAND">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a class="social-btn" title="HOANGQUANLAND">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a class="social-btn" title="HOANGQUANLAND">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                                <a class="social-btn" title="HOANGQUANLAND">
+                                    <i class="fab fa-tiktok"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!--END FOOTER -->
+
+
+    <!-- Modal toongr quan dự án -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="fluid-width-video-wrapper VideoNB">
+                                <iframe allowfullscreen="true" class="ifNB"
+                                    src="https://www.youtube.com/embed/5e0LxrLSzok?mute=1&amp;controls=1&amp;autoplay=1"
+                                    width="100%"></iframe>
+                            </div>
+                        </div>
+                        <div class="col-4 VideoNB">
+                            <div class='' style="width: 100%;">
+                                <div>
+                                    <img src='././Images/bg.png'>
+                                </div>
+                                <div class="button-container-1 margin-top-20">
+                                    <span class="mas"> <i class="far fa-paper-plane"></i> DỊCH VỤ LAI XÁ
+                                        THỬA 174 </span>
+                                    <button id='work' type="button" name="Hover"> <i class="far fa-paper-plane"></i>
+                                        DỊCH VỤ LAI XÁ THỬA
+                                        174</button>
+                                </div>
+                                <div class='row Orther2'>
+                                    <span class='col-2  text-center iconprice'><i class="fab fa-accusoft"></i></span>
+                                    <span class='col-10 padding-5-xs pricePD'> 55.0tr ~ 65.0tr</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="far fa-compass"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> 65.0 ~ 120.0m</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="fas fa-building text-info"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Liền kề</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="fas fa-map-marker-alt text-info"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Trạm Trôi - Hoài Đức -
+                                        Hà Nội</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- END Modal toongr quan dự án -->
+
+    <!-- Modal Chi tiết sản phẩm -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="row">
+                        <div class="col-md-8 col-xs-12">
+                            <div class="fluid-width-video-wrapper VideoNB">
+                                <iframe allowfullscreen="true" class="ifNB"
+                                    src="https://www.youtube.com/embed/5e0LxrLSzok?mute=1&amp;controls=1&amp;autoplay=1"
+                                    width="100%"></iframe>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 VideoNB">
+                            <div class='' style="width: 100%;">
+                                <div>
+                                    <img src='././Images/bg.png'>
+                                </div>
+                                <div class="button-container-1 margin-top-20">
+                                    <span class="mas"> <i class="far fa-paper-plane"></i> DỊCH VỤ LAI XÁ
+                                        THỬA 174 </span>
+                                    <button id='work' type="button" name="Hover"> <i class="far fa-paper-plane"></i>
+                                        DỊCH VỤ LAI XÁ THỬA
+                                        174</button>
+                                </div>
+                                <div class='row Orther2'>
+                                    <span class='col-2  text-center iconprice'><i class="fab fa-accusoft"></i></span>
+                                    <span class='col-10 padding-5-xs pricePD'> 55.0tr ~ 65.0tr</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="far fa-compass"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> 65.0 ~ 120.0m</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="fas fa-building text-info"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Liền kề</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="fas fa-map-marker-alt text-info"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Trạm Trôi - Hoài Đức -
+                                        Hà Nội</span>
+                                </div>
+                                <div class="description margin-top-20">
+                                    <p>
+                                        Yếu tố đầu tư :
+                                    </p>
+                                    <p>
+                                        ⁃ Gồm 4 toà nhà ở xã hội với cư dân 5 nghìn người
+                                    </p>
+                                    <p>
+                                        ⁃ Giáp đường 3.5
+
+                                    </p>
+                                    <p>
+                                        ⁃ Cách trung tâm 6,5 km
+                                    </p>
+                                    <p>
+                                        ⁃ Mặt sau trường Đại học Thành Đô
+                                    </p>
+                                    <p>
+                                        ⁃ Cách Đại học công nghiệp 1500m
+                                    </p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- END Modal Chi tiết sản phẩm -->
+
+    <!-- Modal tư vấn pháp lý -->
+    <div class="modal fade" id="exampleModalpl" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="row">
+                        <div class="col-md-8 col-xs-12">
+                            <div class="fluid-width-video-wrapper VideoNB">
+                                <iframe allowfullscreen="true" class="ifNB"
+                                    src="https://www.youtube.com/embed/5e0LxrLSzok?mute=1&amp;controls=1&amp;autoplay=1"
+                                    width="100%"></iframe>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 VideoNB">
+                            <div class='' style="width: 100%;">
+                                <div>
+                                    <img src='././Images/bg.png'>
+                                </div>
+                                <div class="button-container-1 margin-top-20">
+                                    <span class="mas"> <i class="far fa-paper-plane"></i>  Top 5 điều nên tránh khi đầu tư BDS Hoà Lạc </span>
+                                    <button id='work' type="button" name="Hover"> <i class="far fa-paper-plane"></i>
+                                        Top 5 điều nên tránh khi đầu tư BDS Hoà Lạc</button>
+                                </div>
+                             
+                                <div class="description margin-top-20">
+                                    <p>
+                                        Yếu tố đầu tư :
+                                    </p>
+                                    <p>
+                                        ⁃ Gồm 4 toà nhà ở xã hội với cư dân 5 nghìn người
+                                    </p>
+                                    <p>
+                                        ⁃ Giáp đường 3.5
+
+                                    </p>
+                                    <p>
+                                        ⁃ Cách trung tâm 6,5 km
+                                    </p>
+                                    <p>
+                                        ⁃ Mặt sau trường Đại học Thành Đô
+                                    </p>
+                                    <p>
+                                        ⁃ Cách Đại học công nghiệp 1500m
+                                    </p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Modal tư vấn pháp lý -->
 </body>
 
 </html>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/plugin.js"></script>
+<!-- sidebar -->
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/HQ.js"></script>
+<script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
