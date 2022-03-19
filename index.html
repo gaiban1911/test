@@ -11,7 +11,7 @@
     <title>HOANGQUANLAND</title>
     <link href="./css/adminlte.min.css" rel="stylesheet" />
     <link href="./css/animation.css" rel="stylesheet" />
-    <link href="./css/HQ.css" rel="stylesheet" />
+    <link href="./css/HQ.css?v=1.0.2" rel="stylesheet" />
     <link rel="stylesheet" href="./Plugins/fontawesome-free/css/all.min.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -56,9 +56,9 @@
                                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
                                                 role="button" aria-haspopup="true" aria-expanded="false">Dự Án
-                                                 <i class="fas fa-angle-down"></i></a>
+                                                <i class="fas fa-angle-down"></i></a>
                                             <div class="dropdown-menu">
-                                                <a class="dropdown-item" href="#">Dịch Vụ Kim Chung</a>
+                                                <a class="dropdown-item" href="login.js">Dịch Vụ Kim Chung</a>
                                                 <a class="dropdown-item" href="#">Đấu Giá Lai Xá</a>
                                                 <a class="dropdown-item" href="#">Khu đô thị Tân Tây Đô</a>
                                                 <a class="dropdown-item" href="#">Dịch Vụ Trạm Trôi</a>
@@ -69,7 +69,7 @@
                                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
                                                 role="button" aria-haspopup="true" aria-expanded="false">Đất nền
-                                                 <i class="fas fa-angle-down"></i></a>
+                                                <i class="fas fa-angle-down"></i></a>
                                             <div class="dropdown-menu">
                                                 <a class="dropdown-item" href="#">Dịch Vụ Kim Chung</a>
                                                 <a class="dropdown-item" href="#">Đấu Giá Lai Xá</a>
@@ -104,56 +104,84 @@
     </div>
     <!-- END HEADER-->
     <!-- BANNER -->
-   <!--  <div class="bannert">
-        <div id="fondo">
-            <h1>Hey!</h1>
-          </div>
-          <div id="encima"></div>
-    </div>
-   -->
-    <div class="BannerTop skw-pages infor" >
-        <div class="skw-page skw-page-1 active">
-            <div class="skw-page__half skw-page__half--left">
-                <div class="skw-page__skewed">
-                    <div class="skw-page__content"></div>
-                </div>
-            </div>
-            <div class="skw-page__half skw-page__half--right">
-                <div class="skw-page__skewed">
-                    <div class="skw-page__content">
-                        <h2 class="skw-page__heading">Chuyên biệt thự, liền kề</h2>
-                        <p class="skw-page__description">Biệt thự liền kề là một trong những loại hình biệt thự đang
-                            được nhắc đến rất nhiều ở thời điểm hiện tại và xuất hiện rất nhiều tại các khu đô thị mới.
-                            Vậy biệt thự liền kề là gì? Ưu nhược điểm ra sao? Có nên mua biệt thự liền kề hay không?
-                            Hãy cùng chúng tôi tìm hiểu dưới đây nhé!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="skw-page skw-page-2">
-            <div class="skw-page__half skw-page__half--left">
-                <div class="skw-page__skewed">
-                    <div class="skw-page__content">
-                        <h2 class="skw-page__heading">Đất nền phân lô</h2>
-                        <p class="skw-page__description">Với mong muốn sở hữu một ngôi nhà gắn liền với mặt đất để có
-                            được không gian cá nhân và thoải mái, nhiều khách hàng đã lựa chọn nhận đất phân lô để xây
-                            dựng tổ ấm riêng cho mình và cả gia đình. Thấu hiểu mong muốn này của quý khách hàng, hãy
-                            cùng chúng tôi tham khảo dưới đây nhé!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="skw-page__half skw-page__half--right">
-                <div class="skw-page__skewed">
-                    <div class="skw-page__content"></div>
-                </div>
-            </div>
-        </div>
+    <div class="bannert BannerTop skw-pages infor">
+        <div class="slider-container">
+            <div class="slider-control left inactive"></div>
+            <div class="slider-control right"></div>
+            <ul class="slider-pagi"></ul>
+            <div class="slider">
+                <div class="slide slide-0 active">
+                    <div class="slide__bg"></div>
+                    <div class="slide__content">
+                        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                            <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                        </svg>
+                        <div class="slide__text">
+                            <h4 class="slide__text-heading">DỰ ÁN 1</h4>
+                            <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore
+                                quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus
+                                illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
 
-    </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="slide slide-1 ">
+                    <div class="slide__bg"></div>
+                    <div class="slide__content">
+                        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                            <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                        </svg>
+                        <div class="slide__text">
+                            <h2 class="slide__text-heading">DỰ ÁN 2</h2>
+                            <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore
+                                quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus
+                                illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="slide slide-2">
+                    <div class="slide__bg"></div>
+                    <div class="slide__content">
+                        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                            <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                        </svg>
+                        <div class="slide__text">
+                            <h2 class="slide__text-heading">DỰ ÁN 3</h2>
+                            <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore
+                                quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus
+                                illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="slide slide-3">
+                    <div class="slide__bg"></div>
+                    <div class="slide__content">
+                        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                            <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                        </svg>
+                        <div class="slide__text">
+                            <h2 class="slide__text-heading">DỰ ÁN 4</h2>
+                            <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore
+                                quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus
+                                illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <!--END BANNER -->
 
     <!--VIDEO NOIBAT -->
-    <div class="VIDEONOIBAT video_area" >
+    <div class="VIDEONOIBAT video_area">
         <div class="">
             <div class="row">
 
@@ -307,7 +335,7 @@
                     <div class='contentbody'>
                         <div>
 
-                            <img loading="lazy" src="./Images/Play.png" width="45px" height="45px" class='play' />
+                            <img loading="lazy" src="./Images/Play.png" width="45px" height="45px" class='play'  data-toggle="modal" data-target="#myModal" />
                             <img loading="lazy" src="./Images/tagnew.png" class='playNB' />
                             <img loading="lazy" width="100%" src="./Images/hinh.png" class='fiximgsv' />
                         </div>
@@ -343,7 +371,7 @@
                     <div class='contentbody'>
                         <div>
 
-                            <img loading="lazy" src="./Images/Play.png" width="45px" height="45px" class='play' />
+                            <img loading="lazy" src="./Images/Play.png" width="45px" height="45px" class='play'  data-toggle="modal" data-target="#myModal" />
                             <img loading="lazy" src="./Images/tagnew.png" class='playNB' />
                             <img loading="lazy" width="100%" src="./Images/hinh.png" class='fiximgsv' />
                         </div>
@@ -378,7 +406,7 @@
                 <div class='col-md-3 col-sm-6 col-6 margin-top30-xs'>
                     <div class='contentbody'>
                         <div>
-                            <img loading="lazy" src="./Images/Play.png" width="45px" height="45px" class='play' />
+                            <img loading="lazy" src="./Images/Play.png" width="45px" height="45px" class='play'  data-toggle="modal" data-target="#myModal" />
                             <img loading="lazy" src="./Images/tagnew.png" class='playNB' />
                             <img loading="lazy" width="100%" src="./Images/hinh.png" class='fiximgsv' />
                         </div>
@@ -439,14 +467,10 @@
             <div class='col-md-6 col-sm-6 col-xs-12 margin-top30 BlockLeft'>
                 <div class='contentbodyblue row backgroundNB'>
                     <div class='col-md-6 col-sm-6 col-6 IMghover'>
-                        <img loading="lazy" src="./Images/Play.png" width="45px" height="45px" data-toggle="modal"
-                            data-target="#exampleModal2" class='play2' />
+                        <img loading="lazy" src="./Images/Play.png" width="45px" height="45px"  data-toggle="modal" data-target="#exampleModalpl" class='play2' />
                         <img loading="lazy" src="./Images/tag.png" class='play5' />
                         <img loading="lazy" width="100%" src="./Images/hinh.png" class='fiximgsvLeft image' />
-                        <div class="middle">
-                            <div class="text"> <img loading="lazy" src="./Images/Play.png" width="45px" height="45px"
-                                    data-toggle="modal" data-target="#exampleModal2" class='play2' /></div>
-                        </div>
+                       
                     </div>
                     <div class="col-md-6 col-sm-6 col-6 nameNB">
                         <div class=' button-container-1'>
@@ -487,10 +511,7 @@
                         <img loading="lazy" src="./Images/Play.png" width="45px" height="45px" class='play2' />
                         <img loading="lazy" src="./Images/tag.png" class='play5' />
                         <img loading="lazy" width="100%" src="./Images/hinh.png" class='fiximgsvLeft' />
-                        <div class="middle">
-                            <div class="text"> <img loading="lazy" src="./Images/Play.png" width="45px" height="45px"
-                                    data-toggle="modal" data-target="#exampleModal2" class='play2' /></div>
-                        </div>
+                     
                     </div>
                     <div class="col-md-6 col-sm-6 col-6 nameNB">
                         <div class=' button-container-1'>
@@ -825,7 +846,8 @@
                                 <div class='text-center margin-top-20'><i class="far fa-building"></i></div>
                                 <div>
                                     <p class='Aboutcompanytitle margin-top-20'>Công ty đã có hơn 5 năm kinh
-                                        nghiệm trong ngành tư vấn, mua, bán bất động sản. Và đội ngũ nhân viên tư vấn nhiệt tình, dày dặn kinh nghiệm!</p>
+                                        nghiệm trong ngành tư vấn, mua, bán bất động sản. Và đội ngũ nhân viên tư vấn
+                                        nhiệt tình, dày dặn kinh nghiệm!</p>
                                 </div>
 
                             </div>
@@ -833,7 +855,8 @@
                                 <div class="text-shadow font-15 text-center"> LỊCH SỬ HÌNH THÀNH</div>
                                 <div class='text-center margin-top-20'><i class="far fa-building"></i></div>
                                 <p class="margin-top-20">Công ty đã có hơn 5 năm kinh
-                                    nghiệm trong ngành tư vấn, mua, bán bất động sản. Và đội ngũ nhân viên tư vấn nhiệt tình, dày dặn kinh nghiệm!</p>
+                                    nghiệm trong ngành tư vấn, mua, bán bất động sản. Và đội ngũ nhân viên tư vấn nhiệt
+                                    tình, dày dặn kinh nghiệm!</p>
                             </div>
                         </div>
                     </div>
@@ -844,14 +867,16 @@
                                 <div class='text-center margin-top-20'><i class="fas fa-users"></i></div>
                                 <div>
                                     <p class='Aboutcompanytitle margin-top-20'><sup>"</sup> Luôn vững vàng với mục tiêu
-                                        mang lại cho khách hàng những sản phẩm bất động sản tốt nhất bằng dịch vụ chuyên nghiệp nhất."</p>
+                                        mang lại cho khách hàng những sản phẩm bất động sản tốt nhất bằng dịch vụ chuyên
+                                        nghiệp nhất."</p>
                                 </div>
                             </div>
                             <div class="back">
                                 <div class="text-shadow font-15 text-center">MỤC TIÊU HƯỚNG TỚI</div>
                                 <div class='text-center margin-top-20'><i class="far fa-building"></i></div>
                                 <p class="margin-top-20">" Luôn vững vàng với mục tiêu
-                                    mang lại cho khách hàng những sản phẩm bất động sản tốt nhất bằng dịch vụ chuyên nghiệp nhất. "</p>
+                                    mang lại cho khách hàng những sản phẩm bất động sản tốt nhất bằng dịch vụ chuyên
+                                    nghiệp nhất. "</p>
                             </div>
                         </div>
                     </div>
@@ -1114,8 +1139,9 @@
                                         <div class="row d_flex">
                                             <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 pa_rile">
                                                 <div class="img_box">
-                                                    <i><img src="images/icon_1.png" alt="#"  /></i>
-                                                    <figure><img src="images/tag.png" alt="#" class="careponsive"/></figure>
+                                                    <i><img src="images/icon_1.png" alt="#" /></i>
+                                                    <figure><img src="images/tag.png" alt="#" class="careponsive" />
+                                                    </figure>
                                                 </div>
                                             </div>
                                             <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 pa_rile">
@@ -1139,7 +1165,8 @@
                                             <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 pa_rile">
                                                 <div class="img_box">
                                                     <i><img src="images/icon_1.png" alt="#" /></i>
-                                                    <figure><img src="images/tag.png" alt="#" class="careponsive"/></figure>
+                                                    <figure><img src="images/tag.png" alt="#" class="careponsive" />
+                                                    </figure>
                                                 </div>
                                             </div>
                                             <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 pa_rile">
@@ -1160,7 +1187,8 @@
                                             <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 pa_rile">
                                                 <div class="img_box">
                                                     <i><img src="images/icon_1.png" alt="#" /></i>
-                                                    <figure><img src="images/tag.png" alt="#" class="careponsive"/></figure>
+                                                    <figure><img src="images/tag.png" alt="#" class="careponsive" />
+                                                    </figure>
                                                 </div>
                                             </div>
                                             <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 pa_rile">
@@ -1189,6 +1217,9 @@
             </div>
         </div>
     </div>
+
+
+
     <!--FOOTER -->
     <div class="Footerbottom">
 
@@ -1414,6 +1445,16 @@
                         </div>
 
                     </div>
+
+                    <div class="row">
+                        <div class="search-wrapper" data-toggle="modal" data-target="#exampleModalfind">
+                            <div class="input-holder">
+                                <input type="text" class="search-input" placeholder="Type to search" />
+                                <button class="search-icon"><span></span></button>
+                            </div>
+                            <!--   <span class="c" onclick="searchToggle(this, event);"></span> -->
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>
@@ -1430,14 +1471,14 @@
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <div class="row">
-                        <div class="col-8">
+                        <div class="col-md-8 col-xs-12">
                             <div class="fluid-width-video-wrapper VideoNB">
                                 <iframe allowfullscreen="true" class="ifNB"
                                     src="https://www.youtube.com/embed/5e0LxrLSzok?mute=1&amp;controls=1&amp;autoplay=1"
                                     width="100%"></iframe>
                             </div>
                         </div>
-                        <div class="col-4 VideoNB">
+                        <div class="col-md-4 col-xs-12 VideoNB">
                             <div class='' style="width: 100%;">
                                 <div>
                                     <img src='././Images/bg.png'>
@@ -1576,11 +1617,12 @@
                                     <img src='././Images/bg.png'>
                                 </div>
                                 <div class="button-container-1 margin-top-20">
-                                    <span class="mas"> <i class="far fa-paper-plane"></i>  Top 5 điều nên tránh khi đầu tư BDS Hoà Lạc </span>
+                                    <span class="mas"> <i class="far fa-paper-plane"></i> Top 5 điều nên tránh khi đầu
+                                        tư BDS Hoà Lạc </span>
                                     <button id='work' type="button" name="Hover"> <i class="far fa-paper-plane"></i>
                                         Top 5 điều nên tránh khi đầu tư BDS Hoà Lạc</button>
                                 </div>
-                             
+
                                 <div class="description margin-top-20">
                                     <p>
                                         Yếu tố đầu tư :
@@ -1616,6 +1658,83 @@
         </div>
     </div>
     <!-- Modal tư vấn pháp lý -->
+    <!-- Modal tìm kiếm -->
+    <div class="modal fade" id="exampleModalfind" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="nav nav-tabs margin-top-5 " id="custom-tabs-two-tab" role="tablist">
+                                <li class="nav-item margin-left-1s">
+                                    <a class="nav-link active" id="data-add" data-toggle="pill" href="#data-add-tab"
+                                        role="tab" aria-controls="custom-tabs-two-home" aria-selected="true"><span
+                                            class='bg-ripe-Pink icon-gradient'> Quận/Huyện</span></a>
+                                </li>
+                                <li class="nav-item bg-ripe-Pink icon-gradient">
+                                    <a class="nav-link" id="data-list" data-toggle="pill" href="#data-list-tab"
+                                        role="tab" aria-controls="custom-tabs-two-profile" aria-selected="false"><span
+                                            class='bg-ripe-Pink icon-gradient'> Dự án </span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content col-md-12" id="custom-tabs-two-tabContent">
+                            <div class="tab-pane fade show active col-md-12" id="data-add-tab" role="tabpanel"
+                                aria-labelledby="custom-tabs-two-home-tab">
+                                <div class="row">
+                                    <div class="col-md-5 margin-top-10">
+                                        <label for="cars">Quận/ Huyện:</label>
+                                        <select >
+                                            <option value="1">Hoài Đức</option>
+                                            <option value="2">Hoà Lạc</option>
+                                            <option value="3">Đan Phượng</option>
+                                            
+                                          </select>
+                                    </div>
+                                    <div class="col-md-5 margin-top-10">
+                                        <label for="cars">Phường/ xã</label>
+                                        <select >
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="vw">VW</option>
+                                            <option value="audi" selected>Audi</option>
+                                          </select>
+                                    </div>
+                                    <div class="col-md-2" style="margin-top:60px">
+                                        <button type="button" class="btn-sm btn-danger"><i class="fas fa-search"></i> Tìm kiếm</button>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                            <div class="tab-pane fade" id="data-list-tab" role="tabpanel"
+                                aria-labelledby="custom-tabs-two-profile-tab">
+                                <div class="row">
+                                    <div class="col-md-8 margin-top-10">
+                                        <label for="cars">Dự án</label>
+                                        <select >
+                                            <option value="1">Dự án 1</option>
+                                            <option value="2">Dự án 2</option>
+                                            <option value="3">Dự án 3</option>
+                                            
+                                          </select>
+                                    </div>
+                                  
+                                    <div class="col-md-2" style="margin-top:60px">
+                                        <button type="button" class="btn-sm btn-danger"><i class="fas fa-search"></i> Tìm kiếm</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Modal Modal tìm kiếm -->
 </body>
 
 </html>

@@ -2802,7 +2802,7 @@ COMMON STYLES
         width: 26px !important;
         left: 37%;}
         .video .imgvideo {
-            box-shadow: #eeeeee  8px -14px 2px 4px;
+          /*   box-shadow: #eeeeee  8px -14px 2px 4px; */
             width: 100%;
             height: 64px !important;
         }
@@ -2974,7 +2974,7 @@ tuor:visited {
 -----------------------------------------*/
 
 .video_area {
-    background: #1b2b40;
+   
     padding-bottom: 30px;
     padding-top: 60px;
 }
@@ -3764,7 +3764,7 @@ height: 100%;
 }
 .video .imgvideo
 {
-  box-shadow: #1f2c3f 20px -11px 0px 0px;
+ /*  box-shadow: #1f2c3f 20px -11px 0px 0px; */
   width: 100%;
   height: 100px;
 }
@@ -3927,7 +3927,7 @@ solid transparent;
   font-size: 18px;
   line-height: 28px;
   margin-top: 40px;
-  color: #fff;
+  color: #a81422;
   font-weight: 300;
 }
 .hidden-lg
