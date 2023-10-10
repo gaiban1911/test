@@ -1,0 +1,2242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HOOANGQUANLAND</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/Purchase.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent hd">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                    <h1 class="m-0 text-primary"><img class="img-fluid" src="img/logo.png" alt="Icon"
+                            style="width: 220px">
+
+                    </h1>
+                    <a href="Search.html" class="hidden-xs a_Search"><i class="fa fa-search btsearchhead"></i></a>
+                </a>
+
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Trang chủ</a>
+                        <a href="contact.html" class="nav-item nav-link">Liên hệ</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">BDS HOANGQUANLAND</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="HQProject.html" class="dropdown-item">Dự án HQ 1</a>
+                                <a href="HQProject.html" class="dropdown-item">Dự án HQ 2</a>
+                                <a href="HQProject.html" class="dropdown-item">Dự án HQ 3</a>
+                            </div>
+                        </div>
+                        <a href="Purchase.html" class="nav-item nav-link">Mua/Bán</a>
+                        <a href="Lease.html" class="nav-item nav-link active">Cho thuê</a>
+                    </div>
+                    <div class="nav-item dropdown">
+
+                        <a href="#" class="nav-link dropdown-toggle text-primary" data-bs-toggle="dropdown">
+                            <img loading="lazy"
+                                src="https://www.hoangquanland.com/packs/media/images/default-7fad56cc0166a9d2acdaec66a5a6a346.jpg"
+                                class="avartar" alt="">
+                            Xin chào! ABC
+                        </a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="MyInformation.html" class="dropdown-item"><i class="fa fa-user text-primary"
+                                    style="width:10px"></i> Thông tin</sup></a>
+                            <a href="MyPost.html" class="dropdown-item"><i class="fa fa-file  text-primary"
+                                    aria-hidden="true" style="width:10px"></i> Tin đăng <sup>(2)</sup></a>
+                            <a href="MyCart.html" class="dropdown-item"> <i class="fa fa-shopping-cart  text-primary"
+                                    aria-hidden="true" style="width:10px"></i> Giỏ Hàng <sup>(1)</sup></a>
+                            <a href="MyCart.html" class="dropdown-item"><i class="fa fa-share-square text-primary"
+                                    style="width:10px"></i> Chia sẻ <sup>(4)</sup></a>
+                            <a href="MyCart.html" class="dropdown-item"><i class="fa fa-heart text-primary"
+                                    style="width:10px"></i> Yêu thích <sup>(3)</sup></a>
+
+                            <a href="Logout" class="dropdown-item"><i class="fa-arrow-right-from-bracket text-primary"
+                                    style="width:10px" aria-hidden="true"></i> Đăng xuất</a>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Header Start -->
+        <div class="container-fluid header bg-white p-0 hidden-lg">
+            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-6 p-5 mt-lg-5">
+                    <h1 class="display-5 animated fadeIn mb-4 mar-top-40xs">CHO THUÊ</h1>
+                    <nav aria-label="breadcrumb animated fadeIn">
+                        <ol class="breadcrumb text-uppercase">
+                            <li class="breadcrumb-item"><a href="#">TRANG CHỦ</a></li>
+                            <li class="breadcrumb-item text-body active" aria-current="page">CHO THUÊ</li>
+                        </ol>
+                    </nav>
+
+                </div>
+                <div class="col-md-6 animated fadeIn hidden-lg">
+                    <img class="img-fluid" src="img/header.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- Search Start -->
+        <div class="container-fluid bg-primary wow fadeIn searhpj padd25 border-radius-5 hidden-lg"
+            data-wow-delay="0.1s">
+            <div class="container">
+                <div class="row g-2">
+
+                    <div class="col-3 hidden-lg">
+                        <input type="text" class="form-control border-0 py-3" placeholder="Từ khóa tìm kiếm">
+                    </div>
+                    <div class="col-3">
+                        <select class="form-select border-0 py-3">
+                            <option selected>Giá</option>
+                            <option value="1">20-50tr/m2</option>
+                            <option value="2">50-100tr/m2</option>
+                            <option value="3">Trên 100tr/m2</option>
+                        </select>
+                    </div>
+                    <div class="col-3">
+                        <select class="form-select border-0 py-3">
+                            <option selected>Diện tích</option>
+                            <option value="1">100 m2></option>
+                            <option value="2">100-300 m3</option>
+                            <option value="3">Trên 300m2</option>
+                        </select>
+                    </div>
+                    <div class="col-2">
+                        <button class="btn btn-dark border-0 w-100 py-3"><i class="fa fa-search"
+                                aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Search End -->
+
+
+        <!-- Project Start -->
+        <div class="container-xxl fullproject  mar-top-40xs purchase">
+            <div class="container">
+                <div class="row g-0 gx-5 align-items-end fixmenu">
+
+                    <div class=" text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
+                        <ul class="nav nav-pills row">
+                            <li class="nav-item col-3 text-center">
+                                <a class="btn  active" data-bs-toggle="pill" href="#tab-111"> <img
+                                        src="img/icon-condominium.png" />
+                                    <div>
+                                        Chung cư, căn hộ
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item col-3 text-center">
+                                <a class="btn " data-bs-toggle="pill" href="#tab-211"> <img src="img/icon-luxury.png" />
+                                    <div>
+                                        VP, mặt bằng
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item  col-3 text-center">
+                                <a class="btn " data-bs-toggle="pill" href="#tab-311"> <img
+                                        src="img/icon-housing.png" />
+                                    <div>
+                                        Phòng trọ
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item  col-3 text-center">
+                                <a class="btn " data-bs-toggle="pill" href="#tab-411"> <img
+                                        src="img/icon-apartment.png" />
+                                    <div>
+                                        Nhà ở
+                                    </div>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-content purchaseimg mt-2">
+                    <div id="tab-111" class="tab-pane  pdt85i fade show p-0 active">
+                        <div class="row g-4 mt-2 borshadow wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="col-md-12 mt-2 AvaCus_PD">
+                                <img class="mt-2 ml-15 borcustomer" src="img/avatar.svg" width="35px" alt="Icon">
+                                <label class="NameCustomerPd">Khách Hàng 1</label>
+                                <label class="hoursePd">
+                                    5 phút trước
+                                </label>
+                            </div>
+                            <div class="col-md-3 mt-0i">
+                                <div class=" rounded overflow-hidden">
+                                    <div class="tickets-container">
+                                        <div class="item row">
+
+                                            <div class="wow slideInRight" data-wow-delay="0.1s">
+                                                <div class="penis">
+                                                    <ul class="slides">
+                                                        <input type="radio" name="radio-btn" id="img-1" checked />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-6" class="prev">&#x2039;</label>
+                                                                <label for="img-2" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn" id="img-2" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_2.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-1" class="prev">&#x2039;</label>
+                                                                <label for="img-3" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn" id="img-3" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_3.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-2" class="prev">&#x2039;</label>
+                                                                <label for="img-4" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn" id="img-4" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_4.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-3" class="prev">&#x2039;</label>
+                                                                <label for="img-5" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn" id="img-5" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_5.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-4" class="prev">&#x2039;</label>
+                                                                <label for="img-6" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn" id="img-6" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_6.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-5" class="prev">&#x2039;</label>
+                                                                <label for="img-7" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn" id="img-7" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_7.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-6" class="prev">&#x2039;</label>
+                                                                <label for="img-8" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn" id="img-8" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_8.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-7" class="prev">&#x2039;</label>
+                                                                <label for="img-9" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn" id="img-9" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_9.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-8" class="prev">&#x2039;</label>
+                                                                <label for="img-1" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <li class="nav-dots">
+                                                            <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                                                            <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                                                            <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                                                            <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                                                            <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+                                                            <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+                                                            <label for="img-7" class="nav-dot" id="img-dot-7"></label>
+                                                            <label for="img-8" class="nav-dot" id="img-dot-8"></label>
+                                                            <label for="img-9" class="nav-dot" id="img-dot-9"></label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div> <!-- end item-left -->
+                                    </div> <!-- end item -->
+
+                                </div>
+                            </div>
+                            <div class="col-md-9 mt-5i">
+
+
+                                <div class="row">
+                                    <div class="col-12 tt"> <a class="cl-bluei" href="LeaseProduct.html"> Tên DV cho
+                                            thuê 1</a>
+
+                                    </div>
+
+                                    <div class="row mt-2">
+
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/price_m2.png" width="14px" alt="Icon">
+                                            400m<sup>2</sup>
+                                        </span>
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/direction.png" width="14px" alt="Icon">
+                                            PN: 3
+                                        </span>
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/toilets.png" width="14px" alt="Icon">
+                                            WC: 2
+                                        </span>
+                                        <span class="col-md-4 col-12 padding-5-xs adr">
+                                            <img class="" src="img/location.svg" width="14px" alt="Icon"> Trạm Trôi -
+                                            Hoài
+                                            Đức - Hà Nội</span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="col-md-2 col-12 padding-5-xs adr price">
+                                            <i class="fas fa-credit-card-alt" aria-hidden="true"></i> 5,2 tỷ
+                                        </span>
+                                    </div>
+
+                                    <div class="row">
+                                        <span class="col-12 col-md-6 col-12 padding-5-xs adr timepost mt-2">
+                                            <img class="mbot-2 " src="img/prioritize.svg" width="14px" alt="Icon">
+                                            Ưu tiên
+                                            <img class="mbot-2 ml-15 borcustomer" src="img/avatar.svg" width="16px"
+                                                alt="Icon"> Khách Hàng 1
+                                            <img class="mbot-2 ml-15 " src="img/order_timer.svg" width="14px"
+                                                alt="Icon"> Đăng tin
+                                            : 5 phút trước
+                                        </span>
+                                        <div class="col-12 col-md-6 col-12 padding-5-xs adr timepost mt-2">
+                                            <small class=" fs12i ">
+                                                <a href="LeaseProduct.html" style="color: #a81422;">
+                                                    <i class="fa fa-info-circle " aria-hidden="true"></i> Chi tiết
+                                                </a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a> <i class="fa fa-share-square text-primary"></i><span
+                                                        class="text-blue">
+                                                        Chia sẻ </span></a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a> <i class="fa fa-shopping-cart text-primary"></i><span
+                                                        class="text-blue">Giỏ Hàng </span> </a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a>
+                                                    <i class="fa fa-heart text-primary"></i><span class="text-blue">
+                                                        Quan
+                                                        tâm </span>
+                                                </a>
+                                            </small>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row g-4 mt-2 borshadow wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="col-md-12 mt-2 AvaCus_PD">
+                                <img class="mt-2 ml-15 borcustomer" src="img/avatar.svg" width="35px" alt="Icon">
+                                <label class="NameCustomerPd">Khách Hàng 2</label>
+                                <label class="hoursePd">
+                                    5 phút trước
+                                </label>
+                            </div>
+                            <div class="col-md-3 mt-0i">
+                                <div class=" rounded overflow-hidden">
+                                    <div class="tickets-container">
+                                        <div class="item row">
+
+                                            <div class="wow slideInRight" data-wow-delay="0.1s">
+                                                <div class="penis">
+                                                    <ul class="slides">
+                                                        <input type="radio" name="radio-btn2" id="img-11" checked />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-16" class="prev">&#x2039;</label>
+                                                                <label for="img-12" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn2" id="img-12" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_2.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-11" class="prev">&#x2039;</label>
+                                                                <label for="img-13" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn2" id="img-13" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_3.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-12" class="prev">&#x2039;</label>
+                                                                <label for="img-14" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn2" id="img-14" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_4.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-13" class="prev">&#x2039;</label>
+                                                                <label for="img-15" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn2" id="img-15" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_5.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-14" class="prev">&#x2039;</label>
+                                                                <label for="img-16" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn2" id="img-16" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_6.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-15" class="prev">&#x2039;</label>
+                                                                <label for="img-17" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn2" id="img-17" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_7.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-16" class="prev">&#x2039;</label>
+                                                                <label for="img-18" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn2" id="img-18" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_8.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-17" class="prev">&#x2039;</label>
+                                                                <label for="img-19" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn2" id="img-19" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_9.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-18" class="prev">&#x2039;</label>
+                                                                <label for="img-11" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <li class="nav-dots">
+                                                            <label for="img-11" class="nav-dot" id="img-dot-1"></label>
+                                                            <label for="img-12" class="nav-dot" id="img-dot-2"></label>
+                                                            <label for="img-13" class="nav-dot" id="img-dot-3"></label>
+                                                            <label for="img-14" class="nav-dot" id="img-dot-4"></label>
+                                                            <label for="img-15" class="nav-dot" id="img-dot-5"></label>
+                                                            <label for="img-16" class="nav-dot" id="img-dot-6"></label>
+                                                            <label for="img-17" class="nav-dot" id="img-dot-7"></label>
+                                                            <label for="img-18" class="nav-dot" id="img-dot-8"></label>
+                                                            <label for="img-19" class="nav-dot" id="img-dot-9"></label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div> <!-- end item-left -->
+                                    </div> <!-- end item -->
+
+
+                                </div>
+                            </div>
+                            <div class="col-md-9 mt-5i">
+
+
+                                <div class="row">
+                                    <div class="col-12 tt"> <a class="cl-bluei" href="LeaseProduct.html"> Tên DV cho
+                                            thuê 2</a>
+
+                                    </div>
+
+                                    <div class="row mt-2">
+
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/price_m2.png" width="14px" alt="Icon">
+                                            400m<sup>2</sup>
+                                        </span>
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/direction.png" width="14px" alt="Icon">
+                                            PN: 3
+                                        </span>
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/toilets.png" width="14px" alt="Icon">
+                                            WC: 2
+                                        </span>
+                                        <span class="col-md-4 col-12 padding-5-xs adr">
+                                            <img class="" src="img/location.svg" width="14px" alt="Icon"> Trạm Trôi
+                                            -
+                                            Hoài
+                                            Đức - Hà Nội</span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="col-md-2 col-12 padding-5-xs adr price">
+                                            <i class="fas fa-credit-card-alt" aria-hidden="true"></i> 5,3 tỷ
+                                        </span>
+                                    </div>
+
+                                    <div class="row">
+                                        <span class="col-12 col-md-6 padding-5-xs adr timepost mt-2">
+                                            <img class="mbot-2 " src="img/prioritize.svg" width="14px" alt="Icon">
+                                            Ưu tiên
+                                            <img class="mbot-2 ml-15 borcustomer" src="img/avatar.svg" width="16px"
+                                                alt="Icon"> Khách Hàng 2
+                                            <img class="mbot-2 ml-15 " src="img/order_timer.svg" width="14px"
+                                                alt="Icon"> Đăng tin
+                                            : 25 phút trước
+                                        </span>
+                                        <div class="col-12 col-md-6 col-12 padding-5-xs adr timepost mt-2">
+                                            <small class=" fs12i">
+                                                <a href="LeaseProduct.html" style="color: #a81422;">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i> Chi tiết
+                                                </a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a> <i class="fa fa-share-square text-primary"></i><span
+                                                        class="text-blue">
+                                                        Chia sẻ </span></a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a> <i class="fa fa-shopping-cart text-primary"></i><span
+                                                        class="text-blue">Giỏ Hàng </span> </a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a>
+                                                    <i class="fa fa-heart text-primary"></i><span class="text-blue">
+                                                        Quan
+                                                        tâm </span>
+                                                </a>
+                                            </small>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row g-4 mt-2 borshadow wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="col-md-12 mt-2 AvaCus_PD">
+                                <img class="mt-2 ml-15 borcustomer" src="img/avatar.svg" width="35px" alt="Icon">
+                                <label class="NameCustomerPd">Khách Hàng 3</label>
+                                <label class="hoursePd">
+                                    5 phút trước
+                                </label>
+                            </div>
+                            <div class="col-md-3 mt-0i">
+                                <div class=" rounded overflow-hidden">
+                                    <div class="tickets-container">
+                                        <div class="item row">
+
+                                            <div class="wow slideInRight" data-wow-delay="0.1s">
+                                                <div class="penis">
+                                                    <ul class="slides">
+                                                        <input type="radio" name="radio-btn3" id="img-111" checked />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-161" class="prev">&#x2039;</label>
+                                                                <label for="img-121" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn3" id="img-121" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_2.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-111" class="prev">&#x2039;</label>
+                                                                <label for="img-131" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn3" id="img-131" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_3.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-121" class="prev">&#x2039;</label>
+                                                                <label for="img-141" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn3" id="img-141" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_4.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-131" class="prev">&#x2039;</label>
+                                                                <label for="img-151" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn3" id="img-151" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_5.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-141" class="prev">&#x2039;</label>
+                                                                <label for="img-161" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn3" id="img-161" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_6.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-151" class="prev">&#x2039;</label>
+                                                                <label for="img-171" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn3" id="img-171" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_7.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-161" class="prev">&#x2039;</label>
+                                                                <label for="img-181" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn3" id="img-181" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_8.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-171" class="prev">&#x2039;</label>
+                                                                <label for="img-191" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn3" id="img-191" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_9.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-181" class="prev">&#x2039;</label>
+                                                                <label for="img-111" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <li class="nav-dots">
+                                                            <label for="img-11" class="nav-dot" id="img-dot-1"></label>
+                                                            <label for="img-12" class="nav-dot" id="img-dot-2"></label>
+                                                            <label for="img-13" class="nav-dot" id="img-dot-3"></label>
+                                                            <label for="img-14" class="nav-dot" id="img-dot-4"></label>
+                                                            <label for="img-15" class="nav-dot" id="img-dot-5"></label>
+                                                            <label for="img-16" class="nav-dot" id="img-dot-6"></label>
+                                                            <label for="img-17" class="nav-dot" id="img-dot-7"></label>
+                                                            <label for="img-18" class="nav-dot" id="img-dot-8"></label>
+                                                            <label for="img-19" class="nav-dot" id="img-dot-9"></label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div> <!-- end item-left -->
+                                    </div> <!-- end item -->
+
+                                </div>
+                            </div>
+                            <div class="col-md-9 mt-5i">
+
+
+                                <div class="row">
+                                    <div class="col-12 tt"> <a class="cl-bluei" href="LeaseProduct.html"> Tên DV
+                                            cho thuê 3</a>
+                                    </div>
+
+                                </div>
+
+                                <div class="row mt-2">
+
+                                    <span class="col-md-2 col-4 padding-5-xs adr">
+                                        <img class="" src="img/price_m2.png" width="14px" alt="Icon">
+                                        400m<sup>2</sup>
+                                    </span>
+                                    <span class="col-md-2 col-4 padding-5-xs adr">
+                                        <img class="" src="img/direction.png" width="14px" alt="Icon">
+                                        PN: 3
+                                    </span>
+                                    <span class="col-md-2 col-4 padding-5-xs adr">
+                                        <img class="" src="img/toilets.png" width="14px" alt="Icon">
+                                        WC: 2
+                                    </span>
+                                    <span class="col-md-4 col-12 padding-5-xs adr">
+                                        <img class="" src="img/location.svg" width="14px" alt="Icon"> Trạm Trôi
+                                        -
+                                        Hoài
+                                        Đức - Hà Nội</span>
+                                </div>
+                                <div class="row">
+                                    <span class="col-md-2 col-12 padding-5-xs adr price">
+                                        <i class="fas fa-credit-card-alt" aria-hidden="true"></i> 4 tỷ
+                                    </span>
+                                </div>
+
+                                <div class="row">
+                                    <span class="col-12 col-md-6 padding-5-xs adr timepost mt-2">
+                                        <img class="mbot-2 borcustomer" src="img/avatar.svg" width="16px" alt="Icon">
+                                        Khách Hàng 3
+                                        <img class="mbot-2 ml-15 " src="img/order_timer.svg" width="14px" alt="Icon">
+                                        Đăng tin
+                                        : 2 tiếng trước
+                                    </span>
+                                    <div class="col-12 col-md-6 col-12 padding-5-xs adr timepost mt-2">
+                                        <small class=" fs12i">
+                                            <a href="LeaseProduct.html" style="color: #a81422;">
+                                                <i class="fa fa-info-circle" aria-hidden="true"></i> Chi tiết
+                                            </a>
+                                        </small>
+                                        <small class="fs12i ml-15">
+                                            <a> <i class="fa fa-share-square text-primary"></i><span class="text-blue">
+                                                    Chia sẻ </span></a>
+                                        </small>
+                                        <small class="fs12i ml-15">
+                                            <a> <i class="fa fa-shopping-cart text-primary"></i><span
+                                                    class="text-blue">Giỏ Hàng </span> </a>
+                                        </small>
+                                        <small class="fs12i ml-15">
+                                            <a>
+                                                <i class="fa fa-heart text-primary"></i><span class="text-blue"> Quan
+                                                    tâm </span>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div class="row g-4 mt-2 borshadow wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="col-md-12 mt-2 AvaCus_PD">
+                                <img class="mt-2 ml-15 borcustomer" src="img/avatar.svg" width="35px" alt="Icon">
+                                <label class="NameCustomerPd">Khách Hàng 4</label>
+                                <label class="hoursePd">
+                                    5 phút trước
+                                </label>
+                            </div>
+                            <div class="col-md-3 mt-0i">
+                                <div class=" rounded overflow-hidden">
+                                    <div class="tickets-container">
+                                        <div class="item row">
+
+                                            <div class="wow slideInRight" data-wow-delay="0.1s">
+                                                <div class="penis">
+                                                    <ul class="slides">
+                                                        <input type="radio" name="radio-btn4" id="img-112" checked />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-162" class="prev">&#x2039;</label>
+                                                                <label for="img-122" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn4" id="img-122" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_2.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-112" class="prev">&#x2039;</label>
+                                                                <label for="img-132" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn4" id="img-13" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_3.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-122" class="prev">&#x2039;</label>
+                                                                <label for="img-142" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn4" id="img-142" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_4.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-132" class="prev">&#x2039;</label>
+                                                                <label for="img-152" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn4" id="img-152" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_5.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-142" class="prev">&#x2039;</label>
+                                                                <label for="img-162" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn4" id="img-162" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_6.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-152" class="prev">&#x2039;</label>
+                                                                <label for="img-172" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn4" id="img-172" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_7.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-162" class="prev">&#x2039;</label>
+                                                                <label for="img-182" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn4" id="img-182" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_8.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-172" class="prev">&#x2039;</label>
+                                                                <label for="img-192" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn4" id="img-192" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_9.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-182" class="prev">&#x2039;</label>
+                                                                <label for="img-112" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <li class="nav-dots">
+                                                            <label for="img-11" class="nav-dot" id="img-dot-1"></label>
+                                                            <label for="img-12" class="nav-dot" id="img-dot-2"></label>
+                                                            <label for="img-13" class="nav-dot" id="img-dot-3"></label>
+                                                            <label for="img-14" class="nav-dot" id="img-dot-4"></label>
+                                                            <label for="img-15" class="nav-dot" id="img-dot-5"></label>
+                                                            <label for="img-16" class="nav-dot" id="img-dot-6"></label>
+                                                            <label for="img-17" class="nav-dot" id="img-dot-7"></label>
+                                                            <label for="img-18" class="nav-dot" id="img-dot-8"></label>
+                                                            <label for="img-19" class="nav-dot" id="img-dot-9"></label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div> <!-- end item-left -->
+                                    </div> <!-- end item -->
+
+                                </div>
+                            </div>
+                            <div class="col-md-9 mt-5i">
+
+
+                                <div class="row">
+                                    <div class="col-12 tt"> <a class="cl-bluei" href="LeaseProduct.html"> Tên DV
+                                            cho thuê 4</a>
+
+                                    </div>
+
+                                    <div class="row mt-2">
+
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/price_m2.png" width="14px" alt="Icon">
+                                            400m<sup>2</sup>
+                                        </span>
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/direction.png" width="14px" alt="Icon">
+                                            PN: 3
+                                        </span>
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/toilets.png" width="14px" alt="Icon">
+                                            WC: 2
+                                        </span>
+                                        <span class="col-md-4 col-12 padding-5-xs adr">
+                                            <img class="" src="img/location.svg" width="14px" alt="Icon"> Trạm
+                                            Trôi -
+                                            Hoài
+                                            Đức - Hà Nội</span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="col-md-2 col-12 padding-5-xs adr price">
+                                            <i class="fas fa-credit-card-alt" aria-hidden="true"></i> 4 tỷ
+                                        </span>
+                                    </div>
+
+                                    <div class="row">
+                                        <span class="col-12 col-md-6 padding-5-xs adr timepost mt-2">
+                                            <img class="mbot-2 borcustomer" src="img/avatar.svg" width="16px"
+                                                alt="Icon"> Khách Hàng 4
+                                            <img class="mbot-2 ml-15 " src="img/order_timer.svg" width="14px"
+                                                alt="Icon"> Đăng tin
+                                            : 3 tiếng trước
+                                        </span>
+                                        <div class="col-12 col-md-6 col-12 padding-5-xs adr timepost mt-2">
+                                            <small class=" fs12i">
+                                                <a href="LeaseProduct.html" style="color: #a81422;">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i> Chi
+                                                    tiết
+                                                </a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a> <i class="fa fa-share-square text-primary"></i><span
+                                                        class="text-blue">
+                                                        Chia sẻ </span></a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a> <i class="fa fa-shopping-cart text-primary"></i><span
+                                                        class="text-blue">Giỏ Hàng </span> </a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a>
+                                                    <i class="fa fa-heart text-primary"></i><span class="text-blue">
+                                                        Quan
+                                                        tâm </span>
+                                                </a>
+                                            </small>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="row g-4 mt-2 borshadow wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="col-md-12 mt-2 AvaCus_PD">
+                                <img class="mt-2 ml-15 borcustomer" src="img/avatar.svg" width="35px" alt="Icon">
+                                <label class="NameCustomerPd">Khách Hàng 5</label>
+                                <label class="hoursePd">
+                                    5 phút trước
+                                </label>
+                            </div>
+                            <div class="col-md-3 mt-0i">
+                                <div class=" rounded overflow-hidden">
+                                    <div class="tickets-container">
+                                        <div class="item row">
+
+                                            <div class="wow slideInRight" data-wow-delay="0.1s">
+                                                <div class="penis">
+                                                    <ul class="slides">
+                                                        <input type="radio" name="radio-btn5" id="img-15" checked />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-65" class="prev">&#x2039;</label>
+                                                                <label for="img-25" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn5" id="img-25" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_2.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-15" class="prev">&#x2039;</label>
+                                                                <label for="img-35" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn5" id="img-35" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_3.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-25" class="prev">&#x2039;</label>
+                                                                <label for="img-45" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn5" id="img-45" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_4.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-35" class="prev">&#x2039;</label>
+                                                                <label for="img-55" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn5" id="img-55" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_5.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-45" class="prev">&#x2039;</label>
+                                                                <label for="img-65" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn5" id="img-65" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_6.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-55" class="prev">&#x2039;</label>
+                                                                <label for="img-75" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn5" id="img-75" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_7.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-65" class="prev">&#x2039;</label>
+                                                                <label for="img-85" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn" id="img-85" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_8.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-75" class="prev">&#x2039;</label>
+                                                                <label for="img-95" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn" id="img-95" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_9.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-85" class="prev">&#x2039;</label>
+                                                                <label for="img-15" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <li class="nav-dots">
+                                                            <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                                                            <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                                                            <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                                                            <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                                                            <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+                                                            <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+                                                            <label for="img-7" class="nav-dot" id="img-dot-7"></label>
+                                                            <label for="img-8" class="nav-dot" id="img-dot-8"></label>
+                                                            <label for="img-9" class="nav-dot" id="img-dot-9"></label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div> <!-- end item-left -->
+                                    </div> <!-- end item -->
+
+                                </div>
+                            </div>
+                            <div class="col-md-9 mt-5i">
+
+
+                                <div class="row">
+                                    <div class="col-12 tt"> <a class="cl-bluei" href="LeaseProduct.html"> Tên DV
+                                            cho thuê 5</a>
+
+                                    </div>
+
+                                    <div class="row mt-2">
+
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/price_m2.png" width="14px" alt="Icon">
+                                            400m<sup>2</sup>
+                                        </span>
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/direction.png" width="14px" alt="Icon">
+                                            PN: 3
+                                        </span>
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/toilets.png" width="14px" alt="Icon">
+                                            WC: 2
+                                        </span>
+                                        <span class="col-md-4 col-12 padding-5-xs adr">
+                                            <img class="" src="img/location.svg" width="14px" alt="Icon"> Trạm
+                                            Trôi -
+                                            Hoài
+                                            Đức - Hà Nội</span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="col-md-2 col-12 padding-5-xs adr price">
+                                            <i class="fas fa-credit-card-alt" aria-hidden="true"></i> 4 tỷ
+                                        </span>
+                                    </div>
+
+                                    <div class="row">
+                                        <span class="col-12 col-md-6 padding-5-xs adr timepost mt-2">
+                                            <img class="mbot-2 borcustomer" src="img/avatar.svg" width="16px"
+                                                alt="Icon"> Khách Hàng 5
+                                            <img class="mbot-2 ml-15 " src="img/order_timer.svg" width="14px"
+                                                alt="Icon"> Đăng tin
+                                            : 7 tiếng trước
+                                        </span>
+                                        <div class="col-12 col-md-6 col-12 padding-5-xs adr timepost mt-2">
+                                            <small class=" fs12i">
+                                                <a href="LeaseProduct.html" style="color: #a81422;">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i> Chi
+                                                    tiết
+                                                </a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a> <i class="fa fa-share-square text-primary"></i><span
+                                                        class="text-blue">
+                                                        Chia sẻ </span></a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a> <i class="fa fa-shopping-cart text-primary"></i><span
+                                                        class="text-blue">Giỏ Hàng </span> </a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a>
+                                                    <i class="fa fa-heart text-primary"></i><span class="text-blue">
+                                                        Quan
+                                                        tâm </span>
+                                                </a>
+                                            </small>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="row g-4 mt-2 borshadow wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="col-md-12 mt-2 AvaCus_PD">
+                                <img class="mt-2 ml-15 borcustomer" src="img/avatar.svg" width="35px" alt="Icon">
+                                <label class="NameCustomerPd">Khách Hàng 6</label>
+                                <label class="hoursePd">
+                                    5 phút trước
+                                </label>
+                            </div>
+                            <div class="col-md-3 mt-0i">
+                                <div class=" rounded overflow-hidden">
+                                    <div class="tickets-container">
+                                        <div class="item row">
+
+                                            <div class="wow slideInRight" data-wow-delay="0.1s">
+                                                <div class="penis">
+                                                    <ul class="slides">
+                                                        <input type="radio" name="radio-btn25" id="img-115" checked />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-165" class="prev">&#x2039;</label>
+                                                                <label for="img-125" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn25" id="img-125" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_2.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-115" class="prev">&#x2039;</label>
+                                                                <label for="img-135" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn25" id="img-135" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_3.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-125" class="prev">&#x2039;</label>
+                                                                <label for="img-145" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn25" id="img-145" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_4.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-135" class="prev">&#x2039;</label>
+                                                                <label for="img-155" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn25" id="img-155" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_5.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-145" class="prev">&#x2039;</label>
+                                                                <label for="img-165" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn25" id="img-165" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_6.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-155" class="prev">&#x2039;</label>
+                                                                <label for="img-175" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn25" id="img-175" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_7.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-165" class="prev">&#x2039;</label>
+                                                                <label for="img-185" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn25" id="img-185" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_8.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-175" class="prev">&#x2039;</label>
+                                                                <label for="img-195" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn25" id="img-195" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_9.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-185" class="prev">&#x2039;</label>
+                                                                <label for="img-115" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <li class="nav-dots">
+                                                            <label for="img-11" class="nav-dot" id="img-dot-1"></label>
+                                                            <label for="img-12" class="nav-dot" id="img-dot-2"></label>
+                                                            <label for="img-13" class="nav-dot" id="img-dot-3"></label>
+                                                            <label for="img-14" class="nav-dot" id="img-dot-4"></label>
+                                                            <label for="img-15" class="nav-dot" id="img-dot-5"></label>
+                                                            <label for="img-16" class="nav-dot" id="img-dot-6"></label>
+                                                            <label for="img-17" class="nav-dot" id="img-dot-7"></label>
+                                                            <label for="img-18" class="nav-dot" id="img-dot-8"></label>
+                                                            <label for="img-19" class="nav-dot" id="img-dot-9"></label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div> <!-- end item-left -->
+                                    </div> <!-- end item -->
+
+                                </div>
+                            </div>
+                            <div class="col-md-9 mt-5i">
+
+
+                                <div class="row">
+                                    <div class="col-12 tt"> <a class="cl-bluei" href="LeaseProduct.html"> Tên DV
+                                            cho thuê 6</a>
+
+                                    </div>
+
+                                    <div class="row mt-2">
+
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/price_m2.png" width="14px" alt="Icon">
+                                            400m<sup>2</sup>
+                                        </span>
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/direction.png" width="14px" alt="Icon">
+                                            PN: 3
+                                        </span>
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/toilets.png" width="14px" alt="Icon">
+                                            WC: 2
+                                        </span>
+                                        <span class="col-md-4 col-12 padding-5-xs adr">
+                                            <img class="" src="img/location.svg" width="14px" alt="Icon"> Trạm
+                                            Trôi -
+                                            Hoài
+                                            Đức - Hà Nội</span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="col-md-2 col-12 padding-5-xs adr price">
+                                            <i class="fas fa-credit-card-alt" aria-hidden="true"></i> 4 tỷ
+                                        </span>
+                                    </div>
+
+                                    <div class="row">
+                                        <span class="col-12 col-md-6 padding-5-xs adr timepost mt-2">
+                                            <img class="mbot-2 borcustomer" src="img/avatar.svg" width="16px"
+                                                alt="Icon"> Khách Hàng 5
+                                            <img class="mbot-2 ml-15 " src="img/order_timer.svg" width="14px"
+                                                alt="Icon"> Đăng tin
+                                            : 1 ngày trước
+                                        </span>
+                                        <div class="col-12 col-md-6 col-12 padding-5-xs adr timepost mt-2">
+                                            <small class=" fs12i">
+                                                <a href="LeaseProduct.html" style="color: #a81422;">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i> Chi
+                                                    tiết
+                                                </a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a> <i class="fa fa-share-square text-primary"></i><span
+                                                        class="text-blue">
+                                                        Chia sẻ </span></a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a> <i class="fa fa-shopping-cart text-primary"></i><span
+                                                        class="text-blue">Giỏ Hàng </span> </a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a>
+                                                    <i class="fa fa-heart text-primary"></i><span class="text-blue">
+                                                        Quan
+                                                        tâm </span>
+                                                </a>
+                                            </small>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="row g-4 mt-2 borshadow wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="col-md-12 mt-2 AvaCus_PD">
+                                <img class="mt-2 ml-15 borcustomer" src="img/avatar.svg" width="35px" alt="Icon">
+                                <label class="NameCustomerPd">Khách Hàng 7</label>
+                                <label class="hoursePd">
+                                    5 phút trước
+                                </label>
+                            </div>
+                            <div class="col-md-3 mt-0i">
+                                <div class=" rounded overflow-hidden">
+                                    <div class="tickets-container">
+                                        <div class="item row">
+
+                                            <div class="wow slideInRight" data-wow-delay="0.1s">
+                                                <div class="penis">
+                                                    <ul class="slides">
+                                                        <input type="radio" name="radio-btn35" id="img-111" checked />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-161" class="prev">&#x2039;</label>
+                                                                <label for="img-121" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn35" id="img-121" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_2.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-111" class="prev">&#x2039;</label>
+                                                                <label for="img-131" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn35" id="img-131" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_3.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-121" class="prev">&#x2039;</label>
+                                                                <label for="img-141" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn35" id="img-141" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_4.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-131" class="prev">&#x2039;</label>
+                                                                <label for="img-151" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn35" id="img-151" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_5.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-141" class="prev">&#x2039;</label>
+                                                                <label for="img-161" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn35" id="img-161" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_6.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-151" class="prev">&#x2039;</label>
+                                                                <label for="img-171" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn35" id="img-171" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_7.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-161" class="prev">&#x2039;</label>
+                                                                <label for="img-181" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn35" id="img-181" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_8.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-171" class="prev">&#x2039;</label>
+                                                                <label for="img-191" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn35" id="img-191" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_9.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-181" class="prev">&#x2039;</label>
+                                                                <label for="img-111" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <li class="nav-dots">
+                                                            <label for="img-11" class="nav-dot" id="img-dot-1"></label>
+                                                            <label for="img-12" class="nav-dot" id="img-dot-2"></label>
+                                                            <label for="img-13" class="nav-dot" id="img-dot-3"></label>
+                                                            <label for="img-14" class="nav-dot" id="img-dot-4"></label>
+                                                            <label for="img-15" class="nav-dot" id="img-dot-5"></label>
+                                                            <label for="img-16" class="nav-dot" id="img-dot-6"></label>
+                                                            <label for="img-17" class="nav-dot" id="img-dot-7"></label>
+                                                            <label for="img-18" class="nav-dot" id="img-dot-8"></label>
+                                                            <label for="img-19" class="nav-dot" id="img-dot-9"></label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div> <!-- end item-left -->
+                                    </div> <!-- end item -->
+
+                                </div>
+                            </div>
+                            <div class="col-md-9 mt-5i">
+
+
+                                <div class="row">
+                                    <div class="col-12 tt"> <a class="cl-bluei" href="LeaseProduct.html"> Tên DV
+                                            cho thuê 7</a>
+
+                                    </div>
+
+                                    <div class="row mt-2">
+
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/price_m2.png" width="14px" alt="Icon">
+                                            400m<sup>2</sup>
+                                        </span>
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/direction.png" width="14px" alt="Icon">
+                                            PN: 3
+                                        </span>
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/toilets.png" width="14px" alt="Icon">
+                                            WC: 2
+                                        </span>
+                                        <span class="col-md-4 col-12 padding-5-xs adr">
+                                            <img class="" src="img/location.svg" width="14px" alt="Icon"> Trạm
+                                            Trôi -
+                                            Hoài
+                                            Đức - Hà Nội</span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="col-md-2 col-12 padding-5-xs adr price">
+                                            <i class="fas fa-credit-card-alt" aria-hidden="true"></i> 4 tỷ
+                                        </span>
+                                    </div>
+
+                                    <div class="row">
+                                        <span class="col-12 col-md-6 padding-5-xs adr timepost mt-2">
+                                            <img class="mbot-2 borcustomer" src="img/avatar.svg" width="16px"
+                                                alt="Icon"> Khách Hàng 5
+                                            <img class="mbot-2 ml-15 " src="img/order_timer.svg" width="14px"
+                                                alt="Icon"> Đăng tin
+                                            : 1 ngày trước
+                                        </span>
+                                        <div class="col-12 col-md-6 col-12 padding-5-xs adr timepost mt-2">
+                                            <small class=" fs12i">
+                                                <a href="LeaseProduct.html" style="color: #a81422;">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i> Chi
+                                                    tiết
+                                                </a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a> <i class="fa fa-share-square text-primary"></i><span
+                                                        class="text-blue">
+                                                        Chia sẻ </span></a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a> <i class="fa fa-shopping-cart text-primary"></i><span
+                                                        class="text-blue">Giỏ Hàng </span> </a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a>
+                                                    <i class="fa fa-heart text-primary"></i><span class="text-blue">
+                                                        Quan
+                                                        tâm </span>
+                                                </a>
+                                            </small>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="row g-4 mt-2 borshadow wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="col-md-12 mt-2 AvaCus_PD">
+                                <img class="mt-2 ml-15 borcustomer" src="img/avatar.svg" width="35px" alt="Icon">
+                                <label class="NameCustomerPd">Khách Hàng 8</label>
+                                <label class="hoursePd">
+                                    5 phút trước
+                                </label>
+                            </div>
+                            <div class="col-md-3 mt-0i">
+                                <div class=" rounded overflow-hidden">
+                                    <div class="tickets-container">
+                                        <div class="item row">
+
+                                            <div class="wow slideInRight" data-wow-delay="0.1s">
+                                                <div class="penis">
+                                                    <ul class="slides">
+                                                        <input type="radio" name="radio-btn45" id="img-112" checked />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-162" class="prev">&#x2039;</label>
+                                                                <label for="img-122" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn45" id="img-122" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_2.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-112" class="prev">&#x2039;</label>
+                                                                <label for="img-132" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn45" id="img-13" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_3.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-122" class="prev">&#x2039;</label>
+                                                                <label for="img-142" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn45" id="img-142" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_4.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-132" class="prev">&#x2039;</label>
+                                                                <label for="img-152" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn45" id="img-152" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_5.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-142" class="prev">&#x2039;</label>
+                                                                <label for="img-162" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn45" id="img-162" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_6.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-152" class="prev">&#x2039;</label>
+                                                                <label for="img-172" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn45" id="img-172" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_7.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-162" class="prev">&#x2039;</label>
+                                                                <label for="img-182" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn45" id="img-182" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_8.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-172" class="prev">&#x2039;</label>
+                                                                <label for="img-192" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <input type="radio" name="radio-btn45" id="img-192" />
+                                                        <li class="slide-container">
+                                                            <div class="slide">
+                                                                <img
+                                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_9.jpg" />
+                                                            </div>
+                                                            <div class="nav">
+                                                                <label for="img-182" class="prev">&#x2039;</label>
+                                                                <label for="img-112" class="next">&#x203a;</label>
+                                                            </div>
+                                                        </li>
+
+                                                        <li class="nav-dots">
+                                                            <label for="img-11" class="nav-dot" id="img-dot-1"></label>
+                                                            <label for="img-12" class="nav-dot" id="img-dot-2"></label>
+                                                            <label for="img-13" class="nav-dot" id="img-dot-3"></label>
+                                                            <label for="img-14" class="nav-dot" id="img-dot-4"></label>
+                                                            <label for="img-15" class="nav-dot" id="img-dot-5"></label>
+                                                            <label for="img-16" class="nav-dot" id="img-dot-6"></label>
+                                                            <label for="img-17" class="nav-dot" id="img-dot-7"></label>
+                                                            <label for="img-18" class="nav-dot" id="img-dot-8"></label>
+                                                            <label for="img-19" class="nav-dot" id="img-dot-9"></label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div> <!-- end item-left -->
+                                    </div> <!-- end item -->
+
+                                </div>
+                            </div>
+                            <div class="col-md-9 mt-5i">
+
+
+                                <div class="row">
+                                    <div class="col-12 tt"> <a class="cl-bluei" href="LeaseProduct.html"> Tên DV
+                                            cho thuê 8</a>
+
+                                    </div>
+
+                                    <div class="row mt-2">
+
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/price_m2.png" width="14px" alt="Icon">
+                                            400m<sup>2</sup>
+                                        </span>
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/direction.png" width="14px" alt="Icon">
+                                            PN: 3
+                                        </span>
+                                        <span class="col-md-2 col-4 padding-5-xs adr">
+                                            <img class="" src="img/toilets.png" width="14px" alt="Icon">
+                                            WC: 2
+                                        </span>
+                                        <span class="col-md-4 col-12 padding-5-xs adr">
+                                            <img class="" src="img/location.svg" width="14px" alt="Icon"> Trạm
+                                            Trôi -
+                                            Hoài
+                                            Đức - Hà Nội</span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="col-md-2 col-12 padding-5-xs adr price">
+                                            <i class="fas fa-credit-card-alt" aria-hidden="true"></i> 4 tỷ
+                                        </span>
+                                    </div>
+
+                                    <div class="row">
+                                        <span class="col-12 col-md-6 padding-5-xs adr timepost mt-2">
+                                            <img class="mbot-2 borcustomer" src="img/avatar.svg" width="16px"
+                                                alt="Icon"> Khách Hàng 5
+                                            <img class="mbot-2 ml-15 " src="img/order_timer.svg" width="14px"
+                                                alt="Icon"> Đăng tin
+                                            : 12 ngày trước
+                                        </span>
+                                        <div class="col-12 col-md-6 col-12 padding-5-xs adr timepost mt-2">
+                                            <small class=" fs12i">
+                                                <a href="LeaseProduct.html" style="color: #a81422;">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i> Chi
+                                                    tiết
+                                                </a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a> <i class="fa fa-share-square text-primary"></i><span
+                                                        class="text-blue">
+                                                        Chia sẻ </span></a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a> <i class="fa fa-shopping-cart text-primary"></i><span
+                                                        class="text-blue">Giỏ Hàng </span> </a>
+                                            </small>
+                                            <small class="fs12i ml-15">
+                                                <a>
+                                                    <i class="fa fa-heart text-primary"></i><span class="text-blue">
+                                                        Quan
+                                                        tâm </span>
+                                                </a>
+                                            </small>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <div id="tab-211" class="tab-pane pdt85i  fade show p-0 ">
+                        <span class="mt-5"> Giao diện Tương tự tab Chung cư, căn hộ - đổi thành loại Văn
+                            phòng, mặt
+                            bằng</span>
+
+                    </div>
+                    <div id="tab-311" class="tab-pane pdt85i fade show p-0 ">
+                        Giao diện Tương tự tab Chung cư, căn hộ - đổi thành loại Phòng trọ
+
+                    </div>
+                    <div id="tab-411" class="tab-pane pdt85i  fade show p-0 ">
+                        Giao diện Tương tự tab Chung cư, căn hộ - đổi thành loại Nhà ở
+
+                    </div>
+                    <!-- Project End -->
+
+                    <!-- Call to Action Start -->
+                    <div class="container-xxl py-5 contactf">
+                        <div class="container">
+                            <div class="bg-light rounded p-3">
+                                <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                                    <div class="row g-5 align-items-center">
+                                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                            <img class="img-fluid rounded w-100" src="img/logo.jpg" alt="">
+                                        </div>
+                                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                                            <div class="mb-4">
+                                                <h1 class="mb-3">LIÊN HỆ TRỰC TIẾP VỚI <span
+                                                        class="text-primary">HOANGQUANLAND</span></h1>
+                                                <p>Quý Khách hàng có nhu cầu tư vấn riêng hay cần đăng tin.Vui lòng liên
+                                                    hệ với
+                                                    chúng tôi qua các kênh sau</p>
+                                            </div>
+                                            <a href="" class="btn btn-danger py-3 px-4"><i
+                                                    class="fa fa-phone-alt"></i>0865659995</a>
+                                            <a href="" class="btn btn-dark py-3 px-4 xs12"><i
+                                                    class="far fa-envelope"></i>hoangquanland95@gmail.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Call to Action End -->
+
+
+                    <!-- Team Start -->
+                    <div class="container-xxl py-5 team">
+                        <div class="container">
+                            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s"
+                                style="max-width: 600px;">
+                                <h1 class="mb-3">NHÂN VIÊN TƯ VẤN</h1>
+                                <p>HOANGQUANLAND với đội ngũ nhân viên tư vấn dày dặn kinh nghiệm, nhiệt tình , quý
+                                    khách hàng sẽ có
+                                    trải nghiệm thật tuyệt vời với phong cách làm việc của team .....</p>
+                            </div>
+                            <div class="row g-4">
+                                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="team-item rounded overflow-hidden">
+                                        <div class="position-relative">
+                                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                                            <div
+                                                class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                                <a class="btn btn-square mx-1" href=""><i
+                                                        class="fa fa-user-circle"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center p-4 mt-3">
+                                            <h5 class="fw-bold mb-0">HOÀNG QUÂN</h5>
+                                            <small>Kinh nghiệm 5 năm</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="team-item rounded overflow-hidden">
+                                        <div class="position-relative">
+                                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                                            <div
+                                                class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                                <a class="btn btn-square mx-1" href=""><i
+                                                        class="fa fa-user-circle"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center p-4 mt-3">
+                                            <h5 class="fw-bold mb-0">NHÂN VIÊN 1</h5>
+                                            <small>Kinh nghiệm 5 năm</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="team-item rounded overflow-hidden">
+                                        <div class="position-relative">
+                                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                                            <div
+                                                class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                                <a class="btn btn-square mx-1" href=""><i
+                                                        class="fa fa-user-circle"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center p-4 mt-3">
+                                            <h5 class="fw-bold mb-0">NHÂN VIÊN 2</h5>
+                                            <small>Kinh nghiệm 5 năm</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                                    <div class="team-item rounded overflow-hidden">
+                                        <div class="position-relative">
+                                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                                            <div
+                                                class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                                <a class="btn btn-square mx-1" href=""><i
+                                                        class="fa fa-user-circle"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center p-4 mt-3">
+                                            <h5 class="fw-bold mb-0">NHÂN VIÊN 3</h5>
+                                            <small>NHÂN VIÊN 1</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Team End -->
+
+                    <!-- Footer Start -->
+                    <div class="container-fluid bg-dark text-white-50 footer paddingbot-30-xs wow fadeIn "
+                        data-wow-delay="0.1s">
+                        <div class="container py-5 Fter">
+                            <div class="row g-5">
+                                <div class="col-lg-4 col-md-6">
+                                    <h5 class="text-white mb-4 bor-bt-ft fz16">Liên hệ</h5>
+                                    <p class="mb-2" style="    font-size: 14px;"><i
+                                            class="fa fa-map-marker-alt me-3"></i>Số 32 -
+                                        Yên Bệ - Kim Chung - Hoài Đức - Hà Nội</p>
+                                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0865659995</p>
+                                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>hoangquanland95@gmail.com</p>
+                                    <div class="d-flex pt-2">
+                                        <a class="btn btn-outline-light btn-social" href=""><i
+                                                class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-outline-light btn-social" href=""><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-outline-light btn-social" href=""><i
+                                                class="fab fa-youtube"></i></a>
+                                        <a class="btn btn-outline-light btn-social" href=""><i
+                                                class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6">
+                                    <h5 class="text-white mb-4 bor-bt-ft fz16">Chi nhánh</h5>
+                                    <button class="glow-on-hover" type="button">1. Hà nội</button>
+                                    <button class="glow-on-hover margin-left-20-xs" type="button">2. Bắc Giang</button>
+                                    <button class="glow-on-hover" type="button">3. Bắc Ninh</button>
+                                    <button class="glow-on-hover margin-left-20-xs" type="button">4. Hải Phòng</button>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <h5 class="text-white mb-4 bor-bt-ft fz16">Dự án nổi bật</h5>
+                                    <div class="row g-2 pt-2">
+                                        <div class="col-6">
+                                            <img loading="lazy" src="img/tagnew.png" class='tagnew' />
+                                            <img class="img-fluid rounded bg-light p-1" src="img/property-1.jpg" alt="">
+                                            <span class="namett">Dịch vụ Tây Đô</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <img loading="lazy" src="img/tagnew.png" class='tagnew' />
+                                            <img class="img-fluid rounded bg-light p-1" src="img/property-2.jpg" alt="">
+                                            <span class="namett">Dịch Vụ Kim Chung</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <img loading="lazy" src="img/tagnew.png" class='tagnew' />
+                                            <img class="img-fluid rounded bg-light p-1" src="img/property-3.jpg" alt="">
+                                            <span class="namett">Đấu Giá Lai Xá</span>
+
+                                        </div>
+                                        <div class="col-6">
+                                            <img loading="lazy" src="img/tagnew.png" class='tagnew' />
+                                            <img class="img-fluid rounded bg-light p-1" src="img/property-4.jpg" alt="">
+                                            <span class="namett">Đấu Giá Lai Xá</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <img loading="lazy" src="img/tagnew.png" class='tagnew' />
+                                            <img class="img-fluid rounded bg-light p-1" src="img/property-5.jpg" alt="">
+                                            <span class="namett">Đấu Giá Lai Xá</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <img loading="lazy" src="img/tagnew.png" class='tagnew' />
+                                            <img class="img-fluid rounded bg-light p-1" src="img/property-6.jpg" alt="">
+                                            <span class="namett">Đấu Giá Lai Xá</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <h5 class="text-white mb-4 bor-bt-ft fz16">Nhận thông báo</h5>
+
+                                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                                            placeholder="Nhập Email">
+                                        <button type="button"
+                                            class="btn btn-danger py-2 position-absolute top-0 end-0 mt-2">Đăng
+                                            ký</button>
+                                    </div>
+                                    <div class="widget widget_gallery gallery-grid-4 margin-top-50 bortopftxs mt-5">
+                                        <h5 class="text-white mb-4 fz16">FANPAGE CỦA HOANGQUANLAND</h5>
+
+                                        <div class="fb-page mt-3 fb_iframe_widget margin-top-20 fanpage"
+                                            data-hide-cover="false"
+                                            data-href="https://www.facebook.com/hoangquanbatdongsan"
+                                            data-show-facepile="false" data-turbolinks-permanent=""
+                                            data-turoblinks-nocache="" data-width="200" fb-xfbml-state="rendered"
+                                            fb-iframe-plugin-query="app_id=889583184482960&amp;container_width=285&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fhoangquanbatdongsan&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=false&amp;width=200">
+                                            <span>
+                                                <iframe name="f2aabe3118095d8"
+                                                    data-testid="fb:page Facebook Social Plugin"
+                                                    title="fb:page Facebook Social Plugin" frameborder="0"
+                                                    allowtransparency="true" allowfullscreen="true" scrolling="no"
+                                                    allow="encrypted-media"
+                                                    src="https://www.facebook.com/v9.0/plugins/page.php?app_id=889583184482960&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df2f6328e54e4624%26domain%3Dwww.hoangquanland.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.hoangquanland.com%252Ffd08902651274c%26relation%3Dparent.parent&amp;container_width=285&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fhoangquanbatdongsan&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=false&amp;width=200"
+                                                    class=""></iframe></span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="copyright">
+                                <div class="row">
+                                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0"
+                                        style="    font-size: 12px;">
+                                        &copy; <a class="border-bottom" href="#">HOANGQUANLAND</a>, All Right Reserved.
+                                        Designed By <a class="border-bottom"></a>HOANGQUANLAND TEAM</a>
+                                    </div>
+                                    <div class="col-md-6 text-center text-md-end footerfixmb">
+                                        <div class="footer-menu">
+                                            <a href="FullProject.html"> <i class="fa fa-user" aria-hidden="true"> </i>
+                                                BDS HQ</a>
+                                            <a href="Purchase.html"><i class="fa fa-credit-card" aria-hidden="true"></i>
+                                                Mua /
+                                                bán</a>
+                                            <a href="Post.html"><i class="fa fa-plus posti hidden-xs"
+                                                    aria-hidden="true"></i>Đăng
+                                                tin</a>
+                                            <a href="Lease.html"> <i class="fa fa-american-sign-language-interpreting"
+                                                    aria-hidden="true"></i> Cho thuê</a>
+                                            <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Trang
+                                                chủ</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer End -->
+
+
+                    <!-- Back to Top -->
+
+                    <a href="Search.html" title="Tìm kiếm"
+                        class="btn btn-lg btn-danger btn-lg-square  back-to-top2 margin-bottom-110 hidden-lg"><i
+                            class="fa fa-search"></i></a>
+                    <a href="Post.html" title="Đăng tin"
+                        class="btn btn-lg btn-danger btn-lg-square back-to-top2  margin-bottom-55 hidden-lg"><i
+                            class="fa fa-plus"></i></a>
+                    <a href="Post.html" title="lên đầu page"
+                        class="btn btn-lg btn-danger btn-lg-square back-to-top hidden-lg"><i
+                            class="bi bi-arrow-up"></i></a>
+                </div>
+
+                <!-- JavaScript Libraries -->
+                <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+                <script src="lib/wow/wow.min.js"></script>
+                <script src="lib/easing/easing.min.js"></script>
+                <script src="lib/waypoints/waypoints.min.js"></script>
+                <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+                <!-- Template Javascript -->
+                <script src="js/main.js"></script>
+</body>
+
+</html>
