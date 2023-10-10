@@ -1,0 +1,44 @@
+.shadow{
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    padding:10px;
+    border-radius: 10px;
+}
+.PL-title{
+    font-size: 13px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+.PL-Content{
+    margin-top: 10px;
+    font-size: 12px;
+   font-style: italic;
+   margin-bottom: 5px;
+   padding-left: 10px;
+}
+.PL-img{
+    width: 110px !important ;
+    height: 110px !important;
+    border-radius: 5px;
+    margin-left: -15px;
+}
+.pull-right{
+    float: right;
+
+}
+.Height380{
+    height: 380px;
+}
+.imgiconNews{
+    width: 15px !important;
+    height: 20px !important;
+    margin-top: 5px !important;
+    font-size: 8px !important;
+}
+.title-lq{
+    background: #0e2e50;
+    color: white;
+}
+.bor-left{
+    border-left: 1px dashed #0e2e50;
+}
