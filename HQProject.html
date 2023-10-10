@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HOANGQUANLAND</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent hd">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                    <h1 class="m-0 text-primary"><img class="img-fluid" src="img/logo.png" alt="Icon"
+                            style="width: 220px">
+
+                    </h1>
+                    <a href="Search.html" class="hidden-xs a_Search"><i class="fa fa-search btsearchhead"></i></a>
+                </a>
+
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Trang chủ</a>
+                        <a href="contact.html" class="nav-item nav-link">Liên hệ</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">BDS HOANGQUANLAND</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="HQProject.html" class="dropdown-item">Dự án HQ 1</a>
+                                <a href="HQProject.html" class="dropdown-item">Dự án HQ 2</a>
+                                <a href="HQProject.html" class="dropdown-item">Dự án HQ 3</a>
+                            </div>
+                        </div>
+                        <a href="Purchase.html" class="nav-item nav-link">Mua/Bán</a>
+                        <a href="Lease.html" class="nav-item nav-link">Cho thuê</a>
+                    </div>
+                    <div class="nav-item dropdown">
+
+                        <a href="#" class="nav-link dropdown-toggle text-primary" data-bs-toggle="dropdown">
+                            <img loading="lazy"
+                                src="https://www.hoangquanland.com/packs/media/images/default-7fad56cc0166a9d2acdaec66a5a6a346.jpg"
+                                class="avartar" alt="">
+                            Xin chào! ABC
+                        </a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="MyInformation.html" class="dropdown-item"><i class="fa fa-user text-primary me-2"
+                                style="width:10px"></i> Thông tin</sup></a>
+                            <a href="MyPost.html" class="dropdown-item"><i class="fa fa-file  text-primary me-2"
+                                    aria-hidden="true" style="width:10px"></i> Tin đăng <sup>(2)</sup></a>
+                            <a href="MyCart.html" class="dropdown-item"> <i
+                                    class="fa fa-shopping-cart  text-primary me-2" aria-hidden="true"
+                                    style="width:10px"></i> Giỏ Hàng <sup>(1)</sup></a>
+                            <a href="MyCart.html" class="dropdown-item"><i class="fa fa-share-square text-primary me-2"
+                                    style="width:10px"></i> Chia sẻ <sup>(4)</sup></a>
+                            <a href="MyCart.html" class="dropdown-item"><i class="fa fa-heart text-primary me-2"
+                                    style="width:10px"></i> Yêu thích <sup>(3)</sup></a>
+                                  
+                            <a href="Logout" class="dropdown-item"><i
+                                    class="fa-arrow-right-from-bracket text-primary me-2" style="width:10px"
+                                    aria-hidden="true"></i> Đăng xuất</a>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Header Start -->
+        <div class="container-fluid header bg-white p-0">
+            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-6 p-5 mt-lg-5">
+                    <h1 class="display-5 animated fadeIn mb-4">BDS HOANGQUANLAND</h1>
+                    <nav aria-label="breadcrumb animated fadeIn">
+                        <ol class="breadcrumb text-uppercase">
+                            <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+                            <li class="breadcrumb-item"><a href="#">BDS HOANGQUANLAND</a></li>
+                            <li class="breadcrumb-item text-body active" aria-current="page"><span
+                                    class="text-primary">DỊCH VỤ</span> TÂY ĐÔ </li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-md-6 animated fadeIn hidden-lg">
+                    <img class="img-fluid" src="img/header.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- Search Start -->
+        <div class="container-fluid bg-primary wow fadeIn searhpj padd25 border-radius-5 hidden-lg"
+            data-wow-delay="0.1s">
+            <div class="container">
+                <div class="row g-2">
+
+                    <div class="col-3 hidden-lg">
+                        <input type="text" class="form-control border-0 py-3" placeholder="Từ khóa tìm kiếm">
+                    </div>
+                    <div class="col-3">
+                        <select class="form-select border-0 py-3">
+                            <option selected>Giá</option>
+                            <option value="1">20-50tr/m2</option>
+                            <option value="2">50-100tr/m2</option>
+                            <option value="3">Trên 100tr/m2</option>
+                        </select>
+                    </div>
+                    <div class="col-3">
+                        <select class="form-select border-0 py-3">
+                            <option selected>Diện tích</option>
+                            <option value="1">100 m2></option>
+                            <option value="2">100-300 m3</option>
+                            <option value="3">Trên 300m2</option>
+                        </select>
+                    </div>
+                    <div class="col-2">
+                        <button class="btn btn-dark border-0 w-100 py-3"><i class="fa fa-search"
+                                aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Search End -->
+
+        <!-- Property List Start -->
+        <div class="container-xxl">
+            <div class="container">
+                <div class="item row bor-bt-ftxs">
+
+                    <div class="item-left mt-5  col-md-8 col-xs-12 wow slideInRight" data-wow-delay="0.1s">
+                        <div class="fluid-width-video-wrapper height350 ">
+                            <iframe allowfullscreen="true" class="height350"
+                                src="https://www.youtube.com/embed/5e0LxrLSzok?mute=1&amp;controls=1&amp;autoplay=1"
+                                width="100%"></iframe>
+                        </div>
+                    </div>
+                    <div class="item-right bor-t-ftxs  mt-5 text-center pjdt col-md-4 col-xs-12">
+                        <div class="data-column-container">
+                            <div class="text-start mx-auto wow slideInLeft" data-wow-delay="0.1s">
+                                <h6 class="mb-3"><span class="text-primary">DỊCH VỤ</span> TÂY ĐÔ (6 Sản phẩm)</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <a> <small class="flex-fill fs10 text-center border-end py-2 btn">
+                                    <i class="fa fa-shopping-cart text-primary me-2"></i> Giỏ hàng
+
+                                </small></a>
+
+                            <small class="flex-fill fs10 text-center  border-end  py-2 btn"><i
+                                    class="fa fa-heart text-primary me-2"></i> Yêu thích
+                            </small>
+                            <small class="flex-fill fs10 text-center py-2 btn">
+                                <i class="fa fa-share-square text-primary me-2">
+                                </i> Chia sẻ
+                            </small>
+                        </div>
+
+                        <h6 class="num mt-2">BĐS HOANGQUANLAND</h6>
+                        <h6 class="num"><i class="fas fa-clock" style="margin-right:10px"></i> 12/11/2022 11:23 AM</h6>
+                        <p class="ref">
+                            <i class="fas fa-map-marker-alt text-info" style="margin-right:10px"></i> Trạm Trôi -Hoài
+                            Đức - Hà Nội
+
+                        </p>
+
+                        <div class="icons">
+                            <div class="day">
+                                <i class=""></i> 55.0tr~65.0tr
+                            </div>
+
+                            <div class="day">
+                                <i class="far fa-compass"></i> 65.0 ~120.0m
+                            </div>
+
+                            <div class="day">
+                                <i class="fas fa-building "></i> Liền
+                                kề
+                            </div>
+
+                        </div>
+                        <div class="row g-2">
+
+                            <div class="col-md-6">
+                                <select class="form-select">
+                                    <option selected>Lọc theo diện tích</option>
+                                    <option value="1">50-70m2</option>
+                                    <option value="2">70-150m2</option>
+                                    <option value="3">Trên 150m2</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <select class="form-select">
+                                    <option selected>Lọc theo giá</option>
+                                    <option value="1">50tr - 70tr</option>
+                                    <option value="2">70 - 100tr</option>
+                                    <option value="3">Trên 100tr</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <div class="social-links">
+                                <a class="social-btn" href="#" title="0865659995">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </a>
+                                <a class="social-btn" href="#" title="HOANGQUANLAND">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a class="social-btn" href="#" title="HOANGQUANLAND">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div> <!-- end item-right -->
+
+                </div> <!-- end item-left -->
+            </div>
+        </div>
+        <div class="container-xxl py-5">
+            <div class="Product-l-of-pj">
+                <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">SẢN PHẨM THUỘC DỰ ÁN</h1>
+                    <p>Có 6 sản phẩm thuộc dự án </p>
+                </div>
+                <div class="g-2 pt-2 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class='row'>
+                        <div class='col-md-3 col-sm-6 col-6 margin-top30-xs wow fadeInUp" data-wow-delay="0.1s'>
+                            <div class='contentbody'>
+                                <img loading="lazy" src="img/tagnew.png" class='playNB' />
+                                <div>
+                                    <a href="HQProduct.html"><img loading="lazy" src="img/Play.png" width="45px"
+                                            height="45px" class='play' data-toggle="modal" data-target="#myModal" /></a>
+
+                                    <img loading="lazy" width="100%" src="img/hinh.png" class='fiximgsv' />
+                                </div>
+                                <div class="button-container-1">
+                                    <span class="mas"> DỊCH VỤ LAI XÁ THỬA 171
+                                    </span>
+                                    <button id='work' type="button" name="Hover">
+                                        DỊCH VỤ LAI XÁ THỬA 171</button>
+                                </div>
+                                <div class='row Orther2'>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="fab fa-accusoft text-info"></i></span>
+                                    <span class='col-10 padding-5-xs pricePD'> 5tỷ</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="far fa-compass"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> 120m<sup>2</sup></span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="fas fa-building text-info"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Liền kề</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="far fa-paper-plane text-info"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Hướng : Đông Nam</span>
+                                </div>
+                                <div class="d-flex border-top">
+
+                                    <small class="flex-fill fs10 text-center  border-end btn">
+                                        <a> <i class="fa fa-shopping-cart  text-primary me-2"></i>
+                                            <label class="hidden-lg">Giỏ hàng</label>
+                                        </a>
+                                    </small>
+                                    <small class="flex-fill fs10 text-center  border-end btn">
+                                        <a> <i class="fa fa-heart text-primary me-2"></i> <label class="hidden-lg"> Yêu
+                                                thích</label></a>
+                                    </small>
+                                    <small class="flex-fill fs10 text-center btn">
+                                        <a> <i class="fa fa-share-square text-primary me-2">
+                                            </i> <label class="hidden-lg"> Chia sẻ</label> </a>
+                                    </small>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class='col-md-3 col-sm-6 col-6 margin-top30-xs wow fadeInUp" data-wow-delay="0.1s'>
+                            <div class='contentbody'>
+                                <img loading="lazy" src="img/tagnew.png" class='playNB' />
+                                <div>
+
+                                    <img loading="lazy" src="img/Play.png" width="45px" height="45px" class='play'
+                                        data-toggle="modal" data-target="#myModal" />
+
+                                    <img loading="lazy" width="100%" src="img/hinh.png" class='fiximgsv' />
+                                </div>
+                                <div class="button-container-1">
+                                    <span class="mas"> DỊCH VỤ LAI XÁ THỬA 173
+                                    </span>
+                                    <button id='work' type="button" name="Hover">
+                                        DỊCH VỤ LAI XÁ THỬA 173</button>
+                                </div>
+                                <div class='row Orther2'>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="fab fa-accusoft text-info"></i></span>
+                                    <span class='col-10 padding-5-xs pricePD'> 2tỷ</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="far fa-compass"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> 120m<sup>2</sup></span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="fas fa-building text-info"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Liền kề</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="far fa-paper-plane text-info"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Hướng : Đông Nam</span>
+                                </div>
+                                <div class="d-flex border-top">
+
+                                    <small class="flex-fill fs10 text-center  border-end btn">
+                                        <a> <i class="fa fa-shopping-cart  text-primary me-2"></i>
+                                            <label class="hidden-lg">Giỏ hàng</label>
+                                        </a>
+                                    </small>
+                                    <small class="flex-fill fs10 text-center  border-end btn">
+                                        <a> <i class="fa fa-heart text-primary me-2"></i> <label class="hidden-lg"> Yêu
+                                                thích</label></a>
+                                    </small>
+                                    <small class="flex-fill fs10 text-center btn">
+                                        <a> <i class="fa fa-share-square text-primary me-2">
+                                            </i> <label class="hidden-lg"> Chia sẻ</label> </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-3 col-sm-6 col-6 margin-top30-xs wow fadeInUp" data-wow-delay="0.1s'>
+                            <div class='contentbody'>
+                                <img loading="lazy" src="img/tagnew.png" class='playNB' />
+                                <div>
+
+                                    <img loading="lazy" src="img/Play.png" width="45px" height="45px" class='play'
+                                        data-toggle="modal" data-target="#myModal" />
+
+                                    <img loading="lazy" width="100%" src="img/hinh.png" class='fiximgsv' />
+                                </div>
+                                <div class="button-container-1">
+                                    <span class="mas"> DỊCH VỤ LAI XÁ THỬA 173
+                                    </span>
+                                    <button id='work' type="button" name="Hover">
+                                        DỊCH VỤ LAI XÁ THỬA 173</button>
+                                </div>
+                                <div class='row Orther2'>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="fab fa-accusoft text-info"></i></span>
+                                    <span class='col-10 padding-5-xs pricePD'> 1,5tỷ</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="far fa-compass"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Diện tích : 100m<sup>2</sup></span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="fas fa-building text-info"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Liền kề</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="far fa-paper-plane text-info"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Hướng : Đông Nam</span>
+                                </div>
+                                <div class="d-flex border-top">
+
+                                    <small class="flex-fill fs10 text-center  border-end btn">
+                                        <a> <i class="fa fa-shopping-cart  text-primary me-2"></i>
+                                            <label class="hidden-lg">Giỏ hàng</label>
+                                        </a>
+                                    </small>
+                                    <small class="flex-fill fs10 text-center  border-end btn">
+                                        <a> <i class="fa fa-heart text-primary me-2"></i> <label class="hidden-lg"> Yêu
+                                                thích</label></a>
+                                    </small>
+                                    <small class="flex-fill fs10 text-center btn">
+                                        <a> <i class="fa fa-share-square text-primary me-2">
+                                            </i> <label class="hidden-lg"> Chia sẻ</label> </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-3 col-sm-6 col-6 margin-top30-xs wow fadeInUp" data-wow-delay="0.1s'>
+                            <div class='contentbody'>
+                                <img loading="lazy" src="img/tagnew.png" class='playNB' />
+                                <div>
+                                    <img loading="lazy" src="img/Play.png" width="45px" height="45px" class='play'
+                                        data-toggle="modal" data-target="#myModal" />
+
+                                    <img loading="lazy" width="100%" src="img/hinh.png" class='fiximgsv' />
+                                </div>
+                                <div class="button-container-1">
+                                    <span class="mas"> DỊCH VỤ LAI XÁ THỬA 174
+                                    </span>
+                                    <button id='work' type="button" name="Hover">
+                                        DỊCH VỤ LAI XÁ THỬA 174 </button>
+                                </div>
+                                <div class='row Orther2'>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="fab fa-accusoft text-info"></i></span>
+                                    <span class='col-10 padding-5-xs pricePD'> 1,5tỷ</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="far fa-compass"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Diện tích : 100m<sup>2</sup></span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="fas fa-building text-info"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Liền kề</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="far fa-paper-plane text-info"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Hướng : Đông Nam</span>
+                                </div>
+                                <div class="d-flex border-top">
+
+                                    <small class="flex-fill fs10 text-center  border-end btn">
+                                        <a> <i class="fa fa-shopping-cart  text-primary me-2"></i>
+                                            <label class="hidden-lg">Giỏ hàng</label>
+                                        </a>
+                                    </small>
+                                    <small class="flex-fill fs10 text-center  border-end btn">
+                                        <a> <i class="fa fa-heart text-primary me-2"></i> <label class="hidden-lg"> Yêu
+                                                thích</label></a>
+                                    </small>
+                                    <small class="flex-fill fs10 text-center btn">
+                                        <a> <i class="fa fa-share-square text-primary me-2">
+                                            </i> <label class="hidden-lg"> Chia sẻ</label> </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-3 col-sm-6 col-6 margin-top30-xs wow fadeInUp" data-wow-delay="0.1s'>
+                            <div class='contentbody'>
+                                <img loading="lazy" src="img/tagnew.png" class='playNB' />
+                                <div>
+                                    <a href="HQProduct.html"><img loading="lazy" src="img/Play.png" width="45px"
+                                            height="45px" class='play' data-toggle="modal" data-target="#myModal" /></a>
+
+                                    <img loading="lazy" width="100%" src="img/hinh.png" class='fiximgsv' />
+                                </div>
+                                <div class="button-container-1">
+                                    <span class="mas"> DỊCH VỤ LAI XÁ THỬA 175
+                                    </span>
+                                    <button id='work' type="button" name="Hover">
+                                        DỊCH VỤ LAI XÁ THỬA 175</button>
+                                </div>
+                                <div class='row Orther2'>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="fab fa-accusoft text-info"></i></span>
+                                    <span class='col-10 padding-5-xs pricePD'> 5tỷ</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="far fa-compass"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> 120m<sup>2</sup></span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="fas fa-building text-info"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Liền kề</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="far fa-paper-plane text-info"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Hướng : Đông Nam</span>
+                                </div>
+                                <div class="d-flex border-top">
+
+                                    <small class="flex-fill fs10 text-center  border-end btn">
+                                        <a> <i class="fa fa-shopping-cart  text-primary me-2"></i>
+                                            <label class="hidden-lg">Giỏ hàng</label>
+                                        </a>
+                                    </small>
+                                    <small class="flex-fill fs10 text-center  border-end btn">
+                                        <a> <i class="fa fa-heart text-primary me-2"></i> <label class="hidden-lg"> Yêu
+                                                thích</label></a>
+                                    </small>
+                                    <small class="flex-fill fs10 text-center btn">
+                                        <a> <i class="fa fa-share-square text-primary me-2">
+                                            </i> <label class="hidden-lg"> Chia sẻ</label> </a>
+                                    </small>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class='col-md-3 col-sm-6 col-6 margin-top30-xs wow fadeInUp" data-wow-delay="0.1s'>
+                            <div class='contentbody'>
+                                <img loading="lazy" src="img/tagnew.png" class='playNB' />
+                                <div>
+
+                                    <img loading="lazy" src="img/Play.png" width="45px" height="45px" class='play'
+                                        data-toggle="modal" data-target="#myModal" />
+
+                                    <img loading="lazy" width="100%" src="img/hinh.png" class='fiximgsv' />
+                                </div>
+                                <div class="button-container-1">
+                                    <span class="mas"> DỊCH VỤ LAI XÁ THỬA 176
+                                    </span>
+                                    <button id='work' type="button" name="Hover">
+                                        DỊCH VỤ LAI XÁ THỬA 176</button>
+                                </div>
+                                <div class='row Orther2'>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="fab fa-accusoft text-info"></i></span>
+                                    <span class='col-10 padding-5-xs pricePD'> 2tỷ</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="far fa-compass"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> 120m<sup>2</sup></span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="fas fa-building text-info"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Liền kề</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="far fa-paper-plane text-info"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Hướng : Đông Nam</span>
+                                </div>
+                                <div class="d-flex border-top">
+
+                                    <small class="flex-fill fs10 text-center  border-end btn">
+                                        <a> <i class="fa fa-shopping-cart  text-primary me-2"></i>
+                                            <label class="hidden-lg">Giỏ hàng</label>
+                                        </a>
+                                    </small>
+                                    <small class="flex-fill fs10 text-center  border-end btn">
+                                        <a> <i class="fa fa-heart text-primary me-2"></i> <label class="hidden-lg"> Yêu
+                                                thích</label></a>
+                                    </small>
+                                    <small class="flex-fill fs10 text-center btn">
+                                        <a> <i class="fa fa-share-square text-primary me-2">
+                                            </i> <label class="hidden-lg"> Chia sẻ</label> </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-3 col-sm-6 col-6 margin-top30-xs wow fadeInUp" data-wow-delay="0.1s'>
+                            <div class='contentbody'>
+                                <img loading="lazy" src="img/tagnew.png" class='playNB' />
+                                <div>
+
+                                    <img loading="lazy" src="img/Play.png" width="45px" height="45px" class='play'
+                                        data-toggle="modal" data-target="#myModal" />
+
+                                    <img loading="lazy" width="100%" src="img/hinh.png" class='fiximgsv' />
+                                </div>
+                                <div class="button-container-1">
+                                    <span class="mas"> DỊCH VỤ LAI XÁ THỬA 177
+                                    </span>
+                                    <button id='work' type="button" name="Hover">
+                                        DỊCH VỤ LAI XÁ THỬA 177</button>
+                                </div>
+                                <div class='row Orther2'>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="fab fa-accusoft text-info"></i></span>
+                                    <span class='col-10 padding-5-xs pricePD'> 1,5tỷ</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="far fa-compass"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Diện tích : 100m<sup>2</sup></span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="fas fa-building text-info"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Liền kề</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="far fa-paper-plane text-info"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Hướng : Đông Nam</span>
+                                </div>
+                                <div class="d-flex border-top">
+
+                                    <small class="flex-fill fs10 text-center  border-end btn">
+                                        <a> <i class="fa fa-shopping-cart  text-primary me-2"></i>
+                                            <label class="hidden-lg">Giỏ hàng</label>
+                                        </a>
+                                    </small>
+                                    <small class="flex-fill fs10 text-center  border-end btn">
+                                        <a> <i class="fa fa-heart text-primary me-2"></i> <label class="hidden-lg"> Yêu
+                                                thích</label></a>
+                                    </small>
+                                    <small class="flex-fill fs10 text-center btn">
+                                        <a> <i class="fa fa-share-square text-primary me-2">
+                                            </i> <label class="hidden-lg"> Chia sẻ</label> </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-3 col-sm-6 col-6 margin-top30-xs wow fadeInUp" data-wow-delay="0.1s'>
+                            <div class='contentbody'>
+                                <img loading="lazy" src="img/tagnew.png" class='playNB' />
+                                <div>
+                                    <img loading="lazy" src="img/Play.png" width="45px" height="45px" class='play'
+                                        data-toggle="modal" data-target="#myModal" />
+
+                                    <img loading="lazy" width="100%" src="img/hinh.png" class='fiximgsv' />
+                                </div>
+                                <div class="button-container-1">
+                                    <span class="mas"> DỊCH VỤ LAI XÁ THỬA 178
+                                    </span>
+                                    <button id='work' type="button" name="Hover">
+                                        DỊCH VỤ LAI XÁ THỬA 178 </button>
+                                </div>
+                                <div class='row Orther2'>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="fab fa-accusoft text-info"></i></span>
+                                    <span class='col-10 padding-5-xs pricePD'> 1,5tỷ</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="far fa-compass"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Diện tích : 100m<sup>2</sup></span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="fas fa-building text-info"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Liền kề</span>
+                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                            class="far fa-paper-plane text-info"></i></span>
+                                    <span class='col-10 padding-5-xs  inforPD'> Hướng : Đông Nam</span>
+                                </div>
+                                <div class="d-flex border-top">
+
+                                    <small class="flex-fill fs10 text-center  border-end btn">
+                                        <a> <i class="fa fa-shopping-cart  text-primary me-2"></i>
+                                            <label class="hidden-lg">Giỏ hàng</label>
+                                        </a>
+                                    </small>
+                                    <small class="flex-fill fs10 text-center  border-end btn">
+                                        <a> <i class="fa fa-heart text-primary me-2"></i> <label class="hidden-lg"> Yêu
+                                                thích</label></a>
+                                    </small>
+                                    <small class="flex-fill fs10 text-center btn">
+                                        <a> <i class="fa fa-share-square text-primary me-2">
+                                            </i> <label class="hidden-lg"> Chia sẻ</label> </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl map">
+            <div class="row">
+                <span class="text-blue">Vị trí dự án</span>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7446.250896456411!2d105.70496677650229!3d21.067651243909403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zVHLhuqFtIFRyw7RpIC1Ib8OgaSDEkOG7qWMgLSBIw6AgTuG7mWk!5e0!3m2!1svi!2s!4v1666876644876!5m2!1svi!2s"
+                width="600" height="450" style="border:10px solid #0e2e4f" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="container-xxl">
+            <div class="row mt-3">
+                <div class="tt text-blue">
+                    <b>Hỏi đáp về sản phẩm
+                     :</b> 
+                 </div>
+
+                    <div class="row commentrow">
+                        <div class="container__item">
+                            <form class="form">
+                                <input type="email" class="form__field" placeholder="Mời bạn bình luận hoặc đặt câu hỏi!" />
+                                <button type="button" class="btn btn--primary btn--inside uppercase">Gửi</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="showcomment">
+                        <ul>
+                            <li id="c-54373814" data-id="54373814" class="mt-5" 
+                                class=" no-border item idx0">
+                                <div class="cmt-top">
+
+                                    <div class="cmt-top-name">
+                                        <div class="avatar">
+                                            <img loading="lazy" class="avacomment" src="img/team-2.jpg" alt="">
+                                        </div>
+                                        <div class="cmcontent">
+                                            <div class="NameComment">Khách Hàng A </div>
+                                            <div class="cmt-content">
+                                                <p class="cmt-txt">Mình muốn được tư vấn về sản phẩm này</p>
+                                            </div>
+                                            <div class="cmt-command">
+
+                                                <div class="d-flex col-md-4">
+                                                    <small class="flex-fill text-center py-2">
+                                                        <a> <i class="fa fa-heart text-primary me-2"></i> Thích (2)</a>
+                                                    </small>
+                                                    <small class="flex-fill text-center py-2">
+                                                        <a> <i class="fa fa-comment text-primary me-2"></i> Phản
+                                                            hồi (3)</a>
+                                                    </small>
+                                                    <small class="flex-fill text-center py-2">
+                                                        <a> <i class="fa fa-clock text-primary me-2"></i> 15 giờ
+                                                            trước</a>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="cmt-child">
+                                        <div class="point"></div>
+                                        <div data-id="51615665" class="child item mt-2" data-parentid="51615570">
+                                            <b class="cmt-heading">
+                                                <img class="" src="img/tag.png" width="40px" alt="">
+                                                <label> Đỗ Thị Thúy Nga </label>
+
+                                                <em class="quantrivien">QTV HQLands</em> </b>
+                                            <div class="cmt-childcontent">
+                                                Chào anh Khách Hàng A!
+                                                Dạ trước hết HQLand cảm ơn anh đã quan tâm
+                                                HQLand, HQLand xin nhận góp ý của anh về thông
+                                                tin sản phẩm không chưa đúng trên website. Nếu được mong anh chia sẻ
+                                                thêm số điện thoại để HQLand chuyển cho bộ phận liên quan
+                                                liên hệ để thông tin và lắng nghe thêm góp ý được không ạ?
+                                                Mong
+                                                phản hồi từ anh ạ!
+                                            </div>
+                                            <div class="cmt-command">
+
+                                                <div class="d-flex col-md-4">
+                                                    <small class="flex-fill text-center py-2">
+                                                        <a> <i class="fa fa-heart text-primary me-2"></i> Thích</a>
+                                                    </small>
+                                                    <small class="flex-fill text-center py-2">
+                                                        <a> <i class="fa fa-comment text-primary me-2"></i> Phản
+                                                            hồi</a>
+                                                    </small>
+                                                    <small class="flex-fill text-center py-2">
+                                                        <a> <i class="fa fa-clock text-primary me-2"></i> 15 giờ
+                                                            trước</a>
+                                                    </small>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div data-id="51615665" class="child item mt-2" data-parentid="51615570">
+                                            <b class="cmt-heading">
+                                                <img loading="lazy" class="avacomment" src="img/team-2.jpg" alt="">
+                                                <label> Khách Hàng A </label>
+                                            </b>
+                                            <div class="cmt-childcontent">
+                                               abc fgfgf!
+                                            </div>
+                                            <div class="cmt-command">
+
+                                                <div class="d-flex col-md-4">
+                                                    <small class="flex-fill text-center py-2">
+                                                        <a> <i class="fa fa-heart text-primary me-2"></i> Thích</a>
+                                                    </small>
+                                                    <small class="flex-fill text-center py-2">
+                                                        <a> <i class="fa fa-comment text-primary me-2"></i> Phản
+                                                            hồi</a>
+                                                    </small>
+                                                    <small class="flex-fill text-center py-2">
+                                                        <a> <i class="fa fa-clock text-primary me-2"></i> 15 giờ
+                                                            trước</a>
+                                                    </small>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div data-id="51615665" class="child item mt-2" data-parentid="51615570">
+                                            <b class="cmt-heading">
+                                                <img class="" src="img/tag.png" width="40px" alt="">
+                                                <label> Đỗ Thị Thúy Nga </label>
+
+                                                <em class="quantrivien">QTV HQLands</em> </b>
+                                            <div class="cmt-childcontent">
+                                                Chào anh Khách Hàng A!
+                                                Cản ơn phản hồi từ anh ạ!
+                                            </div>
+                                            <div class="cmt-command">
+
+                                                <div class="d-flex col-md-4">
+                                                    <small class="flex-fill text-center py-2">
+                                                        <a> <i class="fa fa-heart text-primary me-2"></i> Thích</a>
+                                                    </small>
+                                                    <small class="flex-fill text-center py-2">
+                                                        <a> <i class="fa fa-comment text-primary me-2"></i> Phản
+                                                            hồi</a>
+                                                    </small>
+                                                    <small class="flex-fill text-center py-2">
+                                                        <a> <i class="fa fa-clock text-primary me-2"></i> 15 giờ
+                                                            trước</a>
+                                                    </small>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li id="c-54373814" data-id="54373814" class="mt-5" 
+                            class=" no-border item idx0">
+                            <div class="cmt-top">
+
+                                <div class="cmt-top-name">
+                                    <div class="avatar">
+                                        <img loading="lazy" class="avacomment" src="img/team-2.jpg" alt="">
+                                    </div>
+                                    <div class="cmcontent">
+                                        <div class="NameComment">Khách Hàng B </div>
+                                        <div class="cmt-content">
+                                            <p class="cmt-txt">Mình muốn được tư vấn về pháp lý về sản phẩm này?</p>
+                                        </div>
+                                        <div class="cmt-command">
+
+                                            <div class="d-flex col-md-4">
+                                                <small class="flex-fill text-center py-2">
+                                                    <a> <i class="fa fa-heart text-primary me-2"></i> Thích (2)</a>
+                                                </small>
+                                                <small class="flex-fill text-center py-2">
+                                                    <a> <i class="fa fa-comment text-primary me-2"></i> Phản
+                                                        hồi (3)</a>
+                                                </small>
+                                                <small class="flex-fill text-center py-2">
+                                                    <a> <i class="fa fa-clock text-primary me-2"></i> 15 giờ
+                                                        trước</a>
+                                                </small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cmt-child">
+                                    <div class="point"></div>
+                                    <div data-id="51615665" class="child item mt-2" data-parentid="51615570">
+                                        <b class="cmt-heading">
+                                            <img class="" src="img/tag.png" width="40px" alt="">
+                                            <label> Đỗ Thị Thúy Nga </label>
+
+                                            <em class="quantrivien">QTV HQLands</em> </b>
+                                        <div class="cmt-childcontent">
+                                            Chào anh Khách Hàng B!
+                                           .........
+                                        </div>
+                                        <div class="cmt-command">
+
+                                            <div class="d-flex col-md-4">
+                                                <small class="flex-fill text-center py-2">
+                                                    <a> <i class="fa fa-heart text-primary me-2"></i> Thích</a>
+                                                </small>
+                                                <small class="flex-fill text-center py-2">
+                                                    <a> <i class="fa fa-comment text-primary me-2"></i> Phản
+                                                        hồi</a>
+                                                </small>
+                                                <small class="flex-fill text-center py-2">
+                                                    <a> <i class="fa fa-clock text-primary me-2"></i> 15 giờ
+                                                        trước</a>
+                                                </small>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    <!-- Property List End -->
+
+
+
+
+   <!-- Footer Start -->
+   <div class="container-fluid bg-dark text-white-50 footer paddingbot-30-xs wow fadeIn " data-wow-delay="0.1s">
+    <div class="container py-5 Fter">
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-6">
+                <h5 class="text-white mb-4 bor-bt-ft fz16">Liên hệ</h5>
+                <p class="mb-2" style="    font-size: 14px;"><i class="fa fa-map-marker-alt me-3"></i>Số 32 -
+                    Yên Bệ - Kim Chung - Hoài Đức - Hà Nội</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0865659995</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>hoangquanland95@gmail.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <h5 class="text-white mb-4 bor-bt-ft fz16">Chi nhánh</h5>
+                <button class="glow-on-hover" type="button">1. Hà nội</button>
+                <button class="glow-on-hover margin-left-20-xs" type="button">2. Bắc Giang</button>
+                <button class="glow-on-hover" type="button">3. Bắc Ninh</button>
+                <button class="glow-on-hover margin-left-20-xs" type="button">4. Hải Phòng</button>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-white mb-4 bor-bt-ft fz16">Dự án nổi bật</h5>
+                <div class="row g-2 pt-2">
+                    <div class="col-6">
+                        <img loading="lazy" src="img/tagnew.png" class='tagnew' />
+                        <img class="img-fluid rounded bg-light p-1" src="img/property-1.jpg" alt="">
+                        <span class="namett">Dịch vụ Tây Đô</span>
+                    </div>
+                    <div class="col-6">
+                        <img loading="lazy" src="img/tagnew.png" class='tagnew' />
+                        <img class="img-fluid rounded bg-light p-1" src="img/property-2.jpg" alt="">
+                        <span class="namett">Dịch Vụ Kim Chung</span>
+                    </div>
+                    <div class="col-6">
+                        <img loading="lazy" src="img/tagnew.png" class='tagnew' />
+                        <img class="img-fluid rounded bg-light p-1" src="img/property-3.jpg" alt="">
+                        <span class="namett">Đấu Giá Lai Xá</span>
+
+                    </div>
+                    <div class="col-6">
+                        <img loading="lazy" src="img/tagnew.png" class='tagnew' />
+                        <img class="img-fluid rounded bg-light p-1" src="img/property-4.jpg" alt="">
+                        <span class="namett">Đấu Giá Lai Xá</span>
+                    </div>
+                    <div class="col-6">
+                        <img loading="lazy" src="img/tagnew.png" class='tagnew' />
+                        <img class="img-fluid rounded bg-light p-1" src="img/property-5.jpg" alt="">
+                        <span class="namett">Đấu Giá Lai Xá</span>
+                    </div>
+                    <div class="col-6">
+                        <img loading="lazy" src="img/tagnew.png" class='tagnew' />
+                        <img class="img-fluid rounded bg-light p-1" src="img/property-6.jpg" alt="">
+                        <span class="namett">Đấu Giá Lai Xá</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-white mb-4 bor-bt-ft fz16">Nhận thông báo</h5>
+
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                        placeholder="Nhập Email">
+                    <button type="button"
+                        class="btn btn-danger py-2 position-absolute top-0 end-0 mt-2 me-2">Đăng ký</button>
+                </div>
+                <div class="widget widget_gallery gallery-grid-4 margin-top-50 bortopftxs mt-5">
+                    <h5 class="text-white mb-4 fz16">FANPAGE CỦA HOANGQUANLAND</h5>
+
+                    <div class="fb-page mt-3 fb_iframe_widget margin-top-20 fanpage" data-hide-cover="false"
+                        data-href="https://www.facebook.com/hoangquanbatdongsan" data-show-facepile="false"
+                        data-turbolinks-permanent="" data-turoblinks-nocache="" data-width="200"
+                        fb-xfbml-state="rendered"
+                        fb-iframe-plugin-query="app_id=889583184482960&amp;container_width=285&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fhoangquanbatdongsan&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=false&amp;width=200">
+                        <span>
+                            <iframe name="f2aabe3118095d8" data-testid="fb:page Facebook Social Plugin"
+                                title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true"
+                                allowfullscreen="true" scrolling="no" allow="encrypted-media"
+                                src="https://www.facebook.com/v9.0/plugins/page.php?app_id=889583184482960&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df2f6328e54e4624%26domain%3Dwww.hoangquanland.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.hoangquanland.com%252Ffd08902651274c%26relation%3Dparent.parent&amp;container_width=285&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fhoangquanbatdongsan&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=false&amp;width=200"
+                                class=""></iframe></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0" style="    font-size: 12px;">
+                    &copy; <a class="border-bottom" href="#">HOANGQUANLAND</a>, All Right Reserved.
+                    Designed By <a class="border-bottom"></a>HOANGQUANLAND TEAM</a>
+                </div>
+                <div class="col-md-6 text-center text-md-end footerfixmb">
+                    <div class="footer-menu">
+                        <a href="FullProject.html"> <i class="fa fa-user" aria-hidden="true"> </i> BDS HQ</a>
+                        <a href="Purchase.html"><i class="fa fa-credit-card" aria-hidden="true"></i> Mua /
+                            bán</a>
+                        <a href="Post.html"><i class="fa fa-plus posti hidden-xs" aria-hidden="true"></i>Đăng tin</a>
+                        <a href="Lease.html"> <i class="fa fa-american-sign-language-interpreting"
+                                aria-hidden="true"></i> Cho thuê</a>
+                        <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Trang chủ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+<!-- Back to Top -->
+
+<a href="Search.html" title="Tìm kiếm"
+    class="btn btn-lg btn-danger btn-lg-square  back-to-top2 margin-bottom-110 hidden-lg"><i
+        class="fa fa-search"></i></a>
+<a href="Post.html" title="Đăng tin"
+    class="btn btn-lg btn-danger btn-lg-square back-to-top2  margin-bottom-55 hidden-lg"><i
+        class="fa fa-plus"></i></a>
+<a href="Post.html" title="lên đầu page" class="btn btn-lg btn-danger btn-lg-square back-to-top hidden-lg"><i
+        class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

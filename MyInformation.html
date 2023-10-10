@@ -1,0 +1,1589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HOOANGQUANLAND</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/news.css" rel="stylesheet">
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/Purchase.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+
+
+          <!-- Navbar Start -->
+          <div class="container-fluid nav-bar bg-transparent hd">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                    <h1 class="m-0 text-primary"><img class="img-fluid" src="img/logo.png" alt="Icon"
+                            style="width: 220px">
+
+                    </h1>
+                    <a href="Search.html" class="hidden-xs a_Search"><i class="fa fa-search btsearchhead"></i></a>
+                </a>
+
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Trang chủ</a>
+                        <a href="contact.html" class="nav-item nav-link">Liên hệ</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">BDS HOANGQUANLAND</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="HQProject.html" class="dropdown-item">Dự án HQ 1</a>
+                                <a href="HQProject.html" class="dropdown-item">Dự án HQ 2</a>
+                                <a href="HQProject.html" class="dropdown-item">Dự án HQ 3</a>
+                            </div>
+                        </div>
+                        <a href="Purchase.html" class="nav-item nav-link">Mua/Bán</a>
+                        <a href="Lease.html" class="nav-item nav-link">Cho thuê</a>
+                    </div>
+                    <div class="nav-item dropdown">
+
+                        <a href="#" class="nav-link dropdown-toggle text-primary" data-bs-toggle="dropdown">
+                            <img loading="lazy"
+                                src="https://www.hoangquanland.com/packs/media/images/default-7fad56cc0166a9d2acdaec66a5a6a346.jpg"
+                                class="avartar" alt="">
+                            Xin chào! ABC
+                        </a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="MyInformation.html" class="dropdown-item"><i class="fa fa-user text-primary me-2"
+                                style="width:10px"></i> Thông tin</sup></a>
+                            <a href="MyPost.html" class="dropdown-item"><i class="fa fa-file  text-primary me-2"
+                                    aria-hidden="true" style="width:10px"></i> Tin đăng <sup>(2)</sup></a>
+                            <a href="MyCart.html" class="dropdown-item"> <i
+                                    class="fa fa-shopping-cart  text-primary me-2" aria-hidden="true"
+                                    style="width:10px"></i> Giỏ Hàng <sup>(1)</sup></a>
+                            <a href="MyCart.html" class="dropdown-item"><i class="fa fa-share-square text-primary me-2"
+                                    style="width:10px"></i> Chia sẻ <sup>(4)</sup></a>
+                            <a href="MyCart.html" class="dropdown-item"><i class="fa fa-heart text-primary me-2"
+                                    style="width:10px"></i> Yêu thích <sup>(3)</sup></a>
+                                  
+                            <a href="Logout" class="dropdown-item"><i
+                                    class="fa-arrow-right-from-bracket text-primary me-2" style="width:10px"
+                                    aria-hidden="true"></i> Đăng xuất</a>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid header bg-white p-0 hidden-lg">
+            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-6 p-5 mt-lg-5">
+                    <h1 class="display-5 animated fadeIn mb-4 mar-top-40xs">THÔNG TIN</h1>
+                    <nav aria-label="breadcrumb animated fadeIn">
+                        <ol class="breadcrumb text-uppercase">
+                            <li class="breadcrumb-item"><a href="#">TRANG CHỦ</a></li>
+                            <li class="breadcrumb-item text-body active" aria-current="page">THÔNG TIN</li>
+                        </ol>
+                    </nav>
+
+                </div>
+                <div class="col-md-6 animated fadeIn hidden-lg">
+                    <img class="img-fluid" src="img/header.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- Search Start -->
+        <div class="container-fluid bg-primary wow fadeIn searhpj padd25 border-radius-5 hidden-lg"
+            data-wow-delay="0.1s">
+            <div class="container">
+                <div class="row g-2">
+
+                    <div class="col-3 hidden-lg">
+                        <input type="text" class="form-control border-0 py-3" placeholder="Từ khóa tìm kiếm">
+                    </div>
+                    <div class="col-3">
+                        <select class="form-select border-0 py-3">
+                            <option selected>Giá</option>
+                            <option value="1">20-50tr/m2</option>
+                            <option value="2">50-100tr/m2</option>
+                            <option value="3">Trên 100tr/m2</option>
+                        </select>
+                    </div>
+                    <div class="col-3">
+                        <select class="form-select border-0 py-3">
+                            <option selected>Diện tích</option>
+                            <option value="1">100 m2></option>
+                            <option value="2">100-300 m3</option>
+                            <option value="3">Trên 300m2</option>
+                        </select>
+                    </div>
+                    <div class="col-2">
+                        <button class="btn btn-dark border-0 w-100 py-3"><i class="fa fa-search"
+                                aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Search End -->
+
+
+        <!-- Project Start -->
+        <div class="fullproject  mar-top-40xs purchasepd ">
+            <div class="container">
+                <div class="row">
+                    <div class="tt col-md-1 col-sm-4 col-4">
+                        <img loading="lazy" src="img/team-2.jpg" class="avacus" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-8 col-8">
+                        <div class="tt">
+                            Khách Hàng 1
+                        </div>
+                        <div>
+                            <span class="cusname"></span>
+
+                            <div class="SellerProfile_statusOnline row">
+                                <div class="SellerProfile_offlineBullet col-md-1 col-1">•</div>
+                                <div class="col-md-11 col-11 fz10 SellerProfile_statusOnlinetime"> Hoạt động 1 giờ trước
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-12 mt-2 col-12 fullproject purchasepd mycart">
+                        <div class="row ">
+                            <div class="d-flex ">
+                                <small class="flex-fill text-center border-end py-2">
+                                    <a>
+                                        <img src="img/property_legal_document.png" class="imgpur">
+                                        <div>
+                                            3(tin)
+                                        </div>
+                                    </a>
+                                </small>
+                                <small class="flex-fill text-center py-2">
+                                    <div class="SellerProfile_statusOnlineDivVeh__TdWM3" role="presentation">
+                                        <div class="ratingStar undefined">
+                                            <img alt="rating-star" width="13px" loading="lazy"
+                                                src="https://static.chotot.com.vn/storage/marketplace/common/pf_rating_active_icon.svg"
+                                                class="sc-cSHVUG">
+                                            <img alt="rating-star" width="13px" loading="lazy"
+                                                src="https://static.chotot.com.vn/storage/marketplace/common/pf_rating_active_icon.svg"
+                                                class="sc-cSHVUG">
+                                            <img alt="rating-star" width="13px" loading="lazy"
+                                                src="https://static.chotot.com.vn/storage/marketplace/common/pf_rating_active_icon.svg"
+                                                class="sc-cSHVUG">
+                                            <img alt="rating-star" width="13px" loading="lazy"
+                                                src="https://static.chotot.com.vn/storage/marketplace/common/pf_rating_active_icon.svg"
+                                                class="sc-cSHVUG">
+                                            <img alt="rating-star" width="13px" loading="lazy"
+                                                src="https://static.chotot.com.vn/storage/marketplace/common/pf_rating_half_active_icon.svg"
+                                                class="sc-cSHVUG cWrKPY">
+                                        </div><strong class="SellerProfile_ratingStar__VmJhS">4.7</strong>&nbsp;
+                                        <a
+                                            href="https://www.chotot.com/user/53f044bcc3be21b656a30de041eab737?tab=rating#xtatc=INT-10-[Adview]">(17
+                                            đánh giá)</a>
+                                    </div>
+                                </small>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 col-12 pd020  shadow mt-2 mb-5">
+                        <div class="row mt-2  d-flex bg-aliceblue">
+
+                            <div class="time"> <i class="fa fa-user text-primary me-2"></i> Tên : Khách Hàng 1</div>
+                            <div class="time"> <i class="fa fa-phone text-primary me-2"></i> Số ĐT : 096 666 666</div>
+                            <div class="time"> <i class="fa fa-envelope text-primary me-2"></i> Email :a@gmail.com</div>
+                            <div class="time"> <i class="fa fa-calendar text-primary me-2"></i> Ngày đăng ký :
+                                11/11/20220 11:20 AM</div>
+                        </div>
+                        <div class="row  mt-3">
+                            <div class="time"><b>Thông tin tài khoản</b></div>
+                            <div class="time row">
+                                <div class="col-6">
+                                    1.Số dư TK
+                                </div>
+                                <div class="col-6 text-right">
+                                    : <b>400.500 (VND)</b>
+                                </div>
+
+                            </div>
+                            <div class="time row">
+                                <div class="col-6">
+                                    2.TK K.Mãi
+                                </div>
+                                <div class="col-6 text-right">
+                                    : <b>10.000 (VND)</b>
+                                </div>
+
+                            </div>
+                            <div class="time row">
+                                <div class="col-6">
+                                    3.Tổng nạp
+                                </div>
+                                <div class="col-6 text-right">
+                                    : <b>600.000 (VND)</b>
+                                </div>
+                            </div>
+                            <div class="time row">
+                                <div class="col-6">
+                                    3.Số lần nạp
+                                </div>
+                                <div class="col-6 text-right">
+                                    : <b>4</b>
+                                </div>
+                            </div>
+                            <div class="time row">
+                                <div class="col-md-12 col-10"> 4.Mã chuyển : <b>KH1-096 666 666</b> </div>
+                                <div class="col-2"><i class="fa fa-clone" aria-hidden="true"></i></div>
+                            </div>
+                            <div class="time text-center mt-3">
+                                <small class="btn-viewdt">
+                                    <a href="#" style="color: #a81422;font-size:12px;">
+                                        <i class="fa fa-credit-card" aria-hidden="true"></i> Nạp tiền vào tài khoản
+                                    </a>
+                                </small></div>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-12 pd020 mb-2">
+                        <div class="row">
+                            <div class="col-sm-12 mt-2 col-12 fullproject purchasepd mycart">
+                                <ul class="nav nav-pills d-inline-flex justify-content-end mb-2">
+                                    <li class="nav-item me-2">
+                                        <a class="btn btn-outline-primary active fz10" data-bs-toggle="pill"
+                                            href="#tab-3">
+                                            <i class="fa fa-file  text-primary me-2"></i> Tin đăng (3)
+                                        </a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="btn btn-outline-primary  fz10" data-bs-toggle="pill" href="#tab-4">
+                                            <i class="fa fa-shopping-cart  text-primary me-2"></i> Giỏ Hàng (4)
+                                        </a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="btn btn-outline-primary fz10" data-bs-toggle="pill" href="#tab-5">
+                                            <i class="fa fa-heart text-primary me-2"></i> Quan tâm (4)
+                                        </a>
+                                    </li>
+                                    <li class="nav-item me-0">
+                                        <a class="btn btn-outline-primary fz10" data-bs-toggle="pill" href="#tab-6">
+                                            <i class="fa fa-share-square text-primary me-2"></i> Chia sẻ (8)
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="tab-content ">
+                            <div id="tab-3" class="tab-pane fade show p-0 active">
+
+                                <div class="row shadow mt-2">
+                                    <div class="col-md-2 col-12">
+                                        <div class="row text-center">
+                                            <div class="col-md-6 col-3"> <img class="Post-img"
+                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                                    alt="Icon"></div>
+                                            <div class="col-md-6 col-3"> <img class="Post-img"
+                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                                    alt="Icon"></div>
+                                            <div class="col-md-6 col-3"> <img class="Post-img"
+                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                                    alt="Icon"></div>
+                                            <div class="col-md-6 col-3"> <img class="Post-img"
+                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                                    alt="Icon"></div>
+
+                                        </div>
+                                        <div class="mt-2">
+                                            <img class="imgiconNews" src="img/number-image.svg" width="20px" alt="Icon">
+                                            <span class="time">Hình ảnh (4)</span>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 col-12  bor-left">
+                                        <div class="d-flex border-top borviewdt">
+
+                                            <small class="flex-fill fs10 text-center mt-2">
+                                                <i class="fa fa-eye me-2"></i>
+                                                <label class="">Xem tin : <b>111</b></label>
+
+                                            </small>
+                                            <small class="flex-fill fs10 text-center mt-2">
+                                                <i class="fa fa-file  me-2"></i> <label class=""> Yêu
+                                                    thích : <b>5</b></label>
+                                            </small>
+                                            <small class="flex-fill fs10 text-center mt-2">
+                                                <i class="fa fa-share-square me-2">
+                                                </i> <label class=""> Chia sẻ : <b>3</b></label>
+                                            </small>
+
+
+                                        </div>
+
+                                        <div class="d-flex mt-3">
+                                            <div class="col-md-12">
+                                                <div class="row">
+                                                    <div class="col-md-8 col-6">
+                                                        <span class="tt fz14">Tên dịch vụ mua/bán </span> <span
+                                                            class="Cart_title">MUA/BÁN (BIỆT THỰ)</span>
+                                                    </div>
+                                                    <div class="col-md-4 col-6" style="text-align: right;">
+                                                        <small class="btn-viewdt">
+                                                            <a href="Post.html" style="color: #a81422;font-size:12px;">
+                                                                <i class="fa fa-info-circle" aria-hidden="true"></i> Xem
+                                                                nội dung tin
+                                                            </a>
+                                                        </small>
+
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="d-flex hidden-lg">
+
+                                                    <img class="imgiconNews" src="img/location.svg" width="20px"
+                                                        alt="Icon">
+                                                    <span class="time"> Địa chỉ : <b>Đường số 123,Phường 5,Quận Hoài
+                                                            Đức, Thành phố Hà Nội</b> </span>
+                                                </div>
+                                                <div class="row mt-3">
+                                                    <div class="col-md-3 col-3 text-center">
+                                                        <img class="imgiconNews" src="img/rooms.png" width="20px"
+                                                            alt="Icon">
+                                                        <span class="time">Mã tin</span>
+                                                    </div>
+                                                    <div class="col-md-4 col-4 text-center">
+                                                        <img class="imgiconNews" src="img/order_timer.svg" width="20px"
+                                                            alt="Icon">
+                                                        <span class="time">Ngày đăng </span>
+                                                    </div>
+                                                    <div class="col-md-5 col-5 text-center">
+                                                        <img class="imgiconNews" src="img/order_timer.svg" width="20px"
+                                                            alt="Icon">
+                                                        <span class="time">Ngày hết hạn </span>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-3 col-3 text-center">
+
+                                                        <span class="time"> 1123</span>
+                                                    </div>
+                                                    <div class="col-md-4 col-4 text-center">
+
+                                                        <span class="time">10/10/2022</span>
+                                                    </div>
+                                                    <div class="col-md-5  col-5 text-center">
+
+                                                        <span class="time"> 30/10/2022</span>
+                                                    </div>
+                                                </div>
+                                                <div class="row mt-3">
+                                                    <div class="col-md-3">
+                                                        <img class="imgiconNews" src="img/pro-pty-icon.svg" width="20px"
+                                                            alt="Icon">
+                                                        <span class="time">Hạn : Còn 6 Ngày</span>
+                                                    </div>
+
+                                                    <div class="col-md-9">
+                                                        <img class="imgiconNews" src="img/shield.svg" width="20px"
+                                                            alt="Icon">
+                                                        <span class="time">Tin <span class="text-blue">đã được</span>
+                                                            HOANGQUANLAND kiểm duyệt</span>
+                                                    </div>
+
+                                                </div>
+
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="row shadow mt-2">
+                                    <div class="col-md-2 col-12">
+                                        <div class="row text-center">
+                                            <div class="col-md-6 col-3"> <img class="Post-img"
+                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                                    alt="Icon"></div>
+                                            <div class="col-md-6 col-3"> <img class="Post-img"
+                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                                    alt="Icon"></div>
+                                            <div class="col-md-6 col-3"> <img class="Post-img"
+                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                                    alt="Icon"></div>
+                                            <div class="col-md-6 col-3"> <img class="Post-img"
+                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                                    alt="Icon"></div>
+
+                                        </div>
+                                        <div class="mt-2">
+                                            <img class="imgiconNews" src="img/number-image.svg" width="20px" alt="Icon">
+                                            <span class="time">Hình ảnh (4)</span>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 col-12  bor-left">
+                                        <div class="d-flex border-top borviewdt">
+
+                                            <small class="flex-fill fs10 text-center mt-2">
+                                                <i class="fa fa-eye me-2"></i>
+                                                <label class="">Xem tin : <b>141</b></label>
+
+                                            </small>
+                                            <small class="flex-fill fs10 text-center mt-2">
+                                                <i class="fa fa-heart  me-2"></i> <label class=""> Yêu
+                                                    thích : <b>1</b></label>
+                                            </small>
+                                            <small class="flex-fill fs10 text-center mt-2">
+                                                <i class="fa fa-share-square me-2">
+                                                </i> <label class=""> Chia sẻ : <b>3</b></label>
+                                            </small>
+
+
+                                        </div>
+
+                                        <div class="d-flex mt-3">
+                                            <div class="col-md-12">
+                                                <div class="row">
+                                                    <div class="col-md-8 col-6">
+                                                        <span class="tt fz14">Tên dịch vụ mua/bán </span> <span
+                                                            class="Cart_title">MUA/BÁN (LIỀN KỀ)</span>
+                                                    </div>
+                                                    <div class="col-md-4 col-6" style="text-align: right;">
+                                                        <small class="btn-viewdt">
+                                                            <a href="Post.html" style="color: #a81422;font-size:12px;">
+                                                                <i class="fa fa-info-circle" aria-hidden="true"></i> Xem
+                                                                nội dung tin
+                                                            </a>
+                                                        </small>
+
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="d-flex hidden-lg">
+
+                                                    <img class="imgiconNews" src="img/location.svg" width="20px"
+                                                        alt="Icon">
+                                                    <span class="time"> Địa chỉ : <b>Đường số 123,Phường 5,Quận Hoài
+                                                            Đức, Thành phố Hà Nội</b> </span>
+                                                </div>
+                                                <div class="row mt-3">
+                                                    <div class="col-md-3 col-3 text-center">
+                                                        <img class="imgiconNews" src="img/rooms.png" width="20px"
+                                                            alt="Icon">
+                                                        <span class="time">Mã tin</span>
+                                                    </div>
+                                                    <div class="col-md-4 col-4 text-center">
+                                                        <img class="imgiconNews" src="img/order_timer.svg" width="20px"
+                                                            alt="Icon">
+                                                        <span class="time">Ngày đăng </span>
+                                                    </div>
+                                                    <div class="col-md-5 col-5 text-center">
+                                                        <img class="imgiconNews" src="img/order_timer.svg" width="20px"
+                                                            alt="Icon">
+                                                        <span class="time">Ngày hết hạn </span>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-3 col-3 text-center">
+
+                                                        <span class="time"> 1123</span>
+                                                    </div>
+                                                    <div class="col-md-4 col-4 text-center">
+
+                                                        <span class="time">10/10/2022</span>
+                                                    </div>
+                                                    <div class="col-md-5  col-5 text-center">
+
+                                                        <span class="time"> 30/10/2022</span>
+                                                    </div>
+                                                </div>
+                                                <div class="row mt-3">
+                                                    <div class="col-md-3">
+                                                        <img class="imgiconNews" src="img/pro-pty-icon.svg" width="20px"
+                                                            alt="Icon">
+                                                        <span class="time">Hạn : Còn 29 Ngày</span>
+                                                    </div>
+
+                                                    <div class="col-md-9">
+                                                        <img class="imgiconNews" src="img/shield.svg" width="20px"
+                                                            alt="Icon">
+                                                        <span class="time">Tin <span class="text-blue">đã được</span>
+                                                            HOANGQUANLAND kiểm duyệt</span>
+                                                    </div>
+
+                                                </div>
+
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="row shadow mt-2">
+                                    <div class="col-md-2 col-12">
+                                        <div class="row text-center">
+                                            <div class="col-md-6 col-3"> <img class="Post-img"
+                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                                    alt="Icon"></div>
+                                            <div class="col-md-6 col-3"> <img class="Post-img"
+                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                                    alt="Icon"></div>
+                                            <div class="col-md-6 col-3"> <img class="Post-img"
+                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                                    alt="Icon"></div>
+                                            <div class="col-md-6 col-3"> <img class="Post-img"
+                                                    src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                                    alt="Icon"></div>
+
+                                        </div>
+                                        <div class="mt-2">
+                                            <img class="imgiconNews" src="img/number-image.svg" width="20px" alt="Icon">
+                                            <span class="time">Hình ảnh (4)</span>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 col-12  bor-left">
+                                        <div class="d-flex border-top borviewdt">
+
+                                            <small class="flex-fill fs10 text-center mt-2">
+                                                <i class="fa fa-eye me-2"></i>
+                                                <label class="">Xem tin : <b>1132</b></label>
+
+                                            </small>
+                                            <small class="flex-fill fs10 text-center mt-2">
+                                                <i class="fa fa-heart  me-2"></i> <label class=""> Yêu
+                                                    thích : <b>3</b></label>
+                                            </small>
+                                            <small class="flex-fill fs10 text-center mt-2">
+                                                <i class="fa fa-share-square me-2">
+                                                </i> <label class=""> Chia sẻ : <b>1</b></label>
+                                            </small>
+
+
+                                        </div>
+
+                                        <div class="d-flex mt-3">
+                                            <div class="col-md-12">
+                                                <div class="row">
+                                                    <div class="col-md-8 col-6">
+                                                        <span class="tt fz14">Tên dịch vụ mua/bán </span> <span
+                                                            class="Cart_title">MUA/BÁN (NHÀ Ở)</span>
+                                                    </div>
+                                                    <div class="col-md-4 col-6" style="text-align: right;">
+                                                        <small class="btn-viewdt">
+                                                            <a href="Post.html" style="color: #a81422;font-size:12px;">
+                                                                <i class="fa fa-info-circle" aria-hidden="true"></i> Xem
+                                                                nội dung tin
+                                                            </a>
+                                                        </small>
+
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="d-flex hidden-lg">
+
+                                                    <img class="imgiconNews" src="img/location.svg" width="20px"
+                                                        alt="Icon">
+                                                    <span class="time"> Địa chỉ : <b>Đường số 123,Phường 5,Quận Hoài
+                                                            Đức, Thành phố Hà Nội</b> </span>
+                                                </div>
+                                                <div class="row mt-3">
+                                                    <div class="col-md-3 col-3 text-center">
+                                                        <img class="imgiconNews" src="img/rooms.png" width="20px"
+                                                            alt="Icon">
+                                                        <span class="time">Mã tin</span>
+                                                    </div>
+                                                    <div class="col-md-4 col-4 text-center">
+                                                        <img class="imgiconNews" src="img/order_timer.svg" width="20px"
+                                                            alt="Icon">
+                                                        <span class="time">Ngày đăng </span>
+                                                    </div>
+                                                    <div class="col-md-5 col-5 text-center">
+                                                        <img class="imgiconNews" src="img/order_timer.svg" width="20px"
+                                                            alt="Icon">
+                                                        <span class="time">Ngày hết hạn </span>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-3 col-3 text-center">
+
+                                                        <span class="time"> 1125</span>
+                                                    </div>
+                                                    <div class="col-md-4 col-4 text-center">
+
+                                                        <span class="time">10/10/2022</span>
+                                                    </div>
+                                                    <div class="col-md-5  col-5 text-center">
+
+                                                        <span class="time"> 30/10/2022</span>
+                                                    </div>
+                                                </div>
+                                                <div class="row mt-3">
+                                                    <div class="col-md-3">
+                                                        <img class="imgiconNews" src="img/pro-pty-icon.svg" width="20px"
+                                                            alt="Icon">
+                                                        <span class="btn-viewdt text-primary fs10">Hết hạn</span>
+                                                    </div>
+
+                                                    <div class="col-md-9">
+                                                        <img class="imgiconNews" src="img/shield.svg" width="20px"
+                                                            alt="Icon">
+                                                        <span class="time">Tin <span class="text-blue">đã được</span>
+                                                            HOANGQUANLAND kiểm duyệt</span>
+                                                    </div>
+
+                                                </div>
+
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- tab giỏ hàng -->
+                            <div id="tab-4" class="tab-pane fade show p-0 ">
+                                <div class="row shadow mt-2">
+                                    <div class="col-md-2 col-4">
+                                        <a href="HQProject.html">
+                                            <img class="PL-img" src="img/property-1.jpg" alt="Icon">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 col-8 bor-left">
+                                        <div class="Cart_title">HOANGQUANLAND</div>
+                                        <div class="d-flex">
+                                            <span class="clBlack fz10"><b>DỰ ÁN : ĐẤU XÁ LAI XÁ</b></span>
+                                        </div>
+
+                                        <div class="d-flex">
+                                            <img class="imgiconNews" src="img/order_timer.svg" alt="Icon">
+                                            <span class="time fz10"><b>Thêm vào giỏ : 10/10/2022 11:23 AM</b></span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6 bgmycart bor-left col-12">
+
+                                        <div class="row PL-Content">
+                                            <div class="row  tt fz14 mt-15s">
+                                                Tên sản phẩm
+                                            </div>
+                                            <div class='Orther2 row'>
+                                                <div class="col-md-3 col-6">
+                                                    <span class='col-2  text-center iconprice'><i
+                                                            class="fa fa-square"></i></span>
+                                                    <span class='col-10 padding-5-xs '> 55.0tr ~ 65.0tr</span>
+                                                </div>
+                                                <div class="col-md-4 col-6">
+                                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                                            class="far fa-compass"></i></span>
+                                                    <span class='col-10 padding-5-xs  inforPD'> 65.0 ~ 120.0m</span>
+                                                </div>
+                                                <div class="col-md-5 col-12">
+                                                    <span class='col-2  text-center padding-5-xs iconprice'><i
+                                                            class="fas fa-map-marker-alt text-info"></i></span>
+                                                    <span class='col-10 padding-5-xs  inforPD'> Trạm Trôi - Hoài Đức -
+                                                        Hà
+                                                        Nội</span>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="d-flex pull-right mt-3 ">
+                                                <a href="PurchaseProduct.html" style="color: #a81422;font-size:12px;">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i> Chi tiết
+                                                </a></small>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="row shadow mt-2">
+                                    <div class="col-md-2 col-4">
+                                        <img class="PL-img"
+                                            src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                            alt="Icon">
+                                    </div>
+                                    <div class="col-md-4 col-8  bor-left">
+                                        <div class="Cart_title">MUA/BÁN (BIỆT THỰ)</div>
+                                        <div class="d-flex">
+
+                                            <span class="clBlack fz10"><b>Người đăng: Khách Hàng 2</b></span>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img class="imgiconNews" src="img/order_timer.svg" alt="Icon">
+                                            <span class="time fz10"><b>Thêm vào giỏ : 10/10/2022 11:23 AM</b></span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6  bgmycart col-12 bor-left">
+                                        <div class="row PL-Content">
+                                            <div class="row mt-15s">
+                                                <div class="col-md-9 tt fz14">Tên dịch vụ mua/bán </div>
+
+                                            </div>
+                                            <div class="row">
+                                                <span class="col-md-2 col-6 padding-5-xs adr price">
+                                                    <i class="fas fa-credit-card-alt" aria-hidden="true"></i> 4,5 tỷ
+                                                </span>
+                                                <span class="col-md-2  col-6 padding-5-xs adr">
+                                                    <img class="w20p" src="img/price_m2.png" width="14px" alt="Icon">
+                                                    400m<sup>2</sup></span>
+                                                <span class="col-md-8 col-12 padding-5-xs adr">
+                                                    <img class="w20p" src="img/location.svg" width="14px" alt="Icon">
+                                                    Trạm Trôi
+                                                    -
+                                                    Hoài
+                                                    Đức - Hà Nội</span>
+                                                <div class="col-md-12 d-flex pull-right  ">
+                                                    <a href="PurchaseProduct.html"
+                                                        style="color: #a81422;font-size:12px;">
+                                                        <i class="fa fa-info-circle" aria-hidden="true"></i> Chi tiết
+                                                    </a></small>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="row shadow mt-2">
+                                    <div class="col-md-2 col-4">
+                                        <img class="PL-img"
+                                            src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                            alt="Icon">
+                                    </div>
+                                    <div class="col-md-4 col-8 bor-left">
+                                        <div class="Cart_title">CHO THUÊ (NHÀ Ở)</div>
+                                        <div class="d-flex">
+
+                                            <span class="clBlack fz10"><b>Người đăng: Khách Hàng 2</b></span>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img class="imgiconNews" src="img/order_timer.svg" alt="Icon">
+                                            <span class="time fz10"><b>Thêm vào giỏ : 10/10/2022 11:23 AM</b></span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6 col-12  bgmycart bor-left">
+                                        <div class="row PL-Content">
+                                            <div class="row mt-15s">
+                                                <div class="col-md-9 tt fz14">Tên dịch vụ cho thuê</div>
+
+                                            </div>
+                                            <div class="row">
+
+                                                <span class="col-md-2 col-4 padding-5-xs adr">
+                                                    <img class="w20p" src="img/price_m2.png" width="14px" alt="Icon">
+                                                    400m<sup>2</sup>
+                                                </span>
+                                                <span class="col-md-2 col-4 padding-5-xs adr">
+                                                    <img class="w20p" src="img/direction.png" width="14px" alt="Icon">
+                                                    PN: 3
+                                                </span>
+                                                <span class="col-md-2 col-4 padding-5-xs adr">
+                                                    <img class="w20p" src="img/toilets.png" width="14px" alt="Icon">
+                                                    WC: 2
+                                                </span>
+                                                <span class=" col-md-6 col-12 padding-5-xs adr">
+                                                    <img class="w20p" src="img/location.svg" width="14px" alt="Icon">
+                                                    Trạm Trôi
+                                                    -
+                                                    Hoài
+                                                    Đức - Hà Nội</span>
+
+                                                <div class="col-md-12 d-flex pull-right  ">
+                                                    <a href="PurchaseProduct.html"
+                                                        style="color: #a81422;font-size:12px;">
+                                                        <i class="fa fa-info-circle" aria-hidden="true"></i> Chi tiết
+                                                    </a></small>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="row shadow mt-2">
+                                    <div class="col-md-2 col-4">
+                                        <img class="PL-img"
+                                            src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                            alt="Icon">
+                                    </div>
+                                    <div class="col-md-4 col-8 bor-left">
+                                        <div class="Cart_title">CHO THUÊ (MẶT BẰNG)</div>
+                                        <div class="d-flex">
+
+                                            <span class="clBlack fz10"><b>Người đăng: Khách Hàng 2</b></span>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img class="imgiconNews" src="img/order_timer.svg" alt="Icon">
+                                            <span class="time fz10"><b>Thêm vào giỏ : 10/10/2022 11:23 AM</b></span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6 col-12 bgmycart bor-left">
+                                        <div class="row PL-Content">
+                                            <div class="row mt-15s">
+                                                <div class="col-md-9 tt fz14">Tên dịch vụ cho thuê</div>
+
+                                            </div>
+                                            <div class="row">
+
+                                                <span class=" col-md-2 col-4 padding-5-xs adr">
+                                                    <img class="w20p" src="img/price_m2.png" width="14px" alt="Icon">
+                                                    400m<sup>2</sup>
+                                                </span>
+                                                <span class="col-md-2 col-4 padding-5-xs adr">
+                                                    <img class="w20p" src="img/direction.png" width="14px" alt="Icon">
+                                                    PN: 0
+                                                </span>
+                                                <span class="col-md-2 col-4 padding-5-xs adr">
+                                                    <img class="w20p" src="img/toilets.png" width="14px" alt="Icon">
+                                                    WC: 0
+                                                </span>
+                                                <span class="col-md-6 col-12 padding-5-xs adr">
+                                                    <img class="w20p" src="img/location.svg" width="14px" alt="Icon">
+                                                    Trạm Trôi
+                                                    -
+                                                    Hoài
+                                                    Đức - Hà Nội</span>
+
+                                                <div class="col-md-12 d-flex pull-right  ">
+                                                    <a href="PurchaseProduct.html"
+                                                        style="color: #a81422;font-size:12px;">
+                                                        <i class="fa fa-info-circle" aria-hidden="true"></i> Chi tiết
+                                                    </a></small>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- tab quan tâm -->
+                            <div id="tab-5" class="tab-pane fade show p-0">
+                                <div class="row shadow mt-2">
+                                    <div class="col-md-2 col-4">
+                                        <a href="HQProject.html">
+                                            <img class="PL-img" src="img/property-1.jpg" alt="Icon">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 col-8 bor-left">
+                                        <div class="Cart_title">HOANGQUANLAND</div>
+                                        <div class="d-flex">
+                                            <span class="clBlack fz10"><b>DỰ ÁN : ĐẤU XÁ LAI XÁ</b></span>
+                                        </div>
+
+                                        <div class="d-flex">
+                                            <img class="imgiconNews" src="img/order_timer.svg" alt="Icon">
+                                            <span class="time fz10"><b>Quan tâm : 10/10/2022 11:23 AM</b></span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6 bgmycart bor-left col-12">
+
+                                        <div class="row PL-Content">
+                                            <div class="row  tt fz14 mt-15s">
+                                                Tên sản phẩm
+                                            </div>
+                                            <div class='Orther2 row'>
+                                                <div class="col-md-3 col-6">
+                                                    <span class='col-2  text-center iconprice'><i
+                                                            class="fa fa-square"></i></span>
+                                                    <span class='col-10 padding-5-xs '> 55.0tr ~ 65.0tr</span>
+                                                </div>
+                                                <div class="col-md-4 col-6">
+                                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                                            class="far fa-compass"></i></span>
+                                                    <span class='col-10 padding-5-xs  inforPD'> 65.0 ~ 120.0m</span>
+                                                </div>
+                                                <div class="col-md-5 col-12">
+                                                    <span class='col-2  text-center padding-5-xs iconprice'><i
+                                                            class="fas fa-map-marker-alt text-info"></i></span>
+                                                    <span class='col-10 padding-5-xs  inforPD'> Trạm Trôi - Hoài Đức -
+                                                        Hà
+                                                        Nội</span>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="d-flex pull-right mt-3 ">
+                                                <a href="PurchaseProduct.html" style="color: #a81422;font-size:12px;">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i> Chi tiết
+                                                </a></small>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="row shadow mt-2">
+                                    <div class="col-md-2 col-4">
+                                        <img class="PL-img"
+                                            src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                            alt="Icon">
+                                    </div>
+                                    <div class="col-md-4 col-8  bor-left">
+                                        <div class="Cart_title">MUA/BÁN (BIỆT THỰ)</div>
+                                        <div class="d-flex">
+
+                                            <span class="clBlack fz10"><b>Người đăng: Khách Hàng 2</b></span>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img class="imgiconNews" src="img/order_timer.svg" alt="Icon">
+                                            <span class="time fz10"><b>Quan tâm : 10/10/2022 11:23 AM</b></span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6  bgmycart col-12 bor-left">
+                                        <div class="row PL-Content">
+                                            <div class="row mt-15s">
+                                                <div class="col-md-9 tt fz14">Tên dịch vụ mua/bán </div>
+
+                                            </div>
+                                            <div class="row">
+                                                <span class="col-md-2 col-6 padding-5-xs adr price">
+                                                    <i class="fas fa-credit-card-alt" aria-hidden="true"></i> 4,5 tỷ
+                                                </span>
+                                                <span class="col-md-2  col-6 padding-5-xs adr">
+                                                    <img class="w20p" src="img/price_m2.png" width="14px" alt="Icon">
+                                                    400m<sup>2</sup></span>
+                                                <span class="col-md-8 col-12 padding-5-xs adr">
+                                                    <img class="w20p" src="img/location.svg" width="14px" alt="Icon">
+                                                    Trạm Trôi
+                                                    -
+                                                    Hoài
+                                                    Đức - Hà Nội</span>
+                                                <div class="col-md-12 d-flex pull-right  ">
+                                                    <a href="PurchaseProduct.html"
+                                                        style="color: #a81422;font-size:12px;">
+                                                        <i class="fa fa-info-circle" aria-hidden="true"></i> Chi tiết
+                                                    </a></small>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="row shadow mt-2">
+                                    <div class="col-md-2 col-4">
+                                        <img class="PL-img"
+                                            src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                            alt="Icon">
+                                    </div>
+                                    <div class="col-md-4 col-8 bor-left">
+                                        <div class="Cart_title">CHO THUÊ (NHÀ Ở)</div>
+                                        <div class="d-flex">
+
+                                            <span class="clBlack fz10"><b>Người đăng: Khách Hàng 2</b></span>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img class="imgiconNews" src="img/order_timer.svg" alt="Icon">
+                                            <span class="time fz10"><b>Quan tâm : 10/10/2022 11:23 AM</b></span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6 col-12  bgmycart bor-left">
+                                        <div class="row PL-Content">
+                                            <div class="row mt-15s">
+                                                <div class="col-md-9 tt fz14">Tên dịch vụ cho thuê</div>
+
+                                            </div>
+                                            <div class="row">
+
+                                                <span class="col-md-2 col-4 padding-5-xs adr">
+                                                    <img class="w20p" src="img/price_m2.png" width="14px" alt="Icon">
+                                                    400m<sup>2</sup>
+                                                </span>
+                                                <span class="col-md-2 col-4 padding-5-xs adr">
+                                                    <img class="w20p" src="img/direction.png" width="14px" alt="Icon">
+                                                    PN: 3
+                                                </span>
+                                                <span class="col-md-2 col-4 padding-5-xs adr">
+                                                    <img class="w20p" src="img/toilets.png" width="14px" alt="Icon">
+                                                    WC: 2
+                                                </span>
+                                                <span class=" col-md-6 col-12 padding-5-xs adr">
+                                                    <img class="w20p" src="img/location.svg" width="14px" alt="Icon">
+                                                    Trạm Trôi
+                                                    -
+                                                    Hoài
+                                                    Đức - Hà Nội</span>
+
+                                                <div class="col-md-12 d-flex pull-right  ">
+                                                    <a href="PurchaseProduct.html"
+                                                        style="color: #a81422;font-size:12px;">
+                                                        <i class="fa fa-info-circle" aria-hidden="true"></i> Chi tiết
+                                                    </a></small>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="row shadow mt-2">
+                                    <div class="col-md-2 col-4">
+                                        <img class="PL-img"
+                                            src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                            alt="Icon">
+                                    </div>
+                                    <div class="col-md-4 col-8 bor-left">
+                                        <div class="Cart_title">CHO THUÊ (MẶT BẰNG)</div>
+                                        <div class="d-flex">
+
+                                            <span class="clBlack fz10"><b>Người đăng: Khách Hàng 2</b></span>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img class="imgiconNews" src="img/order_timer.svg" alt="Icon">
+                                            <span class="time fz10"><b>Quan tâm : 10/10/2022 11:23 AM</b></span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6 col-12 bgmycart bor-left">
+                                        <div class="row PL-Content">
+                                            <div class="row mt-15s">
+                                                <div class="col-md-9 tt fz14">Tên dịch vụ cho thuê</div>
+
+                                            </div>
+                                            <div class="row">
+
+                                                <span class=" col-md-2 col-4 padding-5-xs adr">
+                                                    <img class="w20p" src="img/price_m2.png" width="14px" alt="Icon">
+                                                    400m<sup>2</sup>
+                                                </span>
+                                                <span class="col-md-2 col-4 padding-5-xs adr">
+                                                    <img class="w20p" src="img/direction.png" width="14px" alt="Icon">
+                                                    PN: 0
+                                                </span>
+                                                <span class="col-md-2 col-4 padding-5-xs adr">
+                                                    <img class="w20p" src="img/toilets.png" width="14px" alt="Icon">
+                                                    WC: 0
+                                                </span>
+                                                <span class="col-md-6 col-12 padding-5-xs adr">
+                                                    <img class="w20p" src="img/location.svg" width="14px" alt="Icon">
+                                                    Trạm Trôi
+                                                    -
+                                                    Hoài
+                                                    Đức - Hà Nội</span>
+
+                                                <div class="col-md-12 d-flex pull-right  ">
+                                                    <a href="PurchaseProduct.html"
+                                                        style="color: #a81422;font-size:12px;">
+                                                        <i class="fa fa-info-circle" aria-hidden="true"></i> Chi tiết
+                                                    </a></small>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- tab chia sẻ -->
+                            <div id="tab-6" class="tab-pane fade show p-0">
+                                <div class="row shadow mt-2">
+                                    <div class="col-md-2 col-4">
+                                        <a href="HQProject.html">
+                                            <img class="PL-img" src="img/property-1.jpg" alt="Icon">
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-3 col-8 bor-left">
+                                        <div class="Cart_title">HOANGQUANLAND </div>
+                                        <div class="d-flex">
+                                            <span class="clBlack fz10"><b>DỰ ÁN : ĐẤU XÁ LAI XÁ</b></span>
+                                        </div>
+
+                                        <div class="d-flex">
+                                            <img class="imgiconNews" src="img/order_timer.svg" alt="Icon">
+                                            <span class="time fz10"><b>Chia sẻ : (2)</b></span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-3 col-12 bor-left">
+                                        <div class="time fz10">
+                                            <b>
+                                                <span class="text-blue"> Facebook
+                                                </span>
+                                                : 10/10/2022 11:23 AM
+                                            </b>
+                                            <div>Link : https//facebook//.............................</div>
+                                        </div>
+
+                                        <div class="time fz10">
+
+                                            <b> <span class="text-blue">Zalo</span>
+                                                : 12/10/2022 15:55 PM
+                                                <div>Link : https//zalo//.............................</div>
+                                            </b>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 bgmycart bor-left col-12">
+
+                                        <div class="row PL-Content">
+                                            <div class="row  tt fz14 mt-15s">
+                                                Tên sản phẩm
+                                            </div>
+                                            <div class='Orther2 row'>
+                                                <div class="col-md-6 col-6">
+                                                    <span class='col-6  text-center iconprice'><i
+                                                            class="fa fa-square"></i></span>
+                                                    <span class='col-10 padding-5-xs '> 55.0tr ~ 65.0tr</span>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    <span class='col-2  text-center padding-5-xs iconArea'><i
+                                                            class="far fa-compass"></i></span>
+                                                    <span class='col-10 padding-5-xs  inforPD'> 65.0 ~ 120.0m</span>
+                                                </div>
+                                                <div class="col-md-12 col-12 ml-5s">
+                                                    <span class='col-2  text-center padding-5-xs iconprice'><i
+                                                            class="fas fa-map-marker-alt text-info"></i></span>
+                                                    <span class='col-10 padding-5-xs  inforPD'> Trạm Trôi - Hoài Đức -
+                                                        Hà
+                                                        Nội</span>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="d-flex pull-right mt-3 ">
+                                                <a href="PurchaseProduct.html" style="color: #a81422;font-size:12px;">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i> Chi tiết
+                                                </a></small>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="row shadow mt-2">
+                                    <div class="col-md-2 col-4">
+                                        <img class="PL-img"
+                                            src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                            alt="Icon">
+                                    </div>
+                                    <div class="col-md-3 col-8 bor-left">
+                                        <div class="Cart_title">MUA/BÁN (BIỆT THỰ) </div>
+                                        <div class="d-flex">
+                                            <span class="clBlack fz10"><b>Người đăng : Khách hàng 2</b></span>
+                                        </div>
+
+                                        <div class="d-flex">
+                                            <img class="imgiconNews" src="img/order_timer.svg" alt="Icon">
+                                            <span class="time fz10"><b>Chia sẻ : (1)</b></span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-3 col-12 bor-left">
+
+
+                                        <div class="time fz10">
+
+                                            <b> <span class="text-blue">Zalo</span>
+                                                : 12/20/2022 14:55 PM
+                                                <div>Link : https//zalo//.............................</div>
+                                            </b>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 bgmycart bor-left col-12">
+                                        <div class="row PL-Content">
+                                            <div class="row  tt fz14 mt-15s">
+                                                Tên sản phẩm
+                                            </div>
+                                            <div class='Orther2 row'>
+                                                <span class="col-md-2 col-2 padding-5-xs adr price">
+                                                    <i class="fas fa-credit-card-alt" aria-hidden="true"></i> 4,5 tỷ
+                                                </span>
+                                                <span class="col-md-3 col-2 padding-5-xs adr">
+                                                    <img class="w20p" src="img/price_m2.png" width="14px" alt="Icon">
+                                                    400m<sup>2</sup></span>
+                                                <span class="col-md-7 col-12 padding-5-xs adr">
+                                                    <img class="w20p" src="img/location.svg" width="14px" alt="Icon">
+                                                    Trạm Trôi
+                                                    -
+                                                    Hoài
+                                                    Đức - Hà Nội</span>
+
+                                            </div>
+
+                                            <div class="d-flex pull-right mt-3 ">
+                                                <a href="PurchaseProduct.html" style="color: #a81422;font-size:12px;">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i> Chi tiết
+                                                </a></small>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="row shadow mt-2">
+                                    <div class="col-md-2 col-4">
+                                        <img class="PL-img"
+                                            src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                            alt="Icon">
+                                    </div>
+                                    <div class="col-md-3 col-8 bor-left">
+                                        <div class="Cart_title">CHO THUÊ (NHÀ Ở)</div>
+                                        <div class="d-flex">
+
+                                            <span class="clBlack fz10"><b>Người đăng: Khách Hàng 2</b></span>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img class="imgiconNews" src="img/order_timer.svg" alt="Icon">
+                                            <span class="time fz10"><b>Chia sẻ : (3)</b></span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-3 col-12 bor-left">
+
+                                        <div class="time fz10">
+
+                                            <b> <span class="text-blue">Zalo</span>
+                                                : 12/20/2022 14:55 PM
+                                                <div>Link : https//zalo//.............................</div>
+                                            </b>
+                                        </div>
+                                        <div class="time fz10">
+
+                                            <b> <span class="text-blue">Web</span>
+                                                : 12/20/2022 14:55 PM
+                                                <div>Link : https//Web//.............................</div>
+                                            </b>
+                                        </div>
+                                        <div class="time fz10">
+
+                                            <b> <span class="text-blue">Web</span>
+                                                : 12/20/2022 14:55 PM
+                                                <div>Link : https//Web//.............................</div>
+                                            </b>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 bgmycart bor-left col-12">
+                                        <div class="row PL-Content">
+                                            <div class="row mt-15s">
+                                                <div class="col-md-9 tt fz14">Tên dịch vụ cho thuê</div>
+
+                                            </div>
+                                            <div class="row">
+
+                                                <span class="col-4 padding-5-xs adr">
+                                                    <img class="w20p" src="img/price_m2.png" width="14px" alt="Icon">
+                                                    400m<sup>2</sup>
+                                                </span>
+                                                <span class="col-4 padding-5-xs adr">
+                                                    <img class="w20p" src="img/direction.png" width="14px" alt="Icon">
+                                                    PN: 3
+                                                </span>
+                                                <span class="col-4 padding-5-xs adr">
+                                                    <img class="w20p" src="img/toilets.png" width="14px" alt="Icon">
+                                                    WC: 2
+                                                </span>
+                                                <span class="col-12 ml-5s padding-5-xs adr">
+                                                    <img class="w20p" src="img/location.svg" width="14px" alt="Icon">
+                                                    Trạm Trôi
+                                                    -
+                                                    Hoài
+                                                    Đức - Hà Nội</span>
+
+                                                <div class="col-md-12 d-flex pull-right  ">
+                                                    <a href="PurchaseProduct.html"
+                                                        style="color: #a81422;font-size:12px;">
+                                                        <i class="fa fa-info-circle" aria-hidden="true"></i> Chi tiết
+                                                    </a></small>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="row shadow mt-2">
+                                    <div class="col-md-2 col-4">
+                                        <img class="PL-img"
+                                            src="https://i1.static.athome.eu/images/annonces2/image_/7d/f6/57/2fb443b439014571145d599c61d57b4a_1.jpg"
+                                            alt="Icon">
+                                    </div>
+                                    <div class="col-md-3 col-8 bor-left">
+                                        <div class="Cart_title">CHO THUÊ (MẶT BẰNG)</div>
+                                        <div class="d-flex">
+
+                                            <span class="clBlack fz10"><b>Người đăng: Khách Hàng 2</b></span>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img class="imgiconNews" src="img/order_timer.svg" alt="Icon">
+                                            <span class="time fz10"><b>Chia sẻ : (2)</b></span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-3 col-12 bor-left">
+
+                                        <div class="time fz10">
+
+                                            <b> <span class="text-blue">Web</span>
+                                                : 12/20/2022 14:55 PM
+                                                <div>Link : https//Web//.............................</div>
+                                            </b>
+                                        </div>
+                                        <div class="time fz10">
+
+                                            <b> <span class="text-blue">Web</span>
+                                                : 12/20/2022 14:55 PM
+                                                <div>Link : https//Web//.............................</div>
+                                            </b>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 bgmycart bor-left col-12">
+                                        <div class="row PL-Content">
+                                            <div class="row mt-15s">
+                                                <div class="col-md-9 tt fz14">Tên dịch vụ cho thuê</div>
+
+                                            </div>
+                                            <div class="row">
+
+                                                <span class="col-4 padding-5-xs adr">
+                                                    <img class="w20p" src="img/price_m2.png" width="14px" alt="Icon">
+                                                    400m<sup>2</sup>
+                                                </span>
+                                                <span class="col-4 padding-5-xs adr">
+                                                    <img class="w20p" src="img/direction.png" width="14px" alt="Icon">
+                                                    PN: 0
+                                                </span>
+                                                <span class="col-4 padding-5-xs adr">
+                                                    <img class="w20p" src="img/toilets.png" width="14px" alt="Icon">
+                                                    WC: 0
+                                                </span>
+                                                <span class="col-12 ml-5s padding-5-xs adr">
+                                                    <img class="w20p" src="img/location.svg" width="14px" alt="Icon">
+                                                    Trạm Trôi
+                                                    -
+                                                    Hoài
+                                                    Đức - Hà Nội</span>
+
+                                                <div class="col-md-12 d-flex pull-right  ">
+                                                    <a href="PurchaseProduct.html"
+                                                        style="color: #a81422;font-size:12px;">
+                                                        <i class="fa fa-info-circle" aria-hidden="true"></i> Chi tiết
+                                                    </a></small>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Project End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer paddingbot-30-xs wow fadeIn " data-wow-delay="0.1s">
+        <div class="container py-5 Fter">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white mb-4 bor-bt-ft fz16">Liên hệ</h5>
+                    <p class="mb-2" style="    font-size: 14px;"><i class="fa fa-map-marker-alt me-3"></i>Số 32 -
+                        Yên Bệ - Kim Chung - Hoài Đức - Hà Nội</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0865659995</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>hoangquanland95@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-4 bor-bt-ft fz16">Chi nhánh</h5>
+                    <button class="glow-on-hover" type="button">1. Hà nội</button>
+                    <button class="glow-on-hover margin-left-20-xs" type="button">2. Bắc Giang</button>
+                    <button class="glow-on-hover" type="button">3. Bắc Ninh</button>
+                    <button class="glow-on-hover margin-left-20-xs" type="button">4. Hải Phòng</button>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4 bor-bt-ft fz16">Dự án nổi bật</h5>
+                    <div class="row g-2 pt-2">
+                        <div class="col-6">
+                            <img loading="lazy" src="img/tagnew.png" class='tagnew' />
+                            <img class="img-fluid rounded bg-light p-1" src="img/property-1.jpg" alt="">
+                            <span class="namett">Dịch vụ Tây Đô</span>
+                        </div>
+                        <div class="col-6">
+                            <img loading="lazy" src="img/tagnew.png" class='tagnew' />
+                            <img class="img-fluid rounded bg-light p-1" src="img/property-2.jpg" alt="">
+                            <span class="namett">Dịch Vụ Kim Chung</span>
+                        </div>
+                        <div class="col-6">
+                            <img loading="lazy" src="img/tagnew.png" class='tagnew' />
+                            <img class="img-fluid rounded bg-light p-1" src="img/property-3.jpg" alt="">
+                            <span class="namett">Đấu Giá Lai Xá</span>
+
+                        </div>
+                        <div class="col-6">
+                            <img loading="lazy" src="img/tagnew.png" class='tagnew' />
+                            <img class="img-fluid rounded bg-light p-1" src="img/property-4.jpg" alt="">
+                            <span class="namett">Đấu Giá Lai Xá</span>
+                        </div>
+                        <div class="col-6">
+                            <img loading="lazy" src="img/tagnew.png" class='tagnew' />
+                            <img class="img-fluid rounded bg-light p-1" src="img/property-5.jpg" alt="">
+                            <span class="namett">Đấu Giá Lai Xá</span>
+                        </div>
+                        <div class="col-6">
+                            <img loading="lazy" src="img/tagnew.png" class='tagnew' />
+                            <img class="img-fluid rounded bg-light p-1" src="img/property-6.jpg" alt="">
+                            <span class="namett">Đấu Giá Lai Xá</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4 bor-bt-ft fz16">Nhận thông báo</h5>
+
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="Nhập Email">
+                        <button type="button" class="btn btn-danger py-2 position-absolute top-0 end-0 mt-2 me-2">Đăng
+                            ký</button>
+                    </div>
+                    <div class="widget widget_gallery gallery-grid-4 margin-top-50 bortopftxs mt-5">
+                        <h5 class="text-white mb-4 fz16">FANPAGE CỦA HOANGQUANLAND</h5>
+
+                        <div class="fb-page mt-3 fb_iframe_widget margin-top-20 fanpage" data-hide-cover="false"
+                            data-href="https://www.facebook.com/hoangquanbatdongsan" data-show-facepile="false"
+                            data-turbolinks-permanent="" data-turoblinks-nocache="" data-width="200"
+                            fb-xfbml-state="rendered"
+                            fb-iframe-plugin-query="app_id=889583184482960&amp;container_width=285&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fhoangquanbatdongsan&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=false&amp;width=200">
+                            <span>
+                                <iframe name="f2aabe3118095d8" data-testid="fb:page Facebook Social Plugin"
+                                    title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true"
+                                    allowfullscreen="true" scrolling="no" allow="encrypted-media"
+                                    src="https://www.facebook.com/v9.0/plugins/page.php?app_id=889583184482960&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df2f6328e54e4624%26domain%3Dwww.hoangquanland.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.hoangquanland.com%252Ffd08902651274c%26relation%3Dparent.parent&amp;container_width=285&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fhoangquanbatdongsan&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=false&amp;width=200"
+                                    class=""></iframe></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0" style="    font-size: 12px;">
+                        &copy; <a class="border-bottom" href="#">HOANGQUANLAND</a>, All Right Reserved.
+                        Designed By <a class="border-bottom"></a>HOANGQUANLAND TEAM</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end footerfixmb">
+                        <div class="footer-menu">
+                            <a href="FullProject.html"> <i class="fa fa-user" aria-hidden="true"> </i> BDS HQ</a>
+                            <a href="Purchase.html"><i class="fa fa-credit-card" aria-hidden="true"></i> Mua /
+                                bán</a>
+                            <a href="Post.html"><i class="fa fa-plus posti hidden-xs" aria-hidden="true"></i>Đăng
+                                tin</a>
+                            <a href="Lease.html"> <i class="fa fa-american-sign-language-interpreting"
+                                    aria-hidden="true"></i> Cho thuê</a>
+                            <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Trang chủ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+
+    <a href="Search.html" title="Tìm kiếm"
+        class="btn btn-lg btn-danger btn-lg-square  back-to-top2 margin-bottom-110 hidden-lg"><i
+            class="fa fa-search"></i></a>
+    <a href="Post.html" title="Đăng tin"
+        class="btn btn-lg btn-danger btn-lg-square back-to-top2  margin-bottom-55 hidden-lg"><i
+            class="fa fa-plus"></i></a>
+    <a href="Post.html" title="lên đầu page" class="btn btn-lg btn-danger btn-lg-square back-to-top hidden-lg"><i
+            class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
